@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<archetype type="Box">
+	<transform>
+		<position x="0.0" y="5.0" z="0.0"/>
+		<scale x=".2" y=".2" z=".2"/>
+	</transform>
+	<light>
+		<diffuse r="0.5" g="0.5" b="0.5"/>
+		<specular r="0" g="1.0" b="1.0"/>
+		<ambient r="0.5" g="0.5" b="0.5"/>
+	</light>
+	<mesh>
+		<shader>BasicPhong</shader>
+		<file>unitsphere</file>
+	</mesh>
+</archetype>

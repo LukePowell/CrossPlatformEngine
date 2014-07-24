@@ -1,0 +1,61 @@
+#version 330
+//Helper functions will calculate the final term returning it to be used later
+//prevents reuse of the code as much as possible.
+#define PI 3.14 
+vec4 CalcDiffuse(vec4 I, vec4 K, vec3 N, vec3 L)
+{
+	//return I * K * max(N.L, 0.0);
+	return I * K * max(dot(N,L),0.0);
+	
+}
+
+vec4 CalcSpecular(vec4 I, vec4 K, vec3 R, vec3 V, float NS)
+{
+	//return I * K * (R * V) ^ NS;
+	return   I * K * pow(max(dot(R,V), 0.0), NS);
+}
+
+vec4 CalcEmissive()
+{
+	return vec4(0.0,0.0,0.0,0.0);
+}
+
+vec4 CalcFinal()
+{
+	return vec4(0.0,0.0,0.0,0.0);
+}
+
+vec4 CalcAmbient(vec4 I, vec4 K)
+{
+	//return I * K;
+	return I * K;
+}
+
+vec3 CalcReflection(vec3 normal, vec3 lightVec)
+{
+	return normalize((2.0 * dot(normal, lightVec) * normal) - lightVec);
+}
+
+vec3 CalcRefract(vec3 N, vec3 L, float K)
+{
+	return (K * dot(N,L)-sqrt(1.0-K*K*(1.0-dot(N,L)*dot(N,L))))*N-K*L;
+}
+
+float CalcAtt(float c1, float c2, float c3, float dl)
+{
+	return min( 1.0 / (c1 + c2 * dl + c3 * dl * dl), 1.0);
+}
+
+float CalcFog(float far, float near, float z)
+{
+	return (far - z) / (far - near);
+}
+
+float CalcSpotlight(float alpha, float theta, float phi, float falloff)
+{
+	theta *= PI / 180.0;
+	phi *= PI / 180.0;
+	return pow((alpha - cos(phi)) /(cos(theta) - cos(phi)),falloff);
+}
+
+//vec4 HalfVector

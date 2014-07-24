@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shader type="GLSL" ID="BasicPhong" passes="1">
+	<pass num="0">
+		<uniforms>
+			<texture>
+				<diffuse></diffuse>
+				<specular></specular>
+			</texture>
+			<camera>
+				<position>uCamPos</position>
+			</camera>
+			<light num="8">
+				<position>uLightPositions</position>
+				<diffuse>uLightsDiffuse</diffuse>
+				<ambient>uLightsAmbient</ambient>
+				<specular>uLightsSpecular</specular>
+				<direction>uLightsDirection</direction>
+				<number>uNumActiveLights</number>
+				<type>uLightType</type>
+			</light>
+		</uniforms>
+		<vertexShader>
+			<file>PhongShading.vsh</file>
+		</vertexShader>
+		<fragmentShader>
+			<file>PhongShading.fsh</file>
+		</fragmentShader>
+		<utilityShader>
+			<file>PhongShading.util</file>
+		</utilityShader>
+	</pass>
+</shader>

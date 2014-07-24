@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<materials>
+	<wood>wood.xml</wood>
+	<steel>steel.xml</steel>
+	<plastic>plastic.xml</plastic>
+</materials>

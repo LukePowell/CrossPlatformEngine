@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<level type="list">
+	<object name="Sibenik.xml">
+		<instance>
+			<position x="0.0" y="10.0" z="0.0"/>
+		</instance>
+	</object>
+	<object name="lightone.xml">
+		<instance/>
+	</object>
+	<object name="camera.xml">
+		<instance>
+			<position x="0.0" y="0.0" z="-1.0"/>
+		</instance>
+	</object>
+</level>

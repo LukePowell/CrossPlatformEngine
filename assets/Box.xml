@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<archetype type="Box">
+	<transform>
+		<position x="0.0" y="1.0" z="-1.0"/>
+		<scale x="1.0" y="1.0" z="1.0"/>
+	</transform>
+	<rigidbody>
+		<mass mass="10.0"/>
+		<!-- <static value="true"/> -->
+		<gravity bool="true" mag="0.1"/>
+		<tensor type="E_BOX"/>
+	</rigidbody>
+	<!-- <spherecollider/> -->
+	<boxcollider/>
+	<mesh>
+		<shader>BasicPhong</shader>
+		<file>cube</file>
+		<dynamic value="true"/>
+	</mesh>
+</archetype>

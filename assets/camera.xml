@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<archetype type="Box">
+	<transform>
+		<position x="0.0" y="2.0" z="5.0"/>
+		<scale x="1.0" y="1.0" z="1.0"/>
+	</transform>
+	<rigidbody ignorePause="true">
+		<mass mass="10.0"/>
+		<tensor type="E_SPHERE"/>
+	</rigidbody>
+	<freecamera>
+    	<dir x="0.0" y="0.0" z="-1.0"/>
+  	</freecamera>
+	<cameracontroller speed="10.0"/>
+</archetype>

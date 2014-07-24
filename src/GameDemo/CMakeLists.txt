@@ -1,0 +1,1 @@
+ADD_LIBRAY(GameDemo main.cpp)

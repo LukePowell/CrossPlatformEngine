@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<level type="list">
+
+	<object name="Box.xml">		
+		<instance>
+			<position x="0.0" y="2.2" z="-1.0f"/>
+		</instance>
+		<instance>
+			<position x="1.5" y="3.2" z="-1.0f"/>
+		</instance>
+		<instance>
+			<position x="3.0" y="40.2" z="-1.0f"/>
+		</instance>
+		<instance>
+			<position x="4.5" y="500.2" z="-1.0f"/>
+		</instance>
+	</object>
+	<object name="ground.xml">
+		<instance>
+		</instance>
+	</object>
+	<object name="lightone.xml">
+		<instance/>
+	</object>
+	<object name="camera.xml">
+		<instance/>
+	</object>
+</level>

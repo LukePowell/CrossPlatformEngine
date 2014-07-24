@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<archetype type="Box">
+	<transform>
+		<position x="0.0" y="0.0" z="0.0"/>
+		<scale x="100.0" y="1.0" z="100.0"/>
+	</transform>
+	<rigidbody>
+		<mass mass="10.0"/>
+		<static value="true"/>
+		<tensor type="E_SPHERE"/>
+	</rigidbody>
+	<planecollider offset="0">
+		<normal x="0.0" y="1.0" z="0.0"/>
+	</planecollider>
+	<mesh>
+		<shader>BasicPhong</shader>
+		<file>unitplane</file>
+	</mesh>
+</archetype>

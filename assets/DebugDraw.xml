@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shader type="GLSL" ID="DebugDraw" passes="1">
+	<pass num="0">
+		<uniforms>
+			<texture>
+				<diffuse></diffuse>
+				<specular></specular>
+			</texture>
+			<camera>
+			</camera>
+			<light num="0">
+			</light>
+		</uniforms>
+		<vertexShader>
+			<file>DebugDraw.vsh</file>
+		</vertexShader>
+		<fragmentShader>
+			<file>DebugDraw.fsh</file>
+		</fragmentShader>
+	</pass>
+</shader>

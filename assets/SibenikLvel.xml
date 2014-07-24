@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<level type="list">
+	<object name="Sibenik.xml">
+		<instance/>
+	</object>
+	<object name="ground.xml">
+		<instance>
+		</instance>
+	</object>
+	<object name="lightone.xml">
+		<instance/>
+	</object>
+	<object name="camera.xml">
+		<instance/>
+	</object>
+</level>

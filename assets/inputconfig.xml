@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<keyboard>
+		<axis pos="w" neg="s">Vertical</axis>
+		<axis pos="d" neg="a">Horizontal</axis>
+		<axis pos="q" neg="e">RotateHorizontal</axis>
+		<axis pos="z" neg="x">Up</axis>
+		<key key=" ">step</key>
+		<key key="p">pause</key>
+		<key key="4">nextLevel</key>
+		<key key="5">previousLevel</key>
+		<key key="j">split</key>
+		<key key="6">wireframe</key>
+		<key key="c">console</key>
+		<key key="g">previousBV</key>
+		<key key="h">nextBV</key>
+		<key key="k">nextBVH</key>
+		<key key="l">toogleBVH</key>
+	</keyboard>
+	<mouse>
+		<key key="M1">pick</key>
+		<key key="M2">rotate</key>
+	</mouse>
+	<joystick>
+	</joystick>
+</config>
