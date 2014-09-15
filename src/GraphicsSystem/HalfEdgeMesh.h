@@ -25,6 +25,7 @@ namespace ElysiumEngine
         
         HalfEdgeVertex *getSelf();
         int getCount();
+        bool isBoundary();
     };
     
     struct HalfEdgeVertex
@@ -45,7 +46,7 @@ namespace ElysiumEngine
     struct HalfEdgeFace
     {
         HalfEdge *edge;
-        
+        int indices[3];
         unsigned int marker;
     };
     

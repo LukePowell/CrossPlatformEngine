@@ -174,7 +174,6 @@ void ElysiumEngine::MeshRenderable::initialize()
     
     shader = GraphicsSystem::g_GraphicsSystem->getShaderFactory().getShader(shaderID);
     
-    //TODO: #define all apple variants in top level header file
     GLCall(glGenVertexArrays(1, &vao));
     GLCall(glBindVertexArray(vao));
     

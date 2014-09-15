@@ -199,8 +199,8 @@ void parseOBJ(ElysiumEngine::Mesh *output, FILE *input)
                 continue;
             }
             
-            output->vertices[textureIndex].texture[0] = std::atof(tokens[1].c_str());
-            output->vertices[textureIndex].texture[1] = std::atof(tokens[2].c_str());
+           // output->vertices[textureIndex].texture[0] = std::atof(tokens[1].c_str());
+           // output->vertices[textureIndex].texture[1] = std::atof(tokens[2].c_str());
             
             texturecoords.push_back(Vec4(std::atof(tokens[1].c_str()),std::atof(tokens[2].c_str()),0));
             textureIndex++;

@@ -30,3 +30,8 @@ int ElysiumEngine::HalfEdge::getCount()
     } while (iter->next != end);
     return count;
 }
+
+bool ElysiumEngine::HalfEdge::isBoundary()
+{
+    return face == nullptr;
+}

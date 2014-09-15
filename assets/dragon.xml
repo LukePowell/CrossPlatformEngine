@@ -7,6 +7,6 @@
 	<mesh>
 		<shader>BasicPhong</shader>
 		<file>dragon_lowres_cleaned</file>
-		<dynamic value="false"/>
+		<dynamic value="true"/>
 	</mesh>
 </archetype>

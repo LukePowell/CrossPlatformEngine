@@ -20,11 +20,13 @@ namespace ElysiumEngine
 		int refreshRate;//Refresh rate
 	};
     
-    struct VertexData
+    class VertexData
     {
+    public:
         Vec4 position;
         Vec4 normal;
         float texture[2];
+        Vec4 color;
     };
 
 	class GraphicsSystem : public ISystem

@@ -1,6 +1,8 @@
 #include "ModelLibrary.h"
 #include "GraphicsSystem.h"
 #include "Messaging.h"
+#include <sstream>
+#include <ctime>
 
 void CalculateNormals(ElysiumEngine::Mesh *mesh);
 
@@ -74,6 +76,9 @@ ElysiumEngine::Mesh *ElysiumEngine::ModelLibrary::loadModel(std::string name, bo
 
 ElysiumEngine::HalfEdgeMesh *ElysiumEngine::ModelLibrary::loadHalfEdgeMesh(std::string name)
 {
+    std::clock_t start = std::clock();
+    std::cout << "Creating half edge mesh " << name << std::endl;
+    
     std::string finalname = name + ".half";
 	bool saveBinary = false;
     
@@ -86,7 +91,112 @@ ElysiumEngine::HalfEdgeMesh *ElysiumEngine::ModelLibrary::loadHalfEdgeMesh(std::
     
     Mesh *mesh = loadModel(name, true);//Grab the mesh data
     
-
+    //Edges that are located on the boundary of the mesh
+    std::map<std::string,HalfEdge *> halfedges;
+    std::list<HalfEdge *> boundaries;//TODO: Setup a means to render these as a different color
+    std::vector<HalfEdgeFace *> faces(mesh->indexCount);
+//#define VERBOSE
+    
+    std::cout << mesh->indexCount << " faces.\n";
+    for(int i = 0; i < mesh->indexCount * 3 ; i += 3)//Loop over our faces
+    {
+        faces[i/3] = new HalfEdgeFace();
+        for(int j = 0; j < 3; ++j)
+        {
+            faces[i/3]->indices[j] = mesh->indices[i+j];
+        }
+        
+        std::stringstream str;
+        HalfEdge *previous;
+        for(int j = 0; j < 3; ++j)
+        {
+            int indexOne = faces[i/3]->indices[j];
+            int indexTwo = faces[i/3]->indices[(j + 1) % 3];
+            
+#ifdef VERBOSE
+            std::cout << "Edge: " << indexOne << "-" << indexTwo << std::endl;
+#endif
+            str << indexOne << "-" << indexTwo;
+#ifdef VERBOSE
+            std::cout << str.str() << std::endl;
+            for(auto edge : halfedges)
+            {
+                std::cout << edge.first << " ";
+            }
+            std::cout << std::endl;
+#endif
+            auto halfEdge = halfedges.find(str.str());
+            if(halfEdge == halfedges.end())
+            {
+                HalfEdge *one = new HalfEdge();
+                one->face = faces[i/3];
+                one->endPt = new HalfEdgeVertex(one,indexTwo,0);
+                
+                halfedges[str.str()] = one;
+                
+                if(j == 0)
+                {
+                    faces[i/3]->edge = one;
+                }
+                
+                //Opposite
+                str.str(std::string());
+                str << indexTwo << "-" << indexOne;
+                auto opp = halfedges.find(str.str());
+                if(opp == halfedges.end())
+                {
+                    HalfEdge *opposite = new HalfEdge();
+                    halfedges[str.str()] = opposite;
+                    boundaries.push_back(opposite);
+                    opposite->endPt = new HalfEdgeVertex(opposite,indexTwo,0);
+                }
+                else
+                {
+                    opp->second->face = faces[i/3];
+                    boundaries.remove(opp->second);//Remove it if it exists
+                    if(j > 0)//Update next pointers
+                    {
+                        opp->second->next = one;
+                        opp->second->previous = previous;
+                    }
+                }
+                
+                if(j > 0)//Update next pointers
+                {
+                    previous->next = one;
+                    one->previous = previous;
+                }
+                
+                previous = one;
+            }
+            else//The Edge already exists
+            {
+                if(halfEdge->second->face == nullptr)
+                {
+                    halfEdge->second->face = faces[i/3];
+                }
+                
+                boundaries.remove(halfEdge->second);
+                
+                
+                if(j > 0)//Update next pointers
+                {
+                    previous->next = halfEdge->second;
+                    halfEdge->second->previous = previous;
+                }
+            }
+            str.str(std::string());
+        }
+    }
+    
+    std::cout << "Completed half edge mesh generation in " << (float)(std::clock() - start) / CLOCKS_PER_SEC << " seconds." << " With " << boundaries.size() << " boundary edges." << std::endl;
+    
+    for(auto edge : boundaries)
+    {
+        //mesh->vertices[edge->endPt->index].color = new Vec4(1.0f,0.0f,0.0f);
+    }
+    
+/* Old Code
     for(int i = 0; i < mesh->indexCount * 3; i +=3)
     {
         HalfEdge *one = new HalfEdge(), *two = new HalfEdge(), *three = new HalfEdge();
@@ -159,9 +269,11 @@ ElysiumEngine::HalfEdgeMesh *ElysiumEngine::ModelLibrary::loadHalfEdgeMesh(std::
         halfEdge->faces[i]->edge->next->opposite = three;
         halfEdge->faces[i]->edge->next->next->opposite = one;
     }
+ */
     
     if(saveBinary)//Save out name.half
     {
+        //TODO: Save out a binary representation of the half-edge mesh allowing O(1) loading
     }
     return halfEdge;
 }

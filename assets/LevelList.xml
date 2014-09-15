@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <levels>
-	<!-- Basic Stacking and pushing levls -->
-	<!-- Levels for graphics testing and demo purposes may or may not be functional 
-	     comment out before comitting code -->
 	<level index="1">SponzaLevel.xml</level>
 	<level index="2">SibenikLevel.xml</level>
 	<level index="0">SpherePush.xml</level>
+	<level index="1">dragonLevel.xml</level>
 </levels>
