@@ -262,7 +262,7 @@ int main(int argc, char **argv)
     ElysiumEngine::GameObjectFactory *gameObjFactory = new ElysiumEngine::GameObjectFactory();
     registerComponents();
     
-	std::clock_t clock = 0;
+	Uint32 clock = 0;
     
     ElysiumEngine::MessagingSystem *messagingSystem = new ElysiumEngine::MessagingSystem();
     
@@ -322,7 +322,8 @@ int main(int argc, char **argv)
     while(mainWindow->isOpen())
     {
         total += dt;
-		dt = static_cast<float>(std::clock() - clock) / CLOCKS_PER_SEC;
+		dt = static_cast<float>(SDL_GetTicks() - clock) / 1000;
+
         elapsed += dt;
         if(elapsed >= 1.0f)
         {
@@ -333,12 +334,15 @@ int main(int argc, char **argv)
 #ifdef ASSIGNMENT_2
             stream << std::endl << boundingVolumeNames[current] << std::endl;
 #endif
+            std::cout << frames << " " << dt << std::endl;
+            
             elapsed = 0.0f;
             frames = 0;
             
             //text.setString(stream.str());
+
         }
-		clock = std::clock();
+		clock = SDL_GetTicks();
         frames++;
         
         //tempElapsed = clock.getElapsedTime().asSeconds();
