@@ -1,0 +1,173 @@
+TInput
+v6
+r1
+cCheck dependencies
+cCompileC solution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/InputSystem.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug/libInput.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c0000000053477F0400000000000000AA
+t1397194500
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052696DA3000000000000044C
+t1382641059
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E57B400000000000001DE
+t1394497460
+s478
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug/libInput.a
+t1410249470
+s808800
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/Input.LinkFileList
+c00000000540EB2F900000000000000AC
+t1410249465
+s172
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/InputSystem.o
+t1410249466
+s791020
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
+c0000000053D0620B0000000000000938
+t1406165515
+s2360
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h
+c0000000053D0620B0000000000000263
+t1406165515
+s611
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+c0000000053D0620B0000000000001D65
+t1406165515
+s7525
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
+c0000000053D0620B00000000000001C2
+t1406165515
+s450
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+c0000000053D0620B000000000000190C
+t1406165515
+s6412
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+c0000000053D0620B00000000000000AF
+t1406165515
+s175
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.h
+c0000000053D0620B0000000000000979
+t1406165515
+s2425
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp
+c0000000053D0620B000000000000224E
+t1406165515
+s8782
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h
+c0000000053D0620B0000000000001400
+t1406165515
+s5120
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+c0000000053D0620B00000000000000F8
+t1406165515
+s248
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+c0000000053D0620B00000000000003D5
+t1406165515
+s981
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+c0000000053D0620B0000000000000137
+t1406165515
+s311
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+c0000000053D0620B0000000000000EB3
+t1406165515
+s3763
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+c0000000053D0620B0000000000000254
+t1406165515
+s596
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+c0000000053D0620B00000000000008BD
+t1406165515
+s2237
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.h
+c0000000053D0620B000000000000E758
+t1406165515
+s59224
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5ed743c6f8c8b941^7a5050c6f8c8b941^---0#1#1#--18"Check dependencies36"D586A7F0-23EC-4DC5-8FED-0F0E52109E49-
+
+CCompileC solution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/InputSystem.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942265.342038
+e431942266.367193
+r1
+xCompileC
+xsolution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/InputSystem.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.h
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp:1:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h:5:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
+o#pragma message("Using std")
+o        ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp:3:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h:18:35: warning: unused function 'hash' [-Wunused-function]
+o    static constexpr unsigned int hash(const char* string)
+o                                  ^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp196"CompileC solution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/InputSystem.o src/InputSystem/InputSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler72a85779eabeb941^f8ff5d7aeabeb941^-865"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp:1:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h:5:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp:3:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h:18:35: warning: unused function 'hash' [-Wunused-function]    static constexpr unsigned int hash(const char* string)                                  ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-431942266#18446744073709551615#0#2(2@134"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp:1:-431942266#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@116"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp0000000000000000^0#13#0#13#13#0#21"Apple LLVM 5.0 Notice--2@132"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h:5:-431942266#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h0000000000000000^4#9#4#9#81#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--2@22"Unused function 'hash'-431942266#18446744073709551615#0#1(2@134"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp:3:-431942266#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@116"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp0000000000000000^2#9#2#9#63#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@105"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h0000000000000000^17#34#17#34#514#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@116"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp0000000000000000^2865"CompileC solution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/InputSystem.o src/InputSystem/InputSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/SFMLTest.build/Debug/Input.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/SFMLTest.build/Debug/Input.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/InputSystem.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/InputSystem.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/InputSystem.o36"339E793F-4C1F-4D1B-92A7-1CF4A3152B13-
+b59A9453D-8DD9-4947-90D6-8CABB21A943A
+
+CLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug/libInput.a normal x86_64
+s431942270.502036
+e431942270.694015
+r1
+xLibtool
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug/libInput.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Libtool solution/src/InputSystem/Debug/libInput.a normal x86_6463"Libtool solution/src/InputSystem/Debug/libInput.a normal x86_644a95807eeabeb941^8fabb17eeabeb941^---0#0#1#--847"Libtool solution/src/InputSystem/Debug/libInput.a normal x86_64    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/SFMLTest.build/Debug/Input.build/Objects-normal/x86_64/Input.LinkFileList -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug/libInput.a36"A572B01C-E9BD-48DF-ACDD-A03F0A09683C-
+b59A9453D-8DD9-4947-90D6-8CABB21A943A
+

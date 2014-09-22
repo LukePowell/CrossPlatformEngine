@@ -1,0 +1,422 @@
+TCoreEngine
+v6
+r1
+cCheck dependencies
+cCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/DebugConsole.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObject.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/ISystem.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Messaging.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/StringUtilities.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Transform.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObjectFactory.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLReader.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLWriter.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLWriter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/libCoreEngine.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c0000000053477F0400000000000000AA
+t1397194500
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052696DA3000000000000044C
+t1382641059
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E57B400000000000001DE
+t1394497460
+s478
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/libCoreEngine.a
+t2
+s0
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/CoreEngine.LinkFileList
+c00000000540EB2F4000000000000060A
+t1410249460
+s1546
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/DebugConsole.o
+t1410249464
+s532068
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObject.o
+t1410249463
+s318812
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObjectFactory.o
+t1410249465
+s474940
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/ISystem.o
+t1410249464
+s54248
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Messaging.o
+t1410249464
+s257048
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/StringUtilities.o
+t1410249464
+s135056
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Transform.o
+t1410249465
+s263156
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLReader.o
+t1410249465
+s212204
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLWriter.o
+t1410249465
+s86368
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp
+c0000000053D0620B0000000000003782
+t1406165515
+s14210
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp
+c0000000053D0620B00000000000005CF
+t1406165515
+s1487
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.cpp
+c0000000053D0620B00000000000000E1
+t1406165515
+s225
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.cpp
+c0000000053D0620B00000000000004A4
+t1406165515
+s1188
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.cpp
+c0000000053D0620B0000000000000984
+t1406165515
+s2436
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp
+c0000000053D0620B00000000000008CF
+t1406165515
+s2255
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp
+c0000000053D0620B0000000000000964
+t1406165515
+s2404
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp
+c0000000053D0620B0000000000001300
+t1406165515
+s4864
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLWriter.cpp
+c0000000053D0620B00000000000006D0
+t1406165515
+s1744
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLWriter.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb6a0cb74eabeb941^749a3d75eabeb941^---0#1#1#--18"Check dependencies36"151C055E-6DF7-404A-B895-34072C9BDC8C-
+
+CCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/DebugConsole.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942261.693715
+e431942264.020398
+r1
+xCompileC
+xsolution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/DebugConsole.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.h
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:10:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:381:90: warning: field 'm_Function' will be initialized after field 'm_Class' [-Wreorder]
+o                        ZeroParamClassFunctor(returnType (classType::*funcPtr)(void), classType &classInst) : m_Function(funcPtr), m_Class(classInst)
+o                                                                                                              ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:595:30: note: in instantiation of member function 'DebugLog::Console::ZeroParamClassFunctor<void, DebugLog::Console>::ZeroParamClassFunctor' requested here
+o                        RegisterFunctor(name, new ZeroParamClassFunctor<returnType,classType>(funcPtr,classInst));
+o                                                  ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:43:3: note: in instantiation of function template specialization 'DebugLog::Console::RegisterFunction<void, DebugLog::Console>' requested here
+o                RegisterFunction("help",&DebugLog::Console::ListAllCommands,*this);
+o                ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:10:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:401:91: warning: field 'm_Function' will be initialized after field 'm_Class' [-Wreorder]
+o                        OneParamClassFunctor(returnType (classType::*funcPtr)(param1), classType &classInst) : m_Function(funcPtr), m_Class(classInst)
+o                                                                                                               ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:601:30: note: in instantiation of member function 'DebugLog::Console::OneParamClassFunctor<void, DebugLog::Console, std::__1::basic_string<char> >::OneParamClassFunctor' requested here
+o                        RegisterFunctor(name, new OneParamClassFunctor<returnType,classType,paramOne>(funcPtr,classInst));
+o                                                  ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:47:3: note: in instantiation of function template specialization 'DebugLog::Console::RegisterFunction<void, DebugLog::Console, std::__1::basic_string<char> >' requested here
+o                RegisterFunction("SetChannel",(void(Console::*)(const std::string))(&DebugLog::Console::SetChannel),*this);
+o                ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:10:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:401:91: warning: field 'm_Function' will be initialized after field 'm_Class' [-Wreorder]
+o                        OneParamClassFunctor(returnType (classType::*funcPtr)(param1), classType &classInst) : m_Function(funcPtr), m_Class(classInst)
+o                                                                                                               ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:601:30: note: in instantiation of member function 'DebugLog::Console::OneParamClassFunctor<void, DebugLog::Console, bool>::OneParamClassFunctor' requested here
+o                        RegisterFunctor(name, new OneParamClassFunctor<returnType,classType,paramOne>(funcPtr,classInst));
+o                                                  ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:48:3: note: in instantiation of function template specialization 'DebugLog::Console::RegisterFunction<void, DebugLog::Console, bool>' requested here
+o                RegisterFunction("debug",&DebugLog::Console::SetDebug,*this);
+o                ^
+o3 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp193"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/DebugConsole.o src/Engine/DebugConsole.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler69a8b175eabeb941^ce380578eabeb941^-4244"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:10:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:381:90: warning: field 'm_Function' will be initialized after field 'm_Class' [-Wreorder]                        ZeroParamClassFunctor(returnType (classType::*funcPtr)(void), classType &classInst) : m_Function(funcPtr), m_Class(classInst)                                                                                                              ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:595:30: note: in instantiation of member function 'DebugLog::Console::ZeroParamClassFunctor<void, DebugLog::Console>::ZeroParamClassFunctor' requested here                        RegisterFunctor(name, new ZeroParamClassFunctor<returnType,classType>(funcPtr,classInst));                                                  ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:43:3: note: in instantiation of function template specialization 'DebugLog::Console::RegisterFunction<void, DebugLog::Console>' requested here                RegisterFunction("help",&DebugLog::Console::ListAllCommands,*this);                ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:10:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:401:91: warning: field 'm_Function' will be initialized after field 'm_Class' [-Wreorder]                        OneParamClassFunctor(returnType (classType::*funcPtr)(param1), classType &classInst) : m_Function(funcPtr), m_Class(classInst)                                                                                                               ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:601:30: note: in instantiation of member function 'DebugLog::Console::OneParamClassFunctor<void, DebugLog::Console, std::__1::basic_string<char> >::OneParamClassFunctor' requested here                        RegisterFunctor(name, new OneParamClassFunctor<returnType,classType,paramOne>(funcPtr,classInst));                                                  ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:47:3: note: in instantiation of function template specialization 'DebugLog::Console::RegisterFunction<void, DebugLog::Console, std::__1::basic_string<char> >' requested here                RegisterFunction("SetChannel",(void(Console::*)(const std::string))(&DebugLog::Console::SetChannel),*this);                ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:10:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:401:91: warning: field 'm_Function' will be initialized after field 'm_Class' [-Wreorder]                        OneParamClassFunctor(returnType (classType::*funcPtr)(param1), classType &classInst) : m_Function(funcPtr), m_Class(classInst)                                                                                                               ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h:601:30: note: in instantiation of member function 'DebugLog::Console::OneParamClassFunctor<void, DebugLog::Console, bool>::OneParamClassFunctor' requested here                        RegisterFunctor(name, new OneParamClassFunctor<returnType,classType,paramOne>(funcPtr,classInst));                                                  ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:48:3: note: in instantiation of function template specialization 'DebugLog::Console::RegisterFunction<void, DebugLog::Console, bool>' requested here                RegisterFunction("debug",&DebugLog::Console::SetDebug,*this);                ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@60"Field 'm_Function' will be initialized after field 'm_Class'-431942264#18446744073709551615#0#3(2@131"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:10:-431942264#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@112"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp0000000000000000^9#9#9#9#324#0#21"Apple LLVM 5.0 Notice--2@141"In instantiation of member function 'DebugLog::Console::ZeroParamClassFunctor<void, DebugLog::Console>::ZeroParamClassFunctor' requested here-431942264#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@110"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h0000000000000000^594#29#594#29#19430#0#14"Semantic Issue--2@130"In instantiation of function template specialization 'DebugLog::Console::RegisterFunction<void, DebugLog::Console>' requested here-431942264#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp0000000000000000^42#2#42#2#1515#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@110"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h0000000000000000^380#89#380#89#11899#0#14"Semantic Issue--2@60"Field 'm_Function' will be initialized after field 'm_Class'-431942264#18446744073709551615#0#3(2@131"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:10:-431942264#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp0000000000000000^9#9#9#9#324#0#21"Apple LLVM 5.0 Notice--2@170"In instantiation of member function 'DebugLog::Console::OneParamClassFunctor<void, DebugLog::Console, std::__1::basic_string<char> >::OneParamClassFunctor' requested here-431942264#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@110"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h0000000000000000^600#29#600#29#19718#0#14"Semantic Issue--2@161"In instantiation of function template specialization 'DebugLog::Console::RegisterFunction<void, DebugLog::Console, std::__1::basic_string<char> >' requested here-431942264#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp0000000000000000^46#2#46#2#1785#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@110"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h0000000000000000^400#90#400#90#12420#0#14"Semantic Issue--2@60"Field 'm_Function' will be initialized after field 'm_Class'-431942264#18446744073709551615#0#3(2@131"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp:10:-431942264#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp0000000000000000^9#9#9#9#324#0#21"Apple LLVM 5.0 Notice--2@145"In instantiation of member function 'DebugLog::Console::OneParamClassFunctor<void, DebugLog::Console, bool>::OneParamClassFunctor' requested here-431942264#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@110"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h0000000000000000^600#29#600#29#19718#0#14"Semantic Issue--2@136"In instantiation of function template specialization 'DebugLog::Console::RegisterFunction<void, DebugLog::Console, bool>' requested here-431942264#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@112"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp0000000000000000^47#2#47#2#1896#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@110"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h0000000000000000^400#90#400#90#12420#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@112"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp0000000000000000^2851"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/DebugConsole.o src/Engine/DebugConsole.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/DebugConsole.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/DebugConsole.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/DebugConsole.o36"0FC9C1ED-9FAF-473F-8386-080FDCB0145B-
+bF8CAE1D8-6DA0-4FFA-BC87-6B7AD7DA3423
+
+CCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObject.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942261.831428
+e431942263.822489
+r1
+xCompileC
+xsolution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObject.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp:1:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
+o#pragma message("Using std")
+o        ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp189"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObject.o src/Engine/GameObject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler2dedd475eabeb941^8a90d277eabeb941^-337"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp:1:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-431942263#18446744073709551615#0#1(2@128"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp:1:-431942263#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@110"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp0000000000000000^0#9#0#9#9#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@110"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp0000000000000000^2839"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObject.o src/Engine/GameObject.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObject.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObject.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObject.o36"9B435D58-35FC-4F51-9A1E-66B9F667E4B3-
+bF8CAE1D8-6DA0-4FFA-BC87-6B7AD7DA3423
+
+CCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObjectFactory.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942264.386885
+e431942265.184786
+r1
+xCompileC
+xsolution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObjectFactory.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.h
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp:1:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h:3:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
+o#pragma message("Using std")
+o        ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp213"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObjectFactory.o src/Engine/Utilities/GameObjectFactory.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler371b6378eabeb941^014e2f79eabeb941^-488"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp:1:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h:3:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-431942265#18446744073709551615#0#2(2@145"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp:1:-431942265#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@127"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp0000000000000000^0#9#0#9#9#0#21"Apple LLVM 5.0 Notice--2@133"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h:3:-431942265#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@115"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h0000000000000000^2#9#2#9#43#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@127"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp0000000000000000^2901"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObjectFactory.o src/Engine/Utilities/GameObjectFactory.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObjectFactory.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObjectFactory.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Utilities/GameObjectFactory.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/GameObjectFactory.o36"65F3971D-3229-495B-A834-8276DBA5F7C0-
+bF8CAE1D8-6DA0-4FFA-BC87-6B7AD7DA3423
+
+CCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/ISystem.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942263.822776
+e431942264.341109
+r1
+xCompileC
+xsolution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/ISystem.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.cpp183"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/ISystem.o src/Engine/ISystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc4b1d277eabeb941^c5535778eabeb941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.cpp0000000000000000^2821"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/ISystem.o src/Engine/ISystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/ISystem.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/ISystem.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/ISystem.o36"9FF9251E-54E9-424D-AA0B-0B8F0C64BF41-
+bF8CAE1D8-6DA0-4FFA-BC87-6B7AD7DA3423
+
+CCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Messaging.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942263.822815
+e431942264.489879
+r1
+xCompileC
+xsolution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Messaging.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.cpp187"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Messaging.o src/Engine/Messaging.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere5b9d277eabeb941^be6a7d78eabeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.cpp0000000000000000^2833"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Messaging.o src/Engine/Messaging.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Messaging.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Messaging.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Messaging.o36"A067BAFF-76F4-4E13-92E2-31F949EFBC5B-
+bF8CAE1D8-6DA0-4FFA-BC87-6B7AD7DA3423
+
+CCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/StringUtilities.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942264.020621
+e431942264.386628
+r1
+xCompileC
+xsolution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/StringUtilities.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.cpp199"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/StringUtilities.o src/Engine/StringUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler705d0578eabeb941^05fc6278eabeb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.cpp0000000000000000^2869"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/StringUtilities.o src/Engine/StringUtilities.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/StringUtilities.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/StringUtilities.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/StringUtilities.o36"44F0D9E2-D646-440E-B57E-7200CEA49481-
+bF8CAE1D8-6DA0-4FFA-BC87-6B7AD7DA3423
+
+CCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Transform.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942264.341382
+e431942265.054703
+r1
+xCompileC
+xsolution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Transform.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp:1:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h:2:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
+o#pragma message("Using std")
+o        ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp187"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Transform.o src/Engine/Transform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc87d5778eabeb941^2a000e79eabeb941^-462"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp:1:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h:2:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-431942265#18446744073709551615#0#2(2@127"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp:1:-431942265#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp0000000000000000^0#9#0#9#9#0#21"Apple LLVM 5.0 Notice--2@125"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h:2:-431942265#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp0000000000000000^2833"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Transform.o src/Engine/Transform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Transform.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Transform.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/Transform.o36"4500D6B5-5B9A-4FAA-B449-6E1A5CB9E251-
+bF8CAE1D8-6DA0-4FFA-BC87-6B7AD7DA3423
+
+CCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLReader.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942264.490251
+e431942265.010981
+r1
+xCompileC
+xsolution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLReader.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.h
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp:93:7: warning: unused variable 'error' [-Wunused-variable]
+o                int error = m_CurrentChild->QueryUnsignedAttribute(name,valueToSet);
+o                    ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp:101:7: warning: unused variable 'error' [-Wunused-variable]
+o                int error = m_CurrentChild->QueryIntAttribute(name,valueToSet);
+o                    ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp:109:7: warning: unused variable 'error' [-Wunused-variable]
+o                int error = m_CurrentChild->QueryFloatAttribute(name,valueToSet);
+o                    ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp:117:7: warning: unused variable 'error' [-Wunused-variable]
+o                int error = m_CurrentChild->QueryDoubleAttribute(name,valueToSet);
+o                    ^
+o4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp187"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLReader.o src/Engine/XMLReader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler68957d78eabeb941^ffce0279eabeb941^-1091"/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp:93:7: warning: unused variable 'error' [-Wunused-variable]                int error = m_CurrentChild->QueryUnsignedAttribute(name,valueToSet);                    ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp:101:7: warning: unused variable 'error' [-Wunused-variable]                int error = m_CurrentChild->QueryIntAttribute(name,valueToSet);                    ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp:109:7: warning: unused variable 'error' [-Wunused-variable]                int error = m_CurrentChild->QueryFloatAttribute(name,valueToSet);                    ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp:117:7: warning: unused variable 'error' [-Wunused-variable]                int error = m_CurrentChild->QueryDoubleAttribute(name,valueToSet);                    ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@23"Unused variable 'error'-431942265#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp0000000000000000^92#6#92#6#2273#0#19"Unused Entity Issue--2@23"Unused variable 'error'-431942265#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp0000000000000000^100#6#100#6#2457#0#19"Unused Entity Issue--2@23"Unused variable 'error'-431942265#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp0000000000000000^108#6#108#6#2640#0#19"Unused Entity Issue--2@23"Unused variable 'error'-431942265#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp0000000000000000^116#6#116#6#2827#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp0000000000000000^2833"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLReader.o src/Engine/XMLReader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLReader.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLReader.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLReader.o36"8BDDC9FA-539B-4C6A-BC80-F6EC94CD9C01-
+bF8CAE1D8-6DA0-4FFA-BC87-6B7AD7DA3423
+
+CCompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLWriter.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLWriter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942265.054942
+e431942265.312770
+r1
+xCompileC
+xsolution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLWriter.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLWriter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLWriter.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLWriter.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IWriter.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLWriter.cpp187"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLWriter.o src/Engine/XMLWriter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler36200e79eabeb941^49125079eabeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLWriter.cpp0000000000000000^2833"CompileC solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLWriter.o src/Engine/XMLWriter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLWriter.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLWriter.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLWriter.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/XMLWriter.o36"FB3CB7FD-DA06-47C3-992D-3CE662A22C9A-
+bF8CAE1D8-6DA0-4FFA-BC87-6B7AD7DA3423
+
+CLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/libCoreEngine.a normal x86_64
+s431942265.313815
+e431942265.336372
+r1
+xLibtool
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/libCoreEngine.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Libtool solution/src/Engine/Debug/libCoreEngine.a normal x86_6463"Libtool solution/src/Engine/Debug/libCoreEngine.a normal x86_6488645079eabeb941^601e5679eabeb941^---0#0#1#--847"Libtool solution/src/Engine/Debug/libCoreEngine.a normal x86_64    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/SFMLTest.build/Debug/CoreEngine.build/Objects-normal/x86_64/CoreEngine.LinkFileList -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/libCoreEngine.a36"7C526AAA-BB40-44AF-82BA-EF7B7E55CEB8-
+bF8CAE1D8-6DA0-4FFA-BC87-6B7AD7DA3423
+

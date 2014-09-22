@@ -1,0 +1,148 @@
+TWindow
+v6
+r1
+cCheck dependencies
+cCompileC solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/SFMLWindow.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLWindow/SFMLWindow.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug/libWindow.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c0000000053477F0400000000000000AA
+t1397194500
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052696DA3000000000000044C
+t1382641059
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E57B400000000000001DE
+t1394497460
+s478
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug/libWindow.a
+t2
+s0
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/SFMLWindow.o
+t1410249461
+s250932
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/Window.LinkFileList
+c00000000540EB2ED00000000000000AB
+t1410249453
+s171
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLWindow/SFMLWindow.cpp
+c0000000053D0620B0000000000000E02
+t1406165515
+s3586
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLWindow/SFMLWindow.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa662276deabeb941^9961336deabeb941^---0#1#1#--18"Check dependencies36"CD028C65-271F-43CB-94F2-44DBC802A5CA-
+
+CCompileC solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/SFMLWindow.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLWindow/SFMLWindow.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942253.274994
+e431942261.831123
+r1
+xCompileC
+xsolution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/SFMLWindow.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLWindow/SFMLWindow.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLWindow/SFMLWindow.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLWindow/SFMLWindow.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/usr/local/include/SFML/Window.hpp
+d/usr/local/include/SFML/System.hpp
+d/usr/local/include/SFML/Config.hpp
+d/usr/local/include/SFML/System/Clock.hpp
+d/usr/local/include/SFML/System/Export.hpp
+d/usr/local/include/SFML/System/Time.hpp
+d/usr/local/include/SFML/System/Err.hpp
+d/usr/local/include/SFML/System/InputStream.hpp
+d/usr/local/include/SFML/System/Lock.hpp
+d/usr/local/include/SFML/System/NonCopyable.hpp
+d/usr/local/include/SFML/System/Mutex.hpp
+d/usr/local/include/SFML/System/Sleep.hpp
+d/usr/local/include/SFML/System/String.hpp
+d/usr/local/include/SFML/System/Thread.hpp
+d/usr/local/include/SFML/System/Thread.inl
+d/usr/local/include/SFML/System/ThreadLocal.hpp
+d/usr/local/include/SFML/System/ThreadLocalPtr.hpp
+d/usr/local/include/SFML/System/ThreadLocalPtr.inl
+d/usr/local/include/SFML/System/Utf.hpp
+d/usr/local/include/SFML/System/Utf.inl
+d/usr/local/include/SFML/System/Vector2.hpp
+d/usr/local/include/SFML/System/Vector2.inl
+d/usr/local/include/SFML/System/Vector3.hpp
+d/usr/local/include/SFML/System/Vector3.inl
+d/usr/local/include/SFML/Window/Context.hpp
+d/usr/local/include/SFML/Window/Export.hpp
+d/usr/local/include/SFML/Window/GlResource.hpp
+d/usr/local/include/SFML/Window/ContextSettings.hpp
+d/usr/local/include/SFML/Window/Event.hpp
+d/usr/local/include/SFML/Window/Joystick.hpp
+d/usr/local/include/SFML/Window/Keyboard.hpp
+d/usr/local/include/SFML/Window/Mouse.hpp
+d/usr/local/include/SFML/Window/VideoMode.hpp
+d/usr/local/include/SFML/Window/Window.hpp
+d/usr/local/include/SFML/Window/WindowHandle.hpp
+d/usr/local/include/SFML/Window/WindowStyle.hpp
+d/usr/local/include/SFML/Graphics.hpp
+d/usr/local/include/SFML/Graphics/BlendMode.hpp
+d/usr/local/include/SFML/Graphics/Color.hpp
+d/usr/local/include/SFML/Graphics/Export.hpp
+d/usr/local/include/SFML/Graphics/Font.hpp
+d/usr/local/include/SFML/Graphics/Glyph.hpp
+d/usr/local/include/SFML/Graphics/Rect.hpp
+d/usr/local/include/SFML/Graphics/Rect.inl
+d/usr/local/include/SFML/Graphics/Texture.hpp
+d/usr/local/include/SFML/Graphics/Image.hpp
+d/usr/local/include/SFML/Graphics/RenderStates.hpp
+d/usr/local/include/SFML/Graphics/Transform.hpp
+d/usr/local/include/SFML/Graphics/RenderTexture.hpp
+d/usr/local/include/SFML/Graphics/RenderTarget.hpp
+d/usr/local/include/SFML/Graphics/View.hpp
+d/usr/local/include/SFML/Graphics/PrimitiveType.hpp
+d/usr/local/include/SFML/Graphics/Vertex.hpp
+d/usr/local/include/SFML/Graphics/RenderWindow.hpp
+d/usr/local/include/SFML/Graphics/Shader.hpp
+d/usr/local/include/SFML/Graphics/Shape.hpp
+d/usr/local/include/SFML/Graphics/Drawable.hpp
+d/usr/local/include/SFML/Graphics/Transformable.hpp
+d/usr/local/include/SFML/Graphics/VertexArray.hpp
+d/usr/local/include/SFML/Graphics/CircleShape.hpp
+d/usr/local/include/SFML/Graphics/RectangleShape.hpp
+d/usr/local/include/SFML/Graphics/ConvexShape.hpp
+d/usr/local/include/SFML/Graphics/Sprite.hpp
+d/usr/local/include/SFML/Graphics/Text.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLWindow/SFMLWindow.cpp193"CompileC solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/SFMLWindow.o src/SFMLWindow/SFMLWindow.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0189466deabeb941^82c6d475eabeb941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLWindow/SFMLWindow.cpp0000000000000000^2855"CompileC solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/SFMLWindow.o src/SFMLWindow/SFMLWindow.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/SFMLWindow.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/SFMLWindow.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLWindow/SFMLWindow.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/SFMLWindow.o36"E585F1CA-5DE1-4AA2-8C07-DC1209CD3A6D-
+b98B873E5-F74A-40C7-B99F-103415794FCD
+
+CLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug/libWindow.a normal x86_64
+s431942265.055920
+e431942265.061870
+r1
+xLibtool
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug/libWindow.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Libtool solution/src/SFMLWindow/Debug/libWindow.a normal x86_6463"Libtool solution/src/SFMLWindow/Debug/libWindow.a normal x86_64a2600e79eabeb941^02d90f79eabeb941^---0#0#1#--847"Libtool solution/src/SFMLWindow/Debug/libWindow.a normal x86_64    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/SFMLTest.build/Debug/Window.build/Objects-normal/x86_64/Window.LinkFileList -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug/libWindow.a36"5F280B32-C901-4356-96F3-0382CEFEC2B3-
+b98B873E5-F74A-40C7-B99F-103415794FCD
+

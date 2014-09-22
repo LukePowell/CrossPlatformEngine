@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Mesh.cpp \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Mesh.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IShader.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ICamera.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ModelLibrary.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/HalfEdgeMesh.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Light.h \
+  /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/RenderMatrixStack.h

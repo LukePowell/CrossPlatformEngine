@@ -1,0 +1,1680 @@
+TSFMLTest
+v6
+r1
+cCheck dependencies
+cCompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CS350BoundingVolume.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CameraController.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/Console.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/LevelSystem.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/main.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/SFMLTest normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c0000000053477F0400000000000000AA
+t1397194500
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052696DA3000000000000044C
+t1382641059
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E57B400000000000001DE
+t1394497460
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AGL.framework/AGL
+c00000000531E57B4000000000000892C
+t1394497460
+s35116
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000531E57B5000000000000BB7C
+t1394497461
+s47996
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+c00000000531E57B500000000000211A0
+t1394497461
+s135584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+c00000000531E57B50000000000005F00
+t1394497461
+s24320
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+c00000000531E57B6000000000000681C
+t1394497462
+s26652
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+c0000000052696DAF000000000006E8B0
+t1382641071
+s452784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+c0000000052696DAF0000000000004734
+t1382641071
+s18228
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+c0000000052696DAF000000000000FC6C
+t1382641071
+s64620
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+c0000000052696DAF000000000000F6A0
+t1382641071
+s63136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+c0000000052696DAF0000000000006254
+t1382641071
+s25172
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+c0000000052696DAF000000000000E0F8
+t1382641071
+s57592
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+c00000000531E57B6000000000000D6DC
+t1394497462
+s55004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+c00000000531E57B60000000000006308
+t1394497462
+s25352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+c0000000052696DAF0000000000004050
+t1382641071
+s16464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+c00000000531E57B60000000000008570
+t1394497462
+s34160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+c0000000052696DAF0000000000005EA0
+t1382641071
+s24224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+c0000000052696DAF0000000000005FAC
+t1382641071
+s24492
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+c0000000052696DAF0000000000004440
+t1382641071
+s17472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+c0000000052696DAF000000000000AA28
+t1382641071
+s43560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+c0000000052696DAF0000000000003E2C
+t1382641071
+s15916
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+c00000000531E57B60000000000030B04
+t1394497462
+s199428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+c00000000531E57B60000000000005E54
+t1394497462
+s24148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+c00000000531E57B60000000000006A90
+t1394497462
+s27280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+c0000000052696DAF00000000000178AC
+t1382641071
+s96428
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+c00000000531E57B6000000000001ADC8
+t1394497462
+s110024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+c0000000052696DAF000000000001028C
+t1382641071
+s66188
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+c00000000531E57B60000000000008800
+t1394497462
+s34816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+c0000000052696DAF0000000000011090
+t1382641071
+s69776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+c0000000052696DAF000000000000882C
+t1382641071
+s34860
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+c00000000531E57B600000000000067AC
+t1394497462
+s26540
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+c0000000052696DAF0000000000008DEC
+t1382641071
+s36332
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+c00000000531E57B60000000000004C08
+t1394497462
+s19464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+c00000000531E57B60000000000002428
+t1394497462
+s9256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+c0000000052696DAF000000000000439C
+t1382641071
+s17308
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+c0000000052696DAF0000000000006768
+t1382641071
+s26472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+c00000000531E57B600000000000172F4
+t1394497462
+s94964
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+c0000000053476FFD0000000000001770
+t1397190653
+s6000
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/SFMLTest
+t1410819940
+s1475620
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/libCoreEngine.a
+c00000000540EB2F90000000000246470
+t1410249465
+s2385008
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/GraphicsSystem/Debug/libGraphics.a
+c00000000541757EB00000000004FEBA0
+t1410815979
+s5237664
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug/libInput.a
+c00000000540EB2FE00000000000C5760
+t1410249470
+s808800
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/libMaths.a
+c00000000540EB2F500000000000327C0
+t1410249461
+s206784
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/libPhysics.a
+c00000000541757EA00000000002F4878
+t1410815978
+s3098744
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SDLWindow/Debug/libSDLWindow.a
+c00000000540EB2F9000000000001B470
+t1410249465
+s111728
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CS350BoundingVolume.o
+t1410815980
+s233848
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CameraController.o
+t1410249478
+s225244
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/Console.o
+t1410249479
+s520304
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/LevelSystem.o
+t1410249480
+s398632
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/SFMLTest.LinkFileList
+c00000000540EB304000000000000035E
+t1410249476
+s862
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/main.o
+t1410815982
+s1559524
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug/libWindow.a
+c00000000540EB2F9000000000003DF58
+t1410249465
+s253784
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug/libXML.a
+c00000000540EB2F3000000000003B448
+t1410249459
+s242760
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/WindowingSystem/Debug/libWindowingSystem.a
+c00000000540EB2F400000000000264E0
+t1410249460
+s156896
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h
+c0000000053D0620B0000000000005658
+t1406165515
+s22104
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
+c0000000053D0620B0000000000000938
+t1406165515
+s2360
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h
+c0000000053D0620B000000000000059F
+t1406165515
+s1439
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h
+c0000000053D0620B0000000000000263
+t1406165515
+s611
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+c0000000053D0620B0000000000001D65
+t1406165515
+s7525
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
+c0000000053D0620B00000000000001C2
+t1406165515
+s450
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+c0000000053D0620B000000000000190C
+t1406165515
+s6412
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.h
+c0000000053D0620B00000000000003CE
+t1406165515
+s974
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+c0000000053D0620B00000000000000AF
+t1406165515
+s175
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
+c0000000053D0620B0000000000000392
+t1406165515
+s914
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.h
+c0000000053D0620B0000000000000979
+t1406165515
+s2425
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLCompiler.h
+c0000000053D0620B00000000000001BE
+t1406165515
+s446
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLShader.h
+c0000000053D0620B00000000000008A6
+t1406165515
+s2214
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h
+c00000000541757890000000000000796
+t1410815881
+s1942
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/HalfEdgeMesh.h
+c0000000054174FD600000000000005BF
+t1410813910
+s1471
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ICamera.h
+c0000000053D0620B0000000000000375
+t1406165515
+s885
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h
+c0000000053D0620B000000000000012B
+t1406165515
+s299
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IShader.h
+c0000000053D0620B0000000000000494
+t1406165515
+s1172
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Light.h
+c0000000053D0620B0000000000000290
+t1406165515
+s656
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Mesh.h
+c0000000053D0620B00000000000001E9
+t1406165515
+s489
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/MeshRenderable.h
+c0000000053D0620B000000000000058E
+t1406165515
+s1422
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ModelLibrary.h
+c0000000053D0620B00000000000001C6
+t1406165515
+s454
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/OpenGLHeaders.hpp
+c0000000053D0620B00000000000001B1
+t1406165515
+s433
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/RenderMatrixStack.h
+c0000000053D0620B000000000000045D
+t1406165515
+s1117
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h
+c0000000053D0620B0000000000000580
+t1406165515
+s1408
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h
+c0000000053D0620B0000000000001400
+t1406165515
+s5120
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+c0000000053D0620B00000000000000F8
+t1406165515
+s248
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+c0000000053D0620B00000000000003D5
+t1406165515
+s981
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+c0000000053D0620B0000000000000137
+t1406165515
+s311
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+c0000000053D0620B0000000000000EB3
+t1406165515
+s3763
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+c0000000053D0620B0000000000000254
+t1406165515
+s596
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+c0000000053D0620B00000000000008BD
+t1406165515
+s2237
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h
+c0000000053D0620B0000000000000D1D
+t1406165515
+s3357
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraint.h
+c0000000053D0620B000000000000076C
+t1406165515
+s1900
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.h
+c0000000053D0620B00000000000002C3
+t1406165515
+s707
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.h
+c0000000053D0620B00000000000001F3
+t1406165515
+s499
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h
+c0000000053D0620B00000000000006E0
+t1406165515
+s1760
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h
+c0000000053D0620B00000000000005C0
+t1406165515
+s1472
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SDLWindow/SDLWindow.h
+c0000000053D0620B00000000000001BC
+t1406165515
+s444
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp
+c0000000053D0620B0000000000001FB4
+t1406165515
+s8116
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h
+c0000000053D0620B0000000000000D97
+t1406165515
+s3479
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp
+c0000000053D0620B000000000000060C
+t1406165515
+s1548
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.h
+c0000000053D0620B0000000000000271
+t1406165515
+s625
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.cpp
+c0000000053D0620B0000000000000739
+t1406165515
+s1849
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.h
+c0000000053D0620B0000000000000585
+t1406165515
+s1413
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp
+c0000000053D0620B00000000000013AB
+t1406165515
+s5035
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.h
+c0000000053D0620B0000000000000505
+t1406165515
+s1285
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp
+c0000000053D0620B0000000000003D47
+t1406165515
+s15687
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMlWindow/SFMLWindow.h
+c0000000053D0620B00000000000001F5
+t1406165515
+s501
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.h
+c0000000053D0620B000000000000E758
+t1406165515
+s59224
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h
+c0000000053D0620B000000000000060B
+t1406165515
+s1547
+
+N/usr/local/include/SDL/SDL.h
+c00000000531A9F2600000000000014FE
+t1394253606
+s5374
+
+N/usr/local/include/SDL/SDL_assert.h
+c00000000531A9F2600000000000029D5
+t1394253606
+s10709
+
+N/usr/local/include/SDL/SDL_atomic.h
+c00000000531A9F260000000000002338
+t1394253606
+s9016
+
+N/usr/local/include/SDL/SDL_audio.h
+c00000000531A9F260000000000004E9C
+t1394253606
+s20124
+
+N/usr/local/include/SDL/SDL_blendmode.h
+c00000000531A9F2600000000000008C8
+t1394253606
+s2248
+
+N/usr/local/include/SDL/SDL_clipboard.h
+c00000000531A9F2600000000000007AE
+t1394253606
+s1966
+
+N/usr/local/include/SDL/SDL_config.h
+c00000000531A9F2600000000000006BF
+t1394253606
+s1727
+
+N/usr/local/include/SDL/SDL_config_macosx.h
+c00000000531A9F260000000000001499
+t1394253606
+s5273
+
+N/usr/local/include/SDL/SDL_cpuinfo.h
+c00000000531A9F260000000000000FB2
+t1394253606
+s4018
+
+N/usr/local/include/SDL/SDL_endian.h
+c00000000531A9F26000000000000173A
+t1394253606
+s5946
+
+N/usr/local/include/SDL/SDL_error.h
+c00000000531A9F2600000000000008AC
+t1394253606
+s2220
+
+N/usr/local/include/SDL/SDL_events.h
+c00000000531A9F260000000000006601
+t1394253606
+s26113
+
+N/usr/local/include/SDL/SDL_filesystem.h
+c00000000531A9F260000000000001483
+t1394253606
+s5251
+
+N/usr/local/include/SDL/SDL_gamecontroller.h
+c00000000531A9F260000000000002900
+t1394253606
+s10496
+
+N/usr/local/include/SDL/SDL_gesture.h
+c00000000531A9F26000000000000086D
+t1394253606
+s2157
+
+N/usr/local/include/SDL/SDL_haptic.h
+c00000000531A9F26000000000000965E
+t1394253606
+s38494
+
+N/usr/local/include/SDL/SDL_hints.h
+c00000000531A9F26000000000000409A
+t1394253606
+s16538
+
+N/usr/local/include/SDL/SDL_joystick.h
+c00000000531A9F260000000000001FD3
+t1394253606
+s8147
+
+N/usr/local/include/SDL/SDL_keyboard.h
+c00000000531A9F260000000000001921
+t1394253606
+s6433
+
+N/usr/local/include/SDL/SDL_keycode.h
+c00000000531A9F2600000000000039FF
+t1394253606
+s14847
+
+N/usr/local/include/SDL/SDL_loadso.h
+c00000000531A9F260000000000000B32
+t1394253606
+s2866
+
+N/usr/local/include/SDL/SDL_log.h
+c00000000531A9F2600000000000017BB
+t1394253606
+s6075
+
+N/usr/local/include/SDL/SDL_main.h
+c00000000531A9F260000000000000CB6
+t1394253606
+s3254
+
+N/usr/local/include/SDL/SDL_messagebox.h
+c00000000531A9F260000000000001203
+t1394253606
+s4611
+
+N/usr/local/include/SDL/SDL_mouse.h
+c00000000531A9F260000000000001D05
+t1394253606
+s7429
+
+N/usr/local/include/SDL/SDL_mutex.h
+c00000000531A9F260000000000001A09
+t1394253606
+s6665
+
+N/usr/local/include/SDL/SDL_pixels.h
+c00000000531A9F260000000000003AEE
+t1394253606
+s15086
+
+N/usr/local/include/SDL/SDL_platform.h
+c00000000531A9F260000000000000ECE
+t1394253606
+s3790
+
+N/usr/local/include/SDL/SDL_power.h
+c00000000531A9F26000000000000099F
+t1394253606
+s2463
+
+N/usr/local/include/SDL/SDL_quit.h
+c00000000531A9F26000000000000083A
+t1394253606
+s2106
+
+N/usr/local/include/SDL/SDL_rect.h
+c00000000531A9F260000000000001021
+t1394253606
+s4129
+
+N/usr/local/include/SDL/SDL_render.h
+c00000000531A9F2600000000000081B1
+t1394253606
+s33201
+
+N/usr/local/include/SDL/SDL_rwops.h
+c00000000531A9F260000000000001C47
+t1394253606
+s7239
+
+N/usr/local/include/SDL/SDL_scancode.h
+c00000000531A9F260000000000003A62
+t1394253606
+s14946
+
+N/usr/local/include/SDL/SDL_stdinc.h
+c00000000531A9F260000000000003611
+t1394253606
+s13841
+
+N/usr/local/include/SDL/SDL_surface.h
+c00000000531A9F260000000000004866
+t1394253606
+s18534
+
+N/usr/local/include/SDL/SDL_system.h
+c00000000531A9F2600000000000011BE
+t1394253606
+s4542
+
+N/usr/local/include/SDL/SDL_thread.h
+c00000000531A9F26000000000000277C
+t1394253606
+s10108
+
+N/usr/local/include/SDL/SDL_timer.h
+c00000000531A9F260000000000000D81
+t1394253606
+s3457
+
+N/usr/local/include/SDL/SDL_touch.h
+c00000000531A9F26000000000000091F
+t1394253606
+s2335
+
+N/usr/local/include/SDL/SDL_version.h
+c00000000531A9F260000000000001429
+t1394253606
+s5161
+
+N/usr/local/include/SDL/SDL_video.h
+c00000000531A9F260000000000008220
+t1394253606
+s33312
+
+N/usr/local/include/SDL/begin_code.h
+c00000000531A9F260000000000000FF9
+t1394253606
+s4089
+
+N/usr/local/include/SDL/close_code.h
+c00000000531A9F260000000000000589
+t1394253606
+s1417
+
+N/usr/local/include/SFML/Config.hpp
+c0000000051F3860600000000000012A9
+t1374914054
+s4777
+
+N/usr/local/include/SFML/Graphics.hpp
+c0000000051F386060000000000000959
+t1374914054
+s2393
+
+N/usr/local/include/SFML/Graphics/BlendMode.hpp
+c0000000051F386060000000000000670
+t1374914054
+s1648
+
+N/usr/local/include/SFML/Graphics/CircleShape.hpp
+c0000000051F38606000000000000144A
+t1374914054
+s5194
+
+N/usr/local/include/SFML/Graphics/Color.hpp
+c0000000051F3860600000000000020B3
+t1374914054
+s8371
+
+N/usr/local/include/SFML/Graphics/ConvexShape.hpp
+c0000000051F38606000000000000147B
+t1374914054
+s5243
+
+N/usr/local/include/SFML/Graphics/Drawable.hpp
+c0000000051F386060000000000000F71
+t1374914054
+s3953
+
+N/usr/local/include/SFML/Graphics/Export.hpp
+c0000000051F386060000000000000691
+t1374914054
+s1681
+
+N/usr/local/include/SFML/Graphics/Font.hpp
+c0000000051F386060000000000003979
+t1374914054
+s14713
+
+N/usr/local/include/SFML/Graphics/Glyph.hpp
+c0000000051F386060000000000000B0E
+t1374914054
+s2830
+
+N/usr/local/include/SFML/Graphics/Image.hpp
+c0000000051F38606000000000000302B
+t1374914054
+s12331
+
+N/usr/local/include/SFML/Graphics/PrimitiveType.hpp
+c0000000051F38606000000000000086B
+t1374914054
+s2155
+
+N/usr/local/include/SFML/Graphics/Rect.hpp
+c0000000051F386060000000000002335
+t1374914054
+s9013
+
+N/usr/local/include/SFML/Graphics/Rect.inl
+c0000000051F3860600000000000013CC
+t1374914054
+s5068
+
+N/usr/local/include/SFML/Graphics/RectangleShape.hpp
+c0000000051F3860600000000000010A8
+t1374914054
+s4264
+
+N/usr/local/include/SFML/Graphics/RenderStates.hpp
+c0000000051F38606000000000000197F
+t1374914054
+s6527
+
+N/usr/local/include/SFML/Graphics/RenderTarget.hpp
+c0000000051F38606000000000000463D
+t1374914054
+s17981
+
+N/usr/local/include/SFML/Graphics/RenderTexture.hpp
+c0000000051F3860600000000000028E7
+t1374914054
+s10471
+
+N/usr/local/include/SFML/Graphics/RenderWindow.hpp
+c0000000051F38606000000000000261F
+t1374914054
+s9759
+
+N/usr/local/include/SFML/Graphics/Shader.hpp
+c0000000051F386060000000000006437
+t1374914054
+s25655
+
+N/usr/local/include/SFML/Graphics/Shape.hpp
+c0000000051F3860600000000000034BC
+t1374914054
+s13500
+
+N/usr/local/include/SFML/Graphics/Sprite.hpp
+c0000000051F386060000000000002A7C
+t1374914054
+s10876
+
+N/usr/local/include/SFML/Graphics/Text.hpp
+c0000000051F3860600000000000032E3
+t1374914054
+s13027
+
+N/usr/local/include/SFML/Graphics/Texture.hpp
+c0000000051F386060000000000005BEF
+t1374914054
+s23535
+
+N/usr/local/include/SFML/Graphics/Transform.hpp
+c0000000051F386060000000000003EB1
+t1374914054
+s16049
+
+N/usr/local/include/SFML/Graphics/Transformable.hpp
+c0000000051F386060000000000003D06
+t1374914054
+s15622
+
+N/usr/local/include/SFML/Graphics/Vertex.hpp
+c0000000051F3860600000000000015F1
+t1374914054
+s5617
+
+N/usr/local/include/SFML/Graphics/VertexArray.hpp
+c0000000051F386060000000000001E5A
+t1374914054
+s7770
+
+N/usr/local/include/SFML/Graphics/View.hpp
+c0000000051F3860600000000000030FD
+t1374914054
+s12541
+
+N/usr/local/include/SFML/System.hpp
+c0000000051F38606000000000000088A
+t1374914054
+s2186
+
+N/usr/local/include/SFML/System/Clock.hpp
+c0000000051F386060000000000000EF9
+t1374914054
+s3833
+
+N/usr/local/include/SFML/System/Err.hpp
+c0000000051F386060000000000000A53
+t1374914054
+s2643
+
+N/usr/local/include/SFML/System/Export.hpp
+c0000000051F386060000000000000685
+t1374914054
+s1669
+
+N/usr/local/include/SFML/System/InputStream.hpp
+c0000000051F3860600000000000012D5
+t1374914054
+s4821
+
+N/usr/local/include/SFML/System/Lock.hpp
+c0000000051F38606000000000000112C
+t1374914054
+s4396
+
+N/usr/local/include/SFML/System/Mutex.hpp
+c0000000051F386060000000000001404
+t1374914054
+s5124
+
+N/usr/local/include/SFML/System/NonCopyable.hpp
+c0000000051F38606000000000000114A
+t1374914054
+s4426
+
+N/usr/local/include/SFML/System/Sleep.hpp
+c0000000051F386060000000000000752
+t1374914054
+s1874
+
+N/usr/local/include/SFML/System/String.hpp
+c0000000051F38606000000000000512D
+t1374914054
+s20781
+
+N/usr/local/include/SFML/System/Thread.hpp
+c0000000051F38606000000000000252B
+t1374914054
+s9515
+
+N/usr/local/include/SFML/System/Thread.inl
+c0000000051F386060000000000000B33
+t1374914054
+s2867
+
+N/usr/local/include/SFML/System/ThreadLocal.hpp
+c0000000051F386060000000000000DC0
+t1374914054
+s3520
+
+N/usr/local/include/SFML/System/ThreadLocalPtr.hpp
+c0000000051F3860600000000000013F6
+t1374914054
+s5110
+
+N/usr/local/include/SFML/System/ThreadLocalPtr.inl
+c0000000051F3860600000000000008F0
+t1374914054
+s2288
+
+N/usr/local/include/SFML/System/Time.hpp
+c0000000051F3860600000000000039F9
+t1374914054
+s14841
+
+N/usr/local/include/SFML/System/Utf.hpp
+c0000000051F386060000000000008DC7
+t1374914054
+s36295
+
+N/usr/local/include/SFML/System/Utf.inl
+c0000000051F3860600000000000056F9
+t1374914054
+s22265
+
+N/usr/local/include/SFML/System/Vector2.hpp
+c0000000051F38606000000000000275E
+t1374914054
+s10078
+
+N/usr/local/include/SFML/System/Vector2.inl
+c0000000051F3860600000000000010E0
+t1374914054
+s4320
+
+N/usr/local/include/SFML/System/Vector3.hpp
+c0000000051F386060000000000002766
+t1374914054
+s10086
+
+N/usr/local/include/SFML/System/Vector3.inl
+c0000000051F3860600000000000011F5
+t1374914054
+s4597
+
+N/usr/local/include/SFML/Window.hpp
+c0000000051F3860600000000000007C7
+t1374914054
+s1991
+
+N/usr/local/include/SFML/Window/Context.hpp
+c0000000051F38606000000000000125B
+t1374914054
+s4699
+
+N/usr/local/include/SFML/Window/ContextSettings.hpp
+c0000000051F3860600000000000010EA
+t1374914054
+s4330
+
+N/usr/local/include/SFML/Window/Event.hpp
+c0000000051F386060000000000002A0B
+t1374914054
+s10763
+
+N/usr/local/include/SFML/Window/Export.hpp
+c0000000051F386060000000000000685
+t1374914054
+s1669
+
+N/usr/local/include/SFML/Window/GlResource.hpp
+c0000000051F386060000000000000A68
+t1374914054
+s2664
+
+N/usr/local/include/SFML/Window/Joystick.hpp
+c0000000051F386060000000000001E46
+t1374914054
+s7750
+
+N/usr/local/include/SFML/Window/Keyboard.hpp
+c0000000051F386060000000000001DB7
+t1374914054
+s7607
+
+N/usr/local/include/SFML/Window/Mouse.hpp
+c0000000051F386060000000000001777
+t1374914054
+s6007
+
+N/usr/local/include/SFML/Window/VideoMode.hpp
+c0000000051F3860600000000000022D9
+t1374914054
+s8921
+
+N/usr/local/include/SFML/Window/Window.hpp
+c0000000051F386060000000000005461
+t1374914054
+s21601
+
+N/usr/local/include/SFML/Window/WindowHandle.hpp
+c0000000051F38606000000000000084A
+t1374914054
+s2122
+
+N/usr/local/include/SFML/Window/WindowStyle.hpp
+c0000000051F3860600000000000007DD
+t1374914054
+s2013
+
+N/usr/local/lib/SDL2.framework/SDL2
+c00000000532332F50000000000376508
+t1394815733
+s3630344
+
+N/usr/local/lib/libsfml-graphics.dylib
+c0000000051F38607000000000019DB34
+t1374914055
+s1694516
+
+N/usr/local/lib/libsfml-system.dylib
+c0000000051F38607000000000001C930
+t1374914055
+s117040
+
+N/usr/local/lib/libsfml-window.dylib
+c0000000051F386070000000000058330
+t1374914055
+s361264
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp
+r0
+
+CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc6dff6c6f8c8b941^e8f414c7f8c8b941^---0#1#1#--18"Check dependencies36"3DD81EAA-93AD-4AE4-AD13-58CAF6830302-
+
+CCompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CS350BoundingVolume.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s432508779.821115
+e432508780.685333
+r1
+xCompileC
+xsolution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CS350BoundingVolume.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Mesh.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IShader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ICamera.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ModelLibrary.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/HalfEdgeMesh.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Light.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/RenderMatrixStack.h
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:9:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:11:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
+o#pragma message("Using std")
+o        ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:10:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:16:9: warning: typedef std::unordered_map<std::string, IShader *> ShaderMap; [-W#pragma-messages]
+o#pragma message("typedef std::unordered_map<std::string, IShader *> ShaderMap;")
+o        ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:9:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:15: warning: private field 'x' is not used [-Wunused-private-field]
+o        float x,y,z;
+o              ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:17: warning: private field 'y' is not used [-Wunused-private-field]
+o        float x,y,z;
+o                ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:19: warning: private field 'z' is not used [-Wunused-private-field]
+o        float x,y,z;
+o                  ^
+o5 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp209"CompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CS350BoundingVolume.o src/SFMLTest/CS350BoundingVolume.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilercb4bd26b8fc7b941^b971af6c8fc7b941^-1879"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:9:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:11:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:10:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:16:9: warning: typedef std::unordered_map<std::string, IShader *> ShaderMap; [-W#pragma-messages]#pragma message("typedef std::unordered_map<std::string, IShader *> ShaderMap;")        ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:9:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:15: warning: private field 'x' is not used [-Wunused-private-field]        float x,y,z;              ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:17: warning: private field 'y' is not used [-Wunused-private-field]        float x,y,z;                ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:19: warning: private field 'z' is not used [-Wunused-private-field]        float x,y,z;                  ^5 warnings generated.5(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-432508780#18446744073709551615#0#2(2@139"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:9:-432508780#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@121"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp0000000000000000^8#9#8#9#101#0#21"Apple LLVM 5.0 Notice--2@138"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:11:-432508780#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h0000000000000000^10#9#10#9#195#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--2@61"Typedef std::unordered_map<std::string, IShader *> ShaderMap;-432508780#18446744073709551615#0#2(2@140"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:10:-432508780#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@121"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp0000000000000000^9#9#9#9#134#0#21"Apple LLVM 5.0 Notice--2@138"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:-432508780#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h0000000000000000^4#9#4#9#120#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h0000000000000000^15#8#15#8#381#0#25"#pragma message Directive--2@29"Private field 'x' is not used-432508780#18446744073709551615#0#1(2@139"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:9:-432508780#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@121"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp0000000000000000^8#9#8#9#101#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h0000000000000000^54#14#54#14#1236#0#19"Unused Entity Issue--2@29"Private field 'y' is not used-432508780#18446744073709551615#0#1(2@139"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:9:-432508780#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@121"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp0000000000000000^8#9#8#9#101#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h0000000000000000^54#16#54#16#1238#0#19"Unused Entity Issue--2@29"Private field 'z' is not used-432508780#18446744073709551615#0#1(2@139"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp:9:-432508780#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@121"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp0000000000000000^8#9#8#9#101#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h0000000000000000^54#18#54#18#1240#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@121"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp0000000000000000^2876"CompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CS350BoundingVolume.o src/SFMLTest/CS350BoundingVolume.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets -F/usr/local/lib -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CS350BoundingVolume.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CS350BoundingVolume.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CS350BoundingVolume.o36"90FABDFD-76E0-4FCF-8C5C-807A36F1726D-
+b9D1E3B23-FCF0-4661-A786-60FFBE2C4317
+
+CCompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CameraController.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942276.595344
+e431942278.564747
+r1
+xCompileC
+xsolution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CameraController.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ICamera.h
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp:1:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.h:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h:5:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
+o#pragma message("Using std")
+o        ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp203"CompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CameraController.o src/SFMLTest/CameraController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler707d9884eabeb941^ab929086eabeb941^-613"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp:1:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.h:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h:5:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-431942278#18446744073709551615#0#3(2@136"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp:1:-431942278#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@118"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp0000000000000000^0#9#0#9#9#0#21"Apple LLVM 5.0 Notice--2@134"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.h:2:-431942278#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@116"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--2@132"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h:5:-431942278#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h0000000000000000^4#9#4#9#81#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@118"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp0000000000000000^2858"CompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CameraController.o src/SFMLTest/CameraController.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets -F/usr/local/lib -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CameraController.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CameraController.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CameraController.o36"A7590EB2-DF9E-47B2-BDAF-509BB65F364D-
+b1384E477-CA69-4170-B219-2706B85012B8
+
+CCompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/Console.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942276.595576
+e431942279.601343
+r1
+xCompileC
+xsolution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/Console.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/usr/local/include/SFML/Graphics.hpp
+d/usr/local/include/SFML/Window.hpp
+d/usr/local/include/SFML/System.hpp
+d/usr/local/include/SFML/Config.hpp
+d/usr/local/include/SFML/System/Clock.hpp
+d/usr/local/include/SFML/System/Export.hpp
+d/usr/local/include/SFML/System/Time.hpp
+d/usr/local/include/SFML/System/Err.hpp
+d/usr/local/include/SFML/System/InputStream.hpp
+d/usr/local/include/SFML/System/Lock.hpp
+d/usr/local/include/SFML/System/NonCopyable.hpp
+d/usr/local/include/SFML/System/Mutex.hpp
+d/usr/local/include/SFML/System/Sleep.hpp
+d/usr/local/include/SFML/System/String.hpp
+d/usr/local/include/SFML/System/Thread.hpp
+d/usr/local/include/SFML/System/Thread.inl
+d/usr/local/include/SFML/System/ThreadLocal.hpp
+d/usr/local/include/SFML/System/ThreadLocalPtr.hpp
+d/usr/local/include/SFML/System/ThreadLocalPtr.inl
+d/usr/local/include/SFML/System/Utf.hpp
+d/usr/local/include/SFML/System/Utf.inl
+d/usr/local/include/SFML/System/Vector2.hpp
+d/usr/local/include/SFML/System/Vector2.inl
+d/usr/local/include/SFML/System/Vector3.hpp
+d/usr/local/include/SFML/System/Vector3.inl
+d/usr/local/include/SFML/Window/Context.hpp
+d/usr/local/include/SFML/Window/Export.hpp
+d/usr/local/include/SFML/Window/GlResource.hpp
+d/usr/local/include/SFML/Window/ContextSettings.hpp
+d/usr/local/include/SFML/Window/Event.hpp
+d/usr/local/include/SFML/Window/Joystick.hpp
+d/usr/local/include/SFML/Window/Keyboard.hpp
+d/usr/local/include/SFML/Window/Mouse.hpp
+d/usr/local/include/SFML/Window/VideoMode.hpp
+d/usr/local/include/SFML/Window/Window.hpp
+d/usr/local/include/SFML/Window/WindowHandle.hpp
+d/usr/local/include/SFML/Window/WindowStyle.hpp
+d/usr/local/include/SFML/Graphics/BlendMode.hpp
+d/usr/local/include/SFML/Graphics/Color.hpp
+d/usr/local/include/SFML/Graphics/Export.hpp
+d/usr/local/include/SFML/Graphics/Font.hpp
+d/usr/local/include/SFML/Graphics/Glyph.hpp
+d/usr/local/include/SFML/Graphics/Rect.hpp
+d/usr/local/include/SFML/Graphics/Rect.inl
+d/usr/local/include/SFML/Graphics/Texture.hpp
+d/usr/local/include/SFML/Graphics/Image.hpp
+d/usr/local/include/SFML/Graphics/RenderStates.hpp
+d/usr/local/include/SFML/Graphics/Transform.hpp
+d/usr/local/include/SFML/Graphics/RenderTexture.hpp
+d/usr/local/include/SFML/Graphics/RenderTarget.hpp
+d/usr/local/include/SFML/Graphics/View.hpp
+d/usr/local/include/SFML/Graphics/PrimitiveType.hpp
+d/usr/local/include/SFML/Graphics/Vertex.hpp
+d/usr/local/include/SFML/Graphics/RenderWindow.hpp
+d/usr/local/include/SFML/Graphics/Shader.hpp
+d/usr/local/include/SFML/Graphics/Shape.hpp
+d/usr/local/include/SFML/Graphics/Drawable.hpp
+d/usr/local/include/SFML/Graphics/Transformable.hpp
+d/usr/local/include/SFML/Graphics/VertexArray.hpp
+d/usr/local/include/SFML/Graphics/CircleShape.hpp
+d/usr/local/include/SFML/Graphics/RectangleShape.hpp
+d/usr/local/include/SFML/Graphics/ConvexShape.hpp
+d/usr/local/include/SFML/Graphics/Sprite.hpp
+d/usr/local/include/SFML/Graphics/Text.hpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.cpp185"CompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/Console.o src/SFMLTest/Console.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerde8e9884eabeb941^3cf49987eabeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.cpp0000000000000000^2804"CompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/Console.o src/SFMLTest/Console.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets -F/usr/local/lib -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/Console.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/Console.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/Console.o36"0429A74B-291F-4244-A191-D87205B953BF-
+b1384E477-CA69-4170-B219-2706B85012B8
+
+CCompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/LevelSystem.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s431942278.564997
+e431942280.655501
+r1
+xCompileC
+xsolution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/LevelSystem.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h:3:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
+o#pragma message("Using std")
+o        ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp193"CompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/LevelSystem.o src/SFMLTest/LevelSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler29b49086eabeb941^31cea788eabeb941^-474"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h:3:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-431942280#18446744073709551615#0#2(2@131"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp:2:-431942280#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@113"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp0000000000000000^1#9#1#9#34#0#21"Apple LLVM 5.0 Notice--2@133"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h:3:-431942280#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@115"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h0000000000000000^2#9#2#9#43#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@113"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp0000000000000000^2828"CompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/LevelSystem.o src/SFMLTest/LevelSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets -F/usr/local/lib -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/LevelSystem.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/LevelSystem.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/LevelSystem.o36"886379C4-404A-42ED-933B-B38D050A9091-
+b1384E477-CA69-4170-B219-2706B85012B8
+
+CCompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/main.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s432508779.823132
+e432508782.266442
+r1
+xCompileC
+xsolution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/main.o
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMlWindow/SFMLWindow.h
+d/usr/local/include/SFML/Window.hpp
+d/usr/local/include/SFML/System.hpp
+d/usr/local/include/SFML/Config.hpp
+d/usr/local/include/SFML/System/Clock.hpp
+d/usr/local/include/SFML/System/Export.hpp
+d/usr/local/include/SFML/System/Time.hpp
+d/usr/local/include/SFML/System/Err.hpp
+d/usr/local/include/SFML/System/InputStream.hpp
+d/usr/local/include/SFML/System/Lock.hpp
+d/usr/local/include/SFML/System/NonCopyable.hpp
+d/usr/local/include/SFML/System/Mutex.hpp
+d/usr/local/include/SFML/System/Sleep.hpp
+d/usr/local/include/SFML/System/String.hpp
+d/usr/local/include/SFML/System/Thread.hpp
+d/usr/local/include/SFML/System/Thread.inl
+d/usr/local/include/SFML/System/ThreadLocal.hpp
+d/usr/local/include/SFML/System/ThreadLocalPtr.hpp
+d/usr/local/include/SFML/System/ThreadLocalPtr.inl
+d/usr/local/include/SFML/System/Utf.hpp
+d/usr/local/include/SFML/System/Utf.inl
+d/usr/local/include/SFML/System/Vector2.hpp
+d/usr/local/include/SFML/System/Vector2.inl
+d/usr/local/include/SFML/System/Vector3.hpp
+d/usr/local/include/SFML/System/Vector3.inl
+d/usr/local/include/SFML/Window/Context.hpp
+d/usr/local/include/SFML/Window/Export.hpp
+d/usr/local/include/SFML/Window/GlResource.hpp
+d/usr/local/include/SFML/Window/ContextSettings.hpp
+d/usr/local/include/SFML/Window/Event.hpp
+d/usr/local/include/SFML/Window/Joystick.hpp
+d/usr/local/include/SFML/Window/Keyboard.hpp
+d/usr/local/include/SFML/Window/Mouse.hpp
+d/usr/local/include/SFML/Window/VideoMode.hpp
+d/usr/local/include/SFML/Window/Window.hpp
+d/usr/local/include/SFML/Window/WindowHandle.hpp
+d/usr/local/include/SFML/Window/WindowStyle.hpp
+d/usr/local/include/SFML/Graphics.hpp
+d/usr/local/include/SFML/Graphics/BlendMode.hpp
+d/usr/local/include/SFML/Graphics/Color.hpp
+d/usr/local/include/SFML/Graphics/Export.hpp
+d/usr/local/include/SFML/Graphics/Font.hpp
+d/usr/local/include/SFML/Graphics/Glyph.hpp
+d/usr/local/include/SFML/Graphics/Rect.hpp
+d/usr/local/include/SFML/Graphics/Rect.inl
+d/usr/local/include/SFML/Graphics/Texture.hpp
+d/usr/local/include/SFML/Graphics/Image.hpp
+d/usr/local/include/SFML/Graphics/RenderStates.hpp
+d/usr/local/include/SFML/Graphics/Transform.hpp
+d/usr/local/include/SFML/Graphics/RenderTexture.hpp
+d/usr/local/include/SFML/Graphics/RenderTarget.hpp
+d/usr/local/include/SFML/Graphics/View.hpp
+d/usr/local/include/SFML/Graphics/PrimitiveType.hpp
+d/usr/local/include/SFML/Graphics/Vertex.hpp
+d/usr/local/include/SFML/Graphics/RenderWindow.hpp
+d/usr/local/include/SFML/Graphics/Shader.hpp
+d/usr/local/include/SFML/Graphics/Shape.hpp
+d/usr/local/include/SFML/Graphics/Drawable.hpp
+d/usr/local/include/SFML/Graphics/Transformable.hpp
+d/usr/local/include/SFML/Graphics/VertexArray.hpp
+d/usr/local/include/SFML/Graphics/CircleShape.hpp
+d/usr/local/include/SFML/Graphics/RectangleShape.hpp
+d/usr/local/include/SFML/Graphics/ConvexShape.hpp
+d/usr/local/include/SFML/Graphics/Sprite.hpp
+d/usr/local/include/SFML/Graphics/Text.hpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SDLWindow/SDLWindow.h
+d/usr/local/include/SDL/SDL.h
+d/usr/local/include/SDL/SDL_main.h
+d/usr/local/include/SDL/SDL_stdinc.h
+d/usr/local/include/SDL/SDL_config.h
+d/usr/local/include/SDL/SDL_platform.h
+d/usr/local/include/SDL/begin_code.h
+d/usr/local/include/SDL/close_code.h
+d/usr/local/include/SDL/SDL_config_macosx.h
+d/usr/local/include/SDL/SDL_assert.h
+d/usr/local/include/SDL/SDL_atomic.h
+d/usr/local/include/SDL/SDL_audio.h
+d/usr/local/include/SDL/SDL_error.h
+d/usr/local/include/SDL/SDL_endian.h
+d/usr/local/include/SDL/SDL_mutex.h
+d/usr/local/include/SDL/SDL_thread.h
+d/usr/local/include/SDL/SDL_rwops.h
+d/usr/local/include/SDL/SDL_clipboard.h
+d/usr/local/include/SDL/SDL_cpuinfo.h
+d/usr/local/include/SDL/SDL_events.h
+d/usr/local/include/SDL/SDL_video.h
+d/usr/local/include/SDL/SDL_pixels.h
+d/usr/local/include/SDL/SDL_rect.h
+d/usr/local/include/SDL/SDL_surface.h
+d/usr/local/include/SDL/SDL_blendmode.h
+d/usr/local/include/SDL/SDL_keyboard.h
+d/usr/local/include/SDL/SDL_keycode.h
+d/usr/local/include/SDL/SDL_scancode.h
+d/usr/local/include/SDL/SDL_mouse.h
+d/usr/local/include/SDL/SDL_joystick.h
+d/usr/local/include/SDL/SDL_gamecontroller.h
+d/usr/local/include/SDL/SDL_quit.h
+d/usr/local/include/SDL/SDL_gesture.h
+d/usr/local/include/SDL/SDL_touch.h
+d/usr/local/include/SDL/SDL_filesystem.h
+d/usr/local/include/SDL/SDL_haptic.h
+d/usr/local/include/SDL/SDL_hints.h
+d/usr/local/include/SDL/SDL_loadso.h
+d/usr/local/include/SDL/SDL_log.h
+d/usr/local/include/SDL/SDL_messagebox.h
+d/usr/local/include/SDL/SDL_power.h
+d/usr/local/include/SDL/SDL_render.h
+d/usr/local/include/SDL/SDL_system.h
+d/usr/local/include/SDL/SDL_timer.h
+d/usr/local/include/SDL/SDL_version.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IShader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ICamera.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ModelLibrary.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Mesh.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/HalfEdgeMesh.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Light.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/RenderMatrixStack.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLShader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLCompiler.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/OpenGLHeaders.hpp
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraint.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/InputSystem/InputSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/LevelSystem.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/XMLReader.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/MeshRenderable.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CameraController.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/Console.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/DebugConsole.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/StringUtilities.h
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:6:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:4:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h:2:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
+o#pragma message("Using std")
+o        ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:6:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:16:9: warning: typedef std::unordered_map<std::string, IShader *> ShaderMap; [-W#pragma-messages]
+o#pragma message("typedef std::unordered_map<std::string, IShader *> ShaderMap;")
+o        ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:8:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLShader.h:4:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLCompiler.h:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/OpenGLHeaders.hpp:12:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:5:2: warning: gl.h and gl3.h are both included.  Compiler will not invoke errors if using removed OpenGL functionality. [-W#warnings]
+o#warning gl.h and gl3.h are both included.  Compiler will not invoke errors if using removed OpenGL functionality.
+o ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:7:19: warning: unused variable 'p' [-Wunused-variable]
+o        Derives(){ void(*p)(derived*) = constraints;}
+o                         ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:45:7: note: in instantiation of member function 'Derives<ElysiumEngine::SDLWindow, ElysiumEngine::IWindow>::Derives' requested here
+o                Derives<T,IWindow>();
+o                ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:271:94: note: in instantiation of member function 'ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>::allocate' requested here
+o    ElysiumEngine::WindowingSystem* windowingSystem = new ElysiumEngine::WindowingSystem(new ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>);
+o                                                                                             ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:6:45: warning: unused variable 'pb' [-Wunused-variable]
+o        static void constraints(derived* p){base * pb = p;}
+o                                                   ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:7:34: note: in instantiation of member function 'Derives<ElysiumEngine::SDLWindow, ElysiumEngine::IWindow>::constraints' requested here
+o        Derives(){ void(*p)(derived*) = constraints;}
+o                                        ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:45:7: note: in instantiation of member function 'Derives<ElysiumEngine::SDLWindow, ElysiumEngine::IWindow>::Derives' requested here
+o                Derives<T,IWindow>();
+o                ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:271:94: note: in instantiation of member function 'ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>::allocate' requested here
+o    ElysiumEngine::WindowingSystem* windowingSystem = new ElysiumEngine::WindowingSystem(new ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>);
+o                                                                                             ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:7:19: warning: unused variable 'p' [-Wunused-variable]
+o        Derives(){ void(*p)(derived*) = constraints;}
+o                         ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:6:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:34:13: note: in instantiation of member function 'Derives<ElysiumEngine::GLSLShader, ElysiumEngine::IShader>::Derives' requested here
+o            Derives<T,IShader>();
+o            ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:282:66: note: in instantiation of member function 'ElysiumEngine::TShaderAllocator<ElysiumEngine::GLSLShader>::allocate' requested here
+o    graphicsSystem->getShaderFactory().registerShader("GLSL",new ElysiumEngine::TShaderAllocator<ElysiumEngine::GLSLShader>());
+o                                                                 ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:6:45: warning: unused variable 'pb' [-Wunused-variable]
+o        static void constraints(derived* p){base * pb = p;}
+o                                                   ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:7:34: note: in instantiation of member function 'Derives<ElysiumEngine::GLSLShader, ElysiumEngine::IShader>::constraints' requested here
+o        Derives(){ void(*p)(derived*) = constraints;}
+o                                        ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:6:
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:34:13: note: in instantiation of member function 'Derives<ElysiumEngine::GLSLShader, ElysiumEngine::IShader>::Derives' requested here
+o            Derives<T,IShader>();
+o            ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:282:66: note: in instantiation of member function 'ElysiumEngine::TShaderAllocator<ElysiumEngine::GLSLShader>::allocate' requested here
+o    graphicsSystem->getShaderFactory().registerShader("GLSL",new ElysiumEngine::TShaderAllocator<ElysiumEngine::GLSLShader>());
+o                                                                 ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:32:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h:18:35: warning: unused function 'hash' [-Wunused-function]
+o    static constexpr unsigned int hash(const char* string)
+o                                  ^
+oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:45:
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:15: warning: private field 'x' is not used [-Wunused-private-field]
+o        float x,y,z;
+o              ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:17: warning: private field 'y' is not used [-Wunused-private-field]
+o        float x,y,z;
+o                ^
+o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:19: warning: private field 'z' is not used [-Wunused-private-field]
+o        float x,y,z;
+o                  ^
+o11 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp179"CompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/main.o src/SFMLTest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler1dc8d26b8fc7b941^4835446e8fc7b941^-11085"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:6:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:4:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h:2:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:6:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:16:9: warning: typedef std::unordered_map<std::string, IShader *> ShaderMap; [-W#pragma-messages]#pragma message("typedef std::unordered_map<std::string, IShader *> ShaderMap;")        ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:8:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLShader.h:4:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLCompiler.h:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/OpenGLHeaders.hpp:12:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:5:2: warning: gl.h and gl3.h are both included.  Compiler will not invoke errors if using removed OpenGL functionality. [-W#warnings]#warning gl.h and gl3.h are both included.  Compiler will not invoke errors if using removed OpenGL functionality. ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:7:19: warning: unused variable 'p' [-Wunused-variable]        Derives(){ void(*p)(derived*) = constraints;}                         ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:45:7: note: in instantiation of member function 'Derives<ElysiumEngine::SDLWindow, ElysiumEngine::IWindow>::Derives' requested here                Derives<T,IWindow>();                ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:271:94: note: in instantiation of member function 'ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>::allocate' requested here    ElysiumEngine::WindowingSystem* windowingSystem = new ElysiumEngine::WindowingSystem(new ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>);                                                                                             ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:6:45: warning: unused variable 'pb' [-Wunused-variable]        static void constraints(derived* p){base * pb = p;}                                                   ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:7:34: note: in instantiation of member function 'Derives<ElysiumEngine::SDLWindow, ElysiumEngine::IWindow>::constraints' requested here        Derives(){ void(*p)(derived*) = constraints;}                                        ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:45:7: note: in instantiation of member function 'Derives<ElysiumEngine::SDLWindow, ElysiumEngine::IWindow>::Derives' requested here                Derives<T,IWindow>();                ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:271:94: note: in instantiation of member function 'ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>::allocate' requested here    ElysiumEngine::WindowingSystem* windowingSystem = new ElysiumEngine::WindowingSystem(new ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>);                                                                                             ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:7:19: warning: unused variable 'p' [-Wunused-variable]        Derives(){ void(*p)(derived*) = constraints;}                         ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:6:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:34:13: note: in instantiation of member function 'Derives<ElysiumEngine::GLSLShader, ElysiumEngine::IShader>::Derives' requested here            Derives<T,IShader>();            ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:282:66: note: in instantiation of member function 'ElysiumEngine::TShaderAllocator<ElysiumEngine::GLSLShader>::allocate' requested here    graphicsSystem->getShaderFactory().registerShader("GLSL",new ElysiumEngine::TShaderAllocator<ElysiumEngine::GLSLShader>());                                                                 ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:6:45: warning: unused variable 'pb' [-Wunused-variable]        static void constraints(derived* p){base * pb = p;}                                                   ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h:7:34: note: in instantiation of member function 'Derives<ElysiumEngine::GLSLShader, ElysiumEngine::IShader>::constraints' requested here        Derives(){ void(*p)(derived*) = constraints;}                                        ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:6:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:34:13: note: in instantiation of member function 'Derives<ElysiumEngine::GLSLShader, ElysiumEngine::IShader>::Derives' requested here            Derives<T,IShader>();            ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:282:66: note: in instantiation of member function 'ElysiumEngine::TShaderAllocator<ElysiumEngine::GLSLShader>::allocate' requested here    graphicsSystem->getShaderFactory().registerShader("GLSL",new ElysiumEngine::TShaderAllocator<ElysiumEngine::GLSLShader>());                                                                 ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:32:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h:18:35: warning: unused function 'hash' [-Wunused-function]    static constexpr unsigned int hash(const char* string)                                  ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:45:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:15: warning: private field 'x' is not used [-Wunused-private-field]        float x,y,z;              ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:17: warning: private field 'y' is not used [-Wunused-private-field]        float x,y,z;                ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h:55:19: warning: private field 'z' is not used [-Wunused-private-field]        float x,y,z;                  ^11 warnings generated.11(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-432508782#18446744073709551615#0#3(2@124"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:6:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^5#9#5#9#141#0#21"Apple LLVM 5.0 Notice--2@138"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:4:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h0000000000000000^3#9#3#9#95#0#21"Apple LLVM 5.0 Notice--2@135"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h:2:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@117"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--2@61"Typedef std::unordered_map<std::string, IShader *> ShaderMap;-432508782#18446744073709551615#0#2(2@124"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:6:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^5#9#5#9#141#0#21"Apple LLVM 5.0 Notice--2@138"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h0000000000000000^4#9#4#9#120#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h0000000000000000^15#8#15#8#381#0#25"#pragma message Directive--2@105"Gl.h and gl3.h are both included.  Compiler will not invoke errors if using removed OpenGL functionality.-432508782#18446744073709551615#0#5(2@124"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:8:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^7#9#7#9#228#0#21"Apple LLVM 5.0 Notice--2@134"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLShader.h:4:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@116"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLShader.h0000000000000000^3#9#3#9#64#0#21"Apple LLVM 5.0 Notice--2@136"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLCompiler.h:2:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@118"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GLSLCompiler.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/OpenGLHeaders.hpp:12:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@121"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/OpenGLHeaders.hpp0000000000000000^11#11#11#11#233#0#21"Apple LLVM 5.0 Notice--2@180"In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:9:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@162"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h0000000000000000^8#9#8#9#150#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@161"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h0000000000000000^4#1#4#1#121#0#18"#warning Directive--2@19"Unused variable 'p'-432508782#18446744073709551615#0#6(2@124"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^1#9#1#9#23#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@122"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--2@123"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h0000000000000000^2#9#2#9#39#0#21"Apple LLVM 5.0 Notice--2@125"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h0000000000000000^5#9#5#9#73#0#21"Apple LLVM 5.0 Notice--2@119"In instantiation of member function 'Derives<ElysiumEngine::SDLWindow, ElysiumEngine::IWindow>::Derives' requested here-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@122"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h0000000000000000^44#6#44#6#1059#0#14"Semantic Issue--2@120"In instantiation of member function 'ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>::allocate' requested here-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^270#93#270#93#10678#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@117"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h0000000000000000^6#18#6#18#144#0#19"Unused Entity Issue--2@20"Unused variable 'pb'-432508782#18446744073709551615#0#7(2@124"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^1#9#1#9#23#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@122"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--2@123"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h0000000000000000^2#9#2#9#39#0#21"Apple LLVM 5.0 Notice--2@125"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h0000000000000000^5#9#5#9#73#0#21"Apple LLVM 5.0 Notice--2@123"In instantiation of member function 'Derives<ElysiumEngine::SDLWindow, ElysiumEngine::IWindow>::constraints' requested here-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@117"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h0000000000000000^6#33#6#33#159#0#14"Semantic Issue--2@119"In instantiation of member function 'Derives<ElysiumEngine::SDLWindow, ElysiumEngine::IWindow>::Derives' requested here-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@122"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h0000000000000000^44#6#44#6#1059#0#14"Semantic Issue--2@120"In instantiation of member function 'ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>::allocate' requested here-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^270#93#270#93#10678#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@117"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h0000000000000000^5#44#5#44#117#0#19"Unused Entity Issue--2@19"Unused variable 'p'-432508782#18446744073709551615#0#6(2@124"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^1#9#1#9#23#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@122"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--2@123"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h0000000000000000^2#9#2#9#39#0#21"Apple LLVM 5.0 Notice--2@125"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h0000000000000000^5#9#5#9#73#0#21"Apple LLVM 5.0 Notice--2@120"In instantiation of member function 'Derives<ElysiumEngine::GLSLShader, ElysiumEngine::IShader>::Derives' requested here-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h0000000000000000^33#12#33#12#827#0#14"Semantic Issue--2@121"In instantiation of member function 'ElysiumEngine::TShaderAllocator<ElysiumEngine::GLSLShader>::allocate' requested here-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^281#65#281#65#11238#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@117"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h0000000000000000^6#18#6#18#144#0#19"Unused Entity Issue--2@20"Unused variable 'pb'-432508782#18446744073709551615#0#7(2@124"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:2:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^1#9#1#9#23#0#21"Apple LLVM 5.0 Notice--2@140"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h:2:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@122"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--2@123"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h:3:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h0000000000000000^2#9#2#9#39#0#21"Apple LLVM 5.0 Notice--2@125"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h:6:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h0000000000000000^5#9#5#9#73#0#21"Apple LLVM 5.0 Notice--2@124"In instantiation of member function 'Derives<ElysiumEngine::GLSLShader, ElysiumEngine::IShader>::constraints' requested here-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@117"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h0000000000000000^6#33#6#33#159#0#14"Semantic Issue--2@120"In instantiation of member function 'Derives<ElysiumEngine::GLSLShader, ElysiumEngine::IShader>::Derives' requested here-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h0000000000000000^33#12#33#12#827#0#14"Semantic Issue--2@121"In instantiation of member function 'ElysiumEngine::TShaderAllocator<ElysiumEngine::GLSLShader>::allocate' requested here-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^281#65#281#65#11238#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@117"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h0000000000000000^5#44#5#44#117#0#19"Unused Entity Issue--2@22"Unused function 'hash'-432508782#18446744073709551615#0#1(2@125"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:32:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^31#9#31#9#781#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@105"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Hashing.h0000000000000000^17#34#17#34#514#0#19"Unused Entity Issue--2@29"Private field 'x' is not used-432508782#18446744073709551615#0#1(2@125"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:45:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^44#9#44#9#1025#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h0000000000000000^54#14#54#14#1236#0#19"Unused Entity Issue--2@29"Private field 'y' is not used-432508782#18446744073709551615#0#1(2@125"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:45:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^44#9#44#9#1025#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h0000000000000000^54#16#54#16#1238#0#19"Unused Entity Issue--2@29"Private field 'z' is not used-432508782#18446744073709551615#0#1(2@125"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp:45:-432508782#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^44#9#44#9#1025#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/CS350BoundingVolume.h0000000000000000^54#18#54#18#1240#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp0000000000000000^2786"CompileC solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/main.o src/SFMLTest/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets -F/usr/local/lib -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/main.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SFMLTest/main.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/main.o36"9F44B4BD-9FE2-431C-86FA-EFA1073F1E01-
+b9D1E3B23-FCF0-4661-A786-60FFBE2C4317
+
+CLd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/SFMLTest normal x86_64
+s432512739.248110
+e432512741.041195
+r1
+xLd
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/SFMLTest
+xnormal
+xx86_64
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/SFMLTest.LinkFileList
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CS350BoundingVolume.o
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/CameraController.o
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/Console.o
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/LevelSystem.o
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/main.o
+d/usr/local/lib/libsfml-window.dylib
+d/usr/local/lib/libsfml-graphics.dylib
+d/usr/local/lib/libsfml-system.dylib
+d/usr/local/lib/SDL2.framework/SDL2
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AGL.framework/AGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/WindowingSystem/Debug/libWindowingSystem.a
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug/libWindow.a
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SDLWindow/Debug/libSDLWindow.a
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/libCoreEngine.a
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/GraphicsSystem/Debug/libGraphics.a
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/libPhysics.a
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug/libInput.a
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/libMaths.a
+d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug/libXML.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+old: warning: directory not found for option '-L/usr/local/lib/Debug'
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/SFMLTest32"Ld assets/SFMLTest normal x86_64ea943fe39ec7b941^b18b0ae59ec7b941^-69"ld: warning: directory not found for option '-L/usr/local/lib/Debug'1(21%IDEActivityLogMessage2@55"Directory not found for option '-L/usr/local/lib/Debug'-432512739#0#69#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#1#--2566"Ld assets/SFMLTest normal x86_64    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets -L/usr/local/lib/Debug -L/usr/local/lib -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets -F/usr/local/lib -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/SFMLTest.LinkFileList -Xlinker -rpath -Xlinker /usr/local/lib -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lsfml-window -lsfml-graphics -lsfml-system -framework SDL2 -framework AGL -framework OpenGL /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/WindowingSystem/Debug/libWindowingSystem.a /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/Debug/libWindow.a /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SDLWindow/Debug/libSDLWindow.a /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/libCoreEngine.a /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/GraphicsSystem/Debug/libGraphics.a /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/libPhysics.a /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/Debug/libInput.a /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/libMaths.a /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/Debug/libCoreEngine.a /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug/libXML.a -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/SFMLTest.build/Debug/SFMLTest.build/Objects-normal/x86_64/SFMLTest_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/assets/SFMLTest36"5BFF5F6B-AC99-4094-B2E2-94044DF90B9B-
+b84786990-AB4B-41A2-8A0B-4FEA482547A1
+

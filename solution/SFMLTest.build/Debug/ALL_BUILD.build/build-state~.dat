@@ -1,0 +1,29 @@
+TALL_BUILD
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/SFMLTest.build/Debug/ALL_BUILD.build/Script-BF145B6E5FFB49A08B82EBD5.sh
+
+N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/SFMLTest.build/Debug/ALL_BUILD.build/Script-BF145B6E5FFB49A08B82EBD5.sh
+c00000000540EB3100000000000000106
+t1410249488
+s262
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9e419f90eabeb941^ae7f9f90eabeb941^---0#1#1#--18"Check dependencies36"51967FDC-C03F-4427-B348-277BA2736DC5-
+
+CPhaseScriptExecution CMake\ Rules /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/SFMLTest.build/Debug/ALL_BUILD.build/Script-BF145B6E5FFB49A08B82EBD5.sh
+s431942288.624000
+e431942289.213584
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/SFMLTest.build/Debug/ALL_BUILD.build/Script-BF145B6E5FFB49A08B82EBD5.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'114"PhaseScriptExecution CMake\ Rules solution/SFMLTest.build/Debug/ALL_BUILD.build/Script-BF145B6E5FFB49A08B82EBD5.shf112a090eabeb941^6dae3691eabeb941^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-431942289#0#8#-0#-----2@26"echo Build\ all\ projects-431942289#9#26#-0#-----2@19"Build all projects-431942289#35#19#-0#-----0#0#1#--374"PhaseScriptExecution CMake\ Rules solution/SFMLTest.build/Debug/ALL_BUILD.build/Script-BF145B6E5FFB49A08B82EBD5.sh    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    /bin/sh -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/SFMLTest.build/Debug/ALL_BUILD.build/Script-BF145B6E5FFB49A08B82EBD5.sh36"CA7AAF54-49DF-416A-B2C2-60BD38F4627F-
+b8AABE3F6-DF0D-4A87-B4D4-36D69B4B5A55
+
