@@ -1,4 +1,4 @@
-SUBDIRS(SFMLTest Engine WindowingSystem SFMLWindow TinyXML2 GraphicsSystem PhysicsSystem Maths InputSystem SDLWindow)
+SUBDIRS(SFMLTest Engine WindowingSystem TinyXML2 GraphicsSystem PhysicsSystem Maths InputSystem SDLWindow)
 
 INCLUDE_DIRECTORIES(./ ./Engine)
 

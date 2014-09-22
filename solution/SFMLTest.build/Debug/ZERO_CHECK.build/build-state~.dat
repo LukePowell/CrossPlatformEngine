@@ -1,30 +1,0 @@
-TZERO_CHECK
-v6
-r1
-cCheck dependencies
-cPhaseScriptExecution CMake\ Rules /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/SFMLTest.build/Debug/ZERO_CHECK.build/Script-FCD762C0390F4E989CC98A0E.sh
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/SFMLTest.build/Debug/ZERO_CHECK.build/Script-FCD762C0390F4E989CC98A0E.sh
-c00000000540E94C00000000000000107
-t1410241728
-s263
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies36764d40ccbeb941^d7695840ccbeb941^---0#1#1#--18"Check dependencies36"0A480FF8-E124-43D7-9358-42B7AC7BD357-
-
-CPhaseScriptExecution CMake\ Rules /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/SFMLTest.build/Debug/ZERO_CHECK.build/Script-FCD762C0390F4E989CC98A0E.sh
-s431934528.338622
-e431934528.958093
-r0
-xPhaseScriptExecution
-xCMake Rules
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/SFMLTest.build/Debug/ZERO_CHECK.build/Script-FCD762C0390F4E989CC98A0E.sh
-oecho ""
-o
-omake -f /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeScripts/ReRunCMake.make
-omake[1]: *** No rule to make target `/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CMakeCCompiler.cmake', needed by `/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/cmake.check_cache'.  Stop.
-omake: *** [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/ZERO_CHECK] Error 2
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'115"PhaseScriptExecution CMake\ Rules solution/SFMLTest.build/Debug/ZERO_CHECK.build/Script-FCD762C0390F4E989CC98A0E.she90d5740ccbeb941^58560641ccbeb941^-605"echo ""make -f /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeScripts/ReRunCMake.makemake[1]: *** No rule to make target `/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CMakeCCompiler.cmake', needed by `/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/cmake.check_cache'.  Stop.make: *** [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/ZERO_CHECK] Error 2Command /bin/sh failed with exit code 25(21%IDEActivityLogMessage2@8"echo ""-431934528#0#8#-0#-----2@124"make -f /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeScripts/ReRunCMake.make-431934528#9#124#-0#-----2@303"make[1]: *** No rule to make target `/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CMakeCCompiler.cmake', needed by `/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/cmake.check_cache'.  Stop.-431934528#133#303#-0#-----2@129"make: *** [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/ZERO_CHECK] Error 2-431934528#436#129#-0#-----2@39"Command /bin/sh failed with exit code 2-431934528#18446744073709551615#0#-2#--29"Shell Script Invocation Error--0#0#1#--376"PhaseScriptExecution CMake\ Rules solution/SFMLTest.build/Debug/ZERO_CHECK.build/Script-FCD762C0390F4E989CC98A0E.sh    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    /bin/sh -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/SFMLTest.build/Debug/ZERO_CHECK.build/Script-FCD762C0390F4E989CC98A0E.sh36"8B6A3503-2DAA-4987-8B43-DEAA05074FD3-
-b7E744C11-6C05-4932-B9AA-F3916C35B025
-

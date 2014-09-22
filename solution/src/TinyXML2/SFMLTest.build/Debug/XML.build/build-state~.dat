@@ -1,74 +1,0 @@
-TXML
-v6
-r1
-cCheck dependencies
-cCompileC solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/tinyxml2.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug/libXML.a normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
-c0000000053477F0400000000000000AA
-t1397194500
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c0000000052696DA3000000000000044C
-t1382641059
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531E57B400000000000001DE
-t1394497460
-s478
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug/libXML.a
-t2
-s0
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/XML.LinkFileList
-c00000000540EB2ED00000000000000A4
-t1410249453
-s164
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/tinyxml2.o
-t1410249458
-s224336
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.cpp
-c0000000053D0620B000000000000CEA7
-t1406165515
-s52903
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9086276deabeb941^cd78336deabeb941^---0#1#1#--18"Check dependencies36"34C80B2E-5A78-430B-8F36-679E4685D924-
-
-CCompileC solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/tinyxml2.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942253.275579
-e431942258.430450
-r1
-xCompileC
-xsolution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/tinyxml2.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.cpp182"CompileC solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/tinyxml2.o src/TinyXML2/tinyxml2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler19aa466deabeb941^d7316e72eabeb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.cpp0000000000000000^2805"CompileC solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/tinyxml2.o src/TinyXML2/tinyxml2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/tinyxml2.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/tinyxml2.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/TinyXML2/tinyxml2.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/tinyxml2.o36"52BCB8A2-7D6C-405D-AF0B-2EADAF24B68C-
-b99BFBDD0-1F8C-48C6-ABFC-BDAA02EA34DA
-
-CLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug/libXML.a normal x86_64
-s431942259.034355
-e431942259.695273
-r1
-xLibtool
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug/libXML.a
-xnormal
-xx86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Libtool solution/src/TinyXML2/Debug/libXML.a normal x86_6458"Libtool solution/src/TinyXML2/Debug/libXML.a normal x86_6440d90873eabeb941^c8231c74eabeb941^---0#0#1#--827"Libtool solution/src/TinyXML2/Debug/libXML.a normal x86_64    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/SFMLTest.build/Debug/XML.build/Objects-normal/x86_64/XML.LinkFileList -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/Debug/libXML.a36"5BE72035-5186-40E1-BA94-CAC7377C63F5-
-b99BFBDD0-1F8C-48C6-ABFC-BDAA02EA34DA
-

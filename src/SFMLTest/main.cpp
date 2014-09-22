@@ -1,6 +1,5 @@
 /* Systems*/
 #include "WindowingSystem/WindowingSystem.h"
-#include "SFMlWindow/SFMLWindow.h"
 #include "SDLWindow/SDLWindow.h"
 
 #include "GraphicsSystem/GraphicsSystem.h"
@@ -37,12 +36,11 @@
 #include <sstream>
 #include <map>
 
-#include "SFML/Window/Joystick.hpp"
-#include "SFML/Graphics.hpp"
-
 #include "Console.h"
 
 #include "CS350BoundingVolume.h"
+
+#include <ctime>
 
 static bool consoleEnabled = false;
 
@@ -57,7 +55,7 @@ void registerComponents()
     ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("planecollider",new ElysiumEngine::TComponentAllocator<ElysiumEngine::PlaneCollider>());
     ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("cameracontroller", new ElysiumEngine::TComponentAllocator<ElysiumEngine::CameraController>());
     ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("freecamera", new ElysiumEngine::TComponentAllocator<ElysiumEngine::FreeCamera>());
-        ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("light", new ElysiumEngine::TComponentAllocator<ElysiumEngine::Light>());
+    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("light", new ElysiumEngine::TComponentAllocator<ElysiumEngine::Light>());
 }
 
 void parseXMLOnThread()
@@ -264,12 +262,20 @@ int main(int argc, char **argv)
     ElysiumEngine::GameObjectFactory *gameObjFactory = new ElysiumEngine::GameObjectFactory();
     registerComponents();
     
-    sf::Clock clock;
+	std::clock_t clock = 0;
     
     ElysiumEngine::MessagingSystem *messagingSystem = new ElysiumEngine::MessagingSystem();
     
     ElysiumEngine::WindowingSystem* windowingSystem = new ElysiumEngine::WindowingSystem(new ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>);
-    ElysiumEngine::IWindow *mainWindow = windowingSystem->createWindow("CS 350",sf::VideoMode::getDesktopMode().width,sf::VideoMode::getDesktopMode().height);
+	windowingSystem->InitializeSubSystems();
+	SDL_DisplayMode mode;
+	int error = SDL_GetDesktopDisplayMode(0, &mode);
+	if (error)
+	{
+		std::cout << SDL_GetError() << std::endl;
+	}
+
+    ElysiumEngine::IWindow *mainWindow = windowingSystem->createWindow("CS 350",mode.w,mode.h);
     
 #ifdef WIN32 //Needed for windows
 	glewExperimental = GL_TRUE;
@@ -307,41 +313,16 @@ int main(int argc, char **argv)
     
     
     messagingSystem->registerListener("KeyStateMessage",inputSystem);
-    
-    //This code is SFML dependent and breaks encapsulation should be moved to an OpenGL library and Graphics at a much later
-    //date
-    //sf::Font font;
-    //sf::Text text;
-    //if(!font.loadFromFile("SourceCodePro-Light.ttf"))
-    //{
-    //    std::cout << "Could not open font file!";
-    //}
-    
-    //text.setFont(font);
-    //text.setCharacterSize(24);
 
-    //sf::RenderWindow *w = ((ElysiumEngine::SFMLWindow *)mainWindow)->window;
-    //std::shared_ptr<ElysiumEngine::SFMLConsoleListener> reader = std::shared_ptr<ElysiumEngine::SFMLConsoleListener>(new ElysiumEngine::SFMLConsoleListener());
-    //std::shared_ptr<ElysiumEngine::SFMLConsoleWriter> writer = std::shared_ptr<ElysiumEngine::SFMLConsoleWriter>(new ElysiumEngine::SFMLConsoleWriter(w,reader.get()));
-    
-    //DebugLog::Console *console = new DebugLog::Console(writer,reader);
-    //console->RegisterFunction("loadOBJ", loadObjToPosition);
-    
-    //ElysiumEngine::MessagingSystem::g_MessagingSystem->registerListener("KeyStateMessage",reader.get());
-    //ElysiumEngine::MessagingSystem::g_MessagingSystem->registerListener("TextMessage", reader.get());
-    
     float systemTimes[10] = {0.0f};
     float tempElapsed = 0.0f;
     std::string stream;
     float total = 0.0f;
-    
-    //sf::RectangleShape shape(sf::Vector2f(1920,1080));
-    //shape.setFillColor(sf::Color(125,125,125,200));
-    
+
     while(mainWindow->isOpen())
     {
         total += dt;
-        dt = clock.getElapsedTime().asSeconds();
+		dt = static_cast<float>(std::clock() - clock) / CLOCKS_PER_SEC;
         elapsed += dt;
         if(elapsed >= 1.0f)
         {
@@ -357,24 +338,24 @@ int main(int argc, char **argv)
             
             //text.setString(stream.str());
         }
-        clock.restart();
+		clock = std::clock();
         frames++;
         
-        tempElapsed = clock.getElapsedTime().asSeconds();
+        //tempElapsed = clock.getElapsedTime().asSeconds();
         windowingSystem->update(dt);
-        systemTimes[0] = clock.getElapsedTime().asSeconds() - tempElapsed;
+        //systemTimes[0] = clock.getElapsedTime().asSeconds() - tempElapsed;
         
         simulationControls();
         inputSystem->update(dt);
         gameObjFactory->update(dt);
         
-        tempElapsed = clock.getElapsedTime().asSeconds();
+        //tempElapsed = clock.getElapsedTime().asSeconds();
         physics->update(dt);
-        systemTimes[2] = clock.getElapsedTime().asSeconds() - tempElapsed;
+        //systemTimes[2] = clock.getElapsedTime().asSeconds() - tempElapsed;
         
-        tempElapsed = clock.getElapsedTime().asSeconds();
+        //tempElapsed = clock.getElapsedTime().asSeconds();
         graphicsSystem->update(dt);
-        systemTimes[1] = clock.getElapsedTime().asSeconds() - tempElapsed;
+        //systemTimes[1] = clock.getElapsedTime().asSeconds() - tempElapsed;
         
         //w->pushGLStates();
         if(!consoleEnabled)

@@ -47,3 +47,8 @@ ElysiumEngine::WindowingSystem::~WindowingSystem()
     }
     delete allocator;
 }
+
+void ElysiumEngine::WindowingSystem::InitializeSubSystems()
+{
+	allocator->InitalizeSubSystems();
+}

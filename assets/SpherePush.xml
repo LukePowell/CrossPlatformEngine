@@ -2,7 +2,7 @@
 <level type="list">
 	<object name="bunny.xml">
 		<instance>
-			<position x="0.0" y="2.0" z="-5.0f"/>
+			<position x="0.0" y="2	.0" z="-5.0f"/>
 			<scale x="5" y="5" z="5"/>
 		</instance>
 		<!--<instance>

@@ -21,14 +21,15 @@ void checkSDLError(int line = -1)
 #endif
 }
 
-bool ElysiumEngine::SDLWindow::create()
+void ElysiumEngine::SDLWindow::InitSubSystems()
 {
-	if(!SDL_INIT)
+
+	if (!SDL_INIT)
 	{
 		if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
 		{
-			std::cerr << "SDL_Init Error: " << SDL_GetError() << std::endl;	
-			return false;
+			std::cerr << "SDL_Init Error: " << SDL_GetError() << std::endl;
+			SDL_INIT = false;
 		}
 	}
 
@@ -37,12 +38,20 @@ bool ElysiumEngine::SDLWindow::create()
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 3);
 #ifndef WIN32
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK,
-                        SDL_GL_CONTEXT_PROFILE_CORE);
+		SDL_GL_CONTEXT_PROFILE_CORE);
 #endif
 
-    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
-    SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
-    
+	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+	SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
+
+	SDL_INIT = true;
+}
+
+bool ElysiumEngine::SDLWindow::create()
+{   
+	if (!SDL_INIT)
+		return false;
+
 	window = SDL_CreateWindow(title.c_str(),0,0,resX,resY,SDL_WINDOW_OPENGL | SDL_WINDOW_SHOWN);
     checkSDLError();
     

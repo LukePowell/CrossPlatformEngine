@@ -1,8 +1,8 @@
-# Install script for directory: /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src
+# Install script for directory: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SFMLTest")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,16 +29,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLTest/cmake_install.cmake")
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Engine/cmake_install.cmake")
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/WindowingSystem/cmake_install.cmake")
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SFMLWindow/cmake_install.cmake")
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/TinyXML2/cmake_install.cmake")
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/GraphicsSystem/cmake_install.cmake")
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/cmake_install.cmake")
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/cmake_install.cmake")
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/InputSystem/cmake_install.cmake")
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/SDLWindow/cmake_install.cmake")
+  include("C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SFMLTest/cmake_install.cmake")
+  include("C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/Engine/cmake_install.cmake")
+  include("C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/WindowingSystem/cmake_install.cmake")
+  include("C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/TinyXML2/cmake_install.cmake")
+  include("C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/GraphicsSystem/cmake_install.cmake")
+  include("C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/PhysicsSystem/cmake_install.cmake")
+  include("C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/Maths/cmake_install.cmake")
+  include("C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/InputSystem/cmake_install.cmake")
+  include("C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SDLWindow/cmake_install.cmake")
 
 endif()
 

@@ -1,8 +1,8 @@
-# Install script for directory: /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/SDLWindow
+# Install script for directory: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/src/SDLWindow
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SFMLTest")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

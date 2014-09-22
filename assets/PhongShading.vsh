@@ -13,8 +13,10 @@ uniform mat4 scale;
 
 layout(location = 0) in vec4 aPos;
 layout(location = 1) in vec4 aNormal;
+layout(location = 2) in vec2 aTex;
+layout(location = 3) in vec4 aKd;
 
-out vec4 color;
+out vec4 vKd;
 
 void main()
 {	
@@ -28,5 +30,6 @@ void main()
 	vPosition = vec3(uModelView * trans * scale * aPos);
 	vNormal = vec3(normalize(normalMat * aNormal));	
 
+	vKd = aKd;
 	gl_Position = uProjection * uModelView * trans * scale * aPos;
 }

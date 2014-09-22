@@ -17,6 +17,7 @@ void ElysiumEngine::CameraController::update(float dt)
     float axisHori = g_InputSystem->getAxis("Horizontal");
     float axisVert = g_InputSystem->getAxis("Vertical");
     float rotateHori = g_InputSystem->getAxis("RotateHorizontal");
+	float rotateVert = g_InputSystem->getAxis("RotateVertical");
     float axisUp = g_InputSystem->getAxis("Up");
     Vec4 velocity;
     
@@ -37,6 +38,7 @@ void ElysiumEngine::CameraController::update(float dt)
     Matrix m = BuildYRotationMatrix(rotateHori * rotationSpeed);
     Vec4 direction = m * cam->getDirection();
     cam->setDirection(direction);
+	
     
     //Do something to rotate here.
 }

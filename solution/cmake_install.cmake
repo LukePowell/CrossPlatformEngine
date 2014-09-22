@@ -1,8 +1,8 @@
-# Install script for directory: /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine
+# Install script for directory: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SFMLTest")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/cmake_install.cmake")
+  include("C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/cmake_install.cmake")
 
 endif()
 
@@ -39,7 +39,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()

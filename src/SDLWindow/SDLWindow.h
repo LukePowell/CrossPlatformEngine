@@ -16,6 +16,7 @@ namespace ElysiumEngine
 
 		bool isOpen();
 		void redraw();
+		static void InitSubSystems();
 	private:
 		SDL_Window *window;
         SDL_GLContext context;

@@ -13,15 +13,15 @@ namespace ElysiumEngine
         HalfEdge(){userData=nullptr;opposite = nullptr;}
         HalfEdgeVertex *endPt;
         
-        HalfEdge *next;
-        HalfEdge *previous;
+        HalfEdge *next = nullptr;
+        HalfEdge *previous = nullptr;
         HalfEdge *opposite;
         
-        HalfEdgeFace *face;
+		HalfEdgeFace *face = nullptr;
         
         void *userData;
         
-        unsigned int marker;
+        unsigned int marker = 0;
         
         HalfEdgeVertex *getSelf();
         int getCount();
@@ -48,6 +48,7 @@ namespace ElysiumEngine
         HalfEdge *edge;
         int indices[3];
         unsigned int marker;
+		Vec4 normal;
     };
     
     class HalfEdgeMesh

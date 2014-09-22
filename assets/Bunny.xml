@@ -8,5 +8,6 @@
 		<shader>BasicPhong</shader>
 		<file>cleanedbunny</file>
 		<dynamic value="true"/>
+		<strip value="true"/>
 	</mesh>
 </archetype>

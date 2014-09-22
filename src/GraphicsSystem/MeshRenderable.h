@@ -4,9 +4,11 @@
 #include "Transform.h"
 #include "Mesh.h"
 #include "HalfEdgeMesh.h"
+#include "GraphicsSystem.h"
 
 namespace ElysiumEngine
 {
+
 	class MeshRenderable : public IRenderable
 	{
     public:
@@ -43,12 +45,15 @@ namespace ElysiumEngine
         Transform *transform;
         Mesh *mesh;
         HalfEdgeMesh *halfEdge;
+		std::vector<Strip> strips;
 
         unsigned int vao;
         unsigned int buffer;
         unsigned int indexBuffer;
         
         bool dynamic;
+		bool strip = false;
+
         bool wireframe;
         Vec4 color;
         std::string shaderID;

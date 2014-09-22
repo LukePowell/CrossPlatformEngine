@@ -2,8 +2,8 @@
 #include "ISystem.h"
 #include "Constraint.h"
 #include "Collider.h"
-
 #include <list>
+#include <algorithm>
 
 #define TIME_STEP 0.016f
 

@@ -33,6 +33,10 @@ namespace ElysiumEngine
     {
     public:
     	virtual IWindow *allocate(std::string title, int resX, int resY, bool fullscreen) = 0;
+
+		virtual void InitalizeSubSystems() = 0;
+
+
     	virtual ~IWindowAllocator(){}
     };
 
@@ -46,18 +50,26 @@ namespace ElysiumEngine
 
     		return new T(title, resX, resY, fullscreen);
     	}
+
+		void InitalizeSubSystems()
+		{
+			T::InitSubSystems();
+		}
     };
 
 	class WindowingSystem : public ISystem
 	{
-		public:
-			WindowingSystem(IWindowAllocator *allocator);
-            ~WindowingSystem();
-            IWindow  *createWindow(std::string title, int resX, int resY, bool fullscreen = false);
+	public:
+		WindowingSystem(IWindowAllocator *allocator);
+		~WindowingSystem();
+		IWindow  *createWindow(std::string title, int resX, int resY, bool fullscreen = false);
 
-			void update(float dt);
-			void onStart();
-			void onExit();
+		void update(float dt);
+		void onStart();
+		void onExit();
+
+		void InitializeSubSystems();
+
 		private:
             std::vector<IWindow *> windows;
             IWindowAllocator *allocator;

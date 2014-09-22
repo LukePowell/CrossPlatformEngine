@@ -5,6 +5,7 @@
 		<axis pos="d" neg="a">Horizontal</axis>
 		<axis pos="q" neg="e">RotateHorizontal</axis>
 		<axis pos="z" neg="x">Up</axis>
+		<axis pos="r" neg="f">RotateVertical</axis>
 		<key key=" ">step</key>
 		<key key="p">pause</key>
 		<key key="4">nextLevel</key>

@@ -1,4 +1,4 @@
-The system is: Darwin - 13.3.0 - i386
+The system is: Windows - 6.1 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler:  
 Build flags: 
@@ -6,44 +6,44 @@ Id flags:
 
 The output was:
 0
-=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-Check dependencies
+Build started 9/21/2014 11:34:28 PM.
+Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\3.0.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\3.0.1\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\3.0.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
-Write auxiliary files
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-chmod 0755 /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
 
-CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CMakeCCompilerId.c -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
-
-Ld CompilerIdC normal i386
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC
-    export MACOSX_DEPLOYMENT_TARGET=10.9
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC
-
-PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC
-    /bin/sh -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-GCC_VERSION=com.apple.compilers.llvm.clang.1_0
-
-** BUILD SUCCEEDED **
-
+Time Elapsed 00:00:00.93
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
-The C compiler identification is Clang, found in "/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdC/CompilerIdC"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -52,386 +52,198 @@ Id flags:
 
 The output was:
 0
-=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-Check dependencies
+Build started 9/21/2014 11:34:29 PM.
+Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\3.0.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\3.0.1\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\3.0.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
-Write auxiliary files
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-chmod 0755 /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
 
-CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
-
-Ld CompilerIdCXX normal i386
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX
-    export MACOSX_DEPLOYMENT_TARGET=10.9
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX
-
-PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX
-    /bin/sh -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-GCC_VERSION=com.apple.compilers.llvm.clang.1_0
-
-** BUILD SUCCEEDED **
-
+Time Elapsed 00:00:00.41
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
-The CXX compiler identification is Clang, found in "/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/2.8.11.2/CompilerIdCXX/CompilerIdCXX"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The system is: Darwin - 13.3.0 - x86_64
-Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler:  
-Build flags: 
-Id flags: 
-
-The output was:
-0
-=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-chmod 0755 /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
-
-CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
-
-Ld CompilerIdC normal i386
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC
-    export MACOSX_DEPLOYMENT_TARGET=10.9
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC
-
-PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC
-    /bin/sh -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-GCC_VERSION=com.apple.compilers.llvm.clang.1_0
-
-** BUILD SUCCEEDED **
-
-
-
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
-
-The C compiler identification is AppleClang, found in "/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC"
-
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler:  
-Build flags: 
-Id flags: 
-
-The output was:
-0
-=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-chmod 0755 /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-
-CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
-
-Ld CompilerIdCXX normal i386
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX
-    export MACOSX_DEPLOYMENT_TARGET=10.9
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX
-
-PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX
-    /bin/sh -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-GCC_VERSION=com.apple.compilers.llvm.clang.1_0
-
-** BUILD SUCCEEDED **
-
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
-
-The CXX compiler identification is AppleClang, found in "/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX"
+The CXX compiler identification is MSVC, found in "C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Applications/CMake 2.8-11.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2491822786" "-configuration" "Debug"
-=== BUILD TARGET cmTryCompileExec2491822786 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2491822786.build/Objects-normal/x86_64
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2491822786.build/Objects-normal/x86_64/cmTryCompileExec2491822786.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2491822786.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2491822786.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2491822786.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2491822786.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2491822786.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2491822786.build/Objects-normal/x86_64/testCCompiler.o
-
-Ld Debug/cmTryCompileExec2491822786 normal x86_64
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.9
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2491822786.build/Objects-normal/x86_64/cmTryCompileExec2491822786.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2491822786.build/Objects-normal/x86_64/cmTryCompileExec2491822786_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2491822786
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1211489524.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 9/21/2014 11:34:30 PM.
+Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec1211489524.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1211489524.dir\Debug\".
+  Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1211489524.dir\Debug\cmTryCom.EEE8BF93.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1211489524.dir\Debug\cmTryCom.EEE8BF93.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1211489524.dir\Debug\\" /Fd"cmTryCompileExec1211489524.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1211489524.dir\Debug\\" /Fd"cmTryCompileExec1211489524.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1211489524.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1211489524.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1211489524.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1211489524.dir\Debug\testCCompiler.obj
+  cmTryCompileExec1211489524.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1211489524.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1211489524.dir\Debug\cmTryCom.EEE8BF93.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1211489524.dir\Debug\cmTryCom.EEE8BF93.tlog\cmTryCompileExec1211489524.lastbuildstate".
+Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec1211489524.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Applications/CMake 2.8-11.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2847907217" "-configuration" "Debug"
-=== BUILD TARGET cmTryCompileExec2847907217 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCCompilerABI.c -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/CMakeCCompilerABI.o
-
-Ld Debug/cmTryCompileExec2847907217 normal x86_64
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.9
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217.LinkFileList -mmacosx-version-min=10.9 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2847907217
-Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
-Target: x86_64-apple-darwin13.3.0
-Thread model: posix
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2847907217 -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug
-@(#)PROGRAM:ld  PROJECT:ld64-236.4
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
-Library search paths:
-	/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib
-Framework search paths:
-	/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/
-
-** BUILD SUCCEEDED **
-
-
-
-Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/Applications/CMake 2.8-11.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2847907217" "-configuration" "Debug"]
-  ignore line: [=== BUILD TARGET cmTryCompileExec2847907217 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
-  ignore line: []
-  ignore line: [Check dependencies]
-  ignore line: []
-  ignore line: [Write auxiliary files]
-  ignore line: [/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64]
-  ignore line: [write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217.LinkFileList]
-  ignore line: []
-  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/CMakeCCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
-  ignore line: [    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp]
-  ignore line: [    export LANG=en_US.US-ASCII]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCCompilerABI.c -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
-  ignore line: []
-  ignore line: [Ld Debug/cmTryCompileExec2847907217 normal x86_64]
-  ignore line: [    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp]
-  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.9]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217.LinkFileList -mmacosx-version-min=10.9 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2847907217]
-  ignore line: [Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)]
-  ignore line: [Target: x86_64-apple-darwin13.3.0]
-  ignore line: [Thread model: posix]
-  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2847907217 -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug]
-            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2847907217 -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a ]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2847907217 -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a ]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.9.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk] ==> ignore
-    arg [-o] ==> ignore
-    arg [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2847907217] ==> ignore
-    arg [-filelist] ==> ignore
-    arg [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217.LinkFileList] ==> ignore
-    arg [-v] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-dependency_info] ==> ignore
-    arg [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2847907217.build/Objects-normal/x86_64/cmTryCompileExec2847907217_dependency_info.dat] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
-  Framework search paths: [;/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug] ==> [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
-  collapse framework dir [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug] ==> [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
-  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
-  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1279456597.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 9/21/2014 11:34:31 PM.
+Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec1279456597.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1279456597.dir\Debug\".
+  Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1279456597.dir\Debug\cmTryCom.20AE3D17.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1279456597.dir\Debug\cmTryCom.20AE3D17.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1279456597.dir\Debug\\" /Fd"cmTryCompileExec1279456597.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1279456597.dir\Debug\\" /Fd"cmTryCompileExec1279456597.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1279456597.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1279456597.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1279456597.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1279456597.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec1279456597.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1279456597.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1279456597.dir\Debug\cmTryCom.20AE3D17.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1279456597.dir\Debug\cmTryCom.20AE3D17.tlog\cmTryCompileExec1279456597.lastbuildstate".
+Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec1279456597.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.49
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Applications/CMake 2.8-11.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2174833673" "-configuration" "Debug"
-=== BUILD TARGET cmTryCompileExec2174833673 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2174833673.build/Objects-normal/x86_64
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2174833673.build/Objects-normal/x86_64/cmTryCompileExec2174833673.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2174833673.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2174833673.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2174833673.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2174833673.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2174833673.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2174833673.build/Objects-normal/x86_64/testCXXCompiler.o
-
-Ld Debug/cmTryCompileExec2174833673 normal x86_64
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.9
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2174833673.build/Objects-normal/x86_64/cmTryCompileExec2174833673.LinkFileList -mmacosx-version-min=10.9 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2174833673.build/Objects-normal/x86_64/cmTryCompileExec2174833673_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2174833673
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec204389706.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 9/21/2014 11:34:31 PM.
+Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec204389706.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec204389706.dir\Debug\".
+  Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec204389706.dir\Debug\cmTryCom.7456D234.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec204389706.dir\Debug\cmTryCom.7456D234.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec204389706.dir\Debug\\" /Fd"cmTryCompileExec204389706.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec204389706.dir\Debug\\" /Fd"cmTryCompileExec204389706.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec204389706.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec204389706.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec204389706.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec204389706.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec204389706.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec204389706.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec204389706.dir\Debug\cmTryCom.7456D234.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec204389706.dir\Debug\cmTryCom.7456D234.tlog\cmTryCompileExec204389706.lastbuildstate".
+Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec204389706.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Applications/CMake 2.8-11.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2124072555" "-configuration" "Debug"
-=== BUILD TARGET cmTryCompileExec2124072555 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64
-write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
-
-Ld Debug/cmTryCompileExec2124072555 normal x86_64
-    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.9
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555.LinkFileList -mmacosx-version-min=10.9 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2124072555
-Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
-Target: x86_64-apple-darwin13.3.0
-Thread model: posix
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2124072555 -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug
-@(#)PROGRAM:ld  PROJECT:ld64-236.4
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
-Library search paths:
-	/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib
-Framework search paths:
-	/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/
-
-** BUILD SUCCEEDED **
-
-
-
-Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp]
-  ignore line: []
-  ignore line: [Run Build Command:"/Applications/CMake 2.8-11.app/Contents/bin/cmakexbuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTryCompileExec2124072555" "-configuration" "Debug"]
-  ignore line: [=== BUILD TARGET cmTryCompileExec2124072555 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
-  ignore line: []
-  ignore line: [Check dependencies]
-  ignore line: []
-  ignore line: [Write auxiliary files]
-  ignore line: [/bin/mkdir -p /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64]
-  ignore line: [write-file /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555.LinkFileList]
-  ignore line: []
-  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
-  ignore line: [    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp]
-  ignore line: [    export LANG=en_US.US-ASCII]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /Applications/CMake.app/Contents/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
-  ignore line: []
-  ignore line: [Ld Debug/cmTryCompileExec2124072555 normal x86_64]
-  ignore line: [    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp]
-  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.9]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555.LinkFileList -mmacosx-version-min=10.9 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555_dependency_info.dat -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2124072555]
-  ignore line: [Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)]
-  ignore line: [Target: x86_64-apple-darwin13.3.0]
-  ignore line: [Thread model: posix]
-  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2124072555 -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug]
-            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2124072555 -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a ]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2124072555 -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a ]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.9.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk] ==> ignore
-    arg [-o] ==> ignore
-    arg [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2124072555] ==> ignore
-    arg [-filelist] ==> ignore
-    arg [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555.LinkFileList] ==> ignore
-    arg [-v] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-dependency_info] ==> ignore
-    arg [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2124072555.build/Objects-normal/x86_64/cmTryCompileExec2124072555_dependency_info.dat] ==> ignore
-    arg [-lc++] ==> lib [c++]
-    arg [-lSystem] ==> lib [System]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
-  Framework search paths: [;/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug] ==> [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
-  collapse framework dir [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug] ==> [/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
-  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
-  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2428790999.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 9/21/2014 11:34:32 PM.
+Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec2428790999.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2428790999.dir\Debug\".
+  Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2428790999.dir\Debug\cmTryCom.71A27419.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2428790999.dir\Debug\cmTryCom.71A27419.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2428790999.dir\Debug\\" /Fd"cmTryCompileExec2428790999.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2428790999.dir\Debug\\" /Fd"cmTryCompileExec2428790999.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2428790999.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2428790999.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2428790999.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2428790999.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec2428790999.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2428790999.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2428790999.dir\Debug\cmTryCom.71A27419.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2428790999.dir\Debug\cmTryCom.71A27419.tlog\cmTryCompileExec2428790999.lastbuildstate".
+Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec2428790999.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.44
 
 

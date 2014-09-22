@@ -8,7 +8,7 @@ uniform sampler2D uSpecularMap;
 in vec3 vPosition;
 in vec3 vNormal;
 in vec3 vCamPosW;
-in vec4 color;
+in vec4 vKd;
 
 //Light and camera attributes
 uniform vec3 uLightPosition;
@@ -61,7 +61,7 @@ void main()
 	}*/
 	/*else 
 	{*/
-		MatDiffuse = uDiffuse;
+		MatDiffuse = vKd;//uDiffuse;
 		MatSpecular = vec4(1.0,1.0,1.0,1.0);
 	//}
 	

@@ -1,283 +1,0 @@
-TMaths
-v6
-r1
-cCheck dependencies
-cCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Geometry.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/MathLib.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Matrix4x4.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Point.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Point.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Quaternion.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Vector.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/libMaths.a normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
-c0000000053477F0400000000000000AA
-t1397194500
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c0000000052696DA3000000000000044C
-t1382641059
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531E57B400000000000001DE
-t1394497460
-s478
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/libMaths.a
-t1410249461
-s206784
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Geometry.o
-t1410249458
-s29312
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/MathLib.o
-t1410249458
-s101024
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Maths.LinkFileList
-c00000000540EB2ED00000000000003CF
-t1410249453
-s975
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Matrix4x4.o
-t1410249458
-s28604
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Point.o
-t1410249458
-s12312
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Quaternion.o
-t1410249459
-s14136
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Vector.o
-t1410249460
-s16340
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-c0000000053D0620B00000000000000F8
-t1406165515
-s248
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.cpp
-c0000000053D0620B00000000000019A7
-t1406165515
-s6567
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-c0000000053D0620B00000000000003D5
-t1406165515
-s981
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.cpp
-c0000000053D0620B0000000000002652
-t1406165515
-s9810
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-c0000000053D0620B0000000000000137
-t1406165515
-s311
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-c0000000053D0620B0000000000000EB3
-t1406165515
-s3763
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp
-c0000000053D0620B0000000000002790
-t1406165515
-s10128
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Point.cpp
-c0000000053D0620B00000000000009F1
-t1406165515
-s2545
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.cpp
-c0000000053D0620B0000000000000A18
-t1406165515
-s2584
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-c0000000053D0620B0000000000000254
-t1406165515
-s596
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vector.cpp
-c0000000053D0620B000000000000176C
-t1406165515
-s5996
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-c0000000053D0620B00000000000008BD
-t1406165515
-s2237
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Point.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vector.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd3f5d4c5f8c8b941^6e6d31c6f8c8b941^---0#1#1#--18"Check dependencies36"15E62932-D601-4761-88BC-DCB7D7FE703F-
-
-CCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Geometry.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942253.275465
-e431942258.646145
-r1
-xCompileC
-xsolution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Geometry.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.cpp178"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Geometry.o src/Maths/Geometry.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerdfa3466deabeb941^eb73a572eabeb941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.cpp0000000000000000^2787"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Geometry.o src/Maths/Geometry.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Geometry.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Geometry.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Geometry.o36"E552759C-F748-42A7-BF9E-18A6E92852BF-
-b446145D4-F367-4EF1-9FF5-DCABE46246EF
-
-CCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/MathLib.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942253.275663
-e431942258.646164
-r1
-xCompileC
-xsolution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/MathLib.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.cpp176"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/MathLib.o src/Maths/MathLib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf3ae466deabeb941^9967a572eabeb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.cpp0000000000000000^2781"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/MathLib.o src/Maths/MathLib.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/MathLib.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/MathLib.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/MathLib.o36"F818A730-FC89-4928-857C-573EE26471BE-
-b446145D4-F367-4EF1-9FF5-DCABE46246EF
-
-CCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Matrix4x4.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942253.276135
-e431942259.034094
-r1
-xCompileC
-xsolution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Matrix4x4.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp:284:8: warning: unused variable 'Cosine' [-Wunused-variable]
-o        float Cosine = std::cos(Radians);
-o              ^
-o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp:285:8: warning: unused variable 'Sine' [-Wunused-variable]
-o        float Sine = std::sin(Radians);
-o              ^
-o2 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp180"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Matrix4x4.o src/Maths/Matrix4x4.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler3ed0466deabeb941^ddef1073eabeb941^-460"/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp:284:8: warning: unused variable 'Cosine' [-Wunused-variable]        float Cosine = std::cos(Radians);              ^/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp:285:8: warning: unused variable 'Sine' [-Wunused-variable]        float Sine = std::sin(Radians);              ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@24"Unused variable 'Cosine'-431942258#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp0000000000000000^283#7#283#7#9397#0#19"Unused Entity Issue--2@22"Unused variable 'Sine'-431942259#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp0000000000000000^284#7#284#7#9433#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp0000000000000000^2793"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Matrix4x4.o src/Maths/Matrix4x4.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Matrix4x4.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Matrix4x4.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix4x4.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Matrix4x4.o36"6238E638-F9FB-41F3-87DA-6AEFC8FC2228-
-b446145D4-F367-4EF1-9FF5-DCABE46246EF
-
-CCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Point.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Point.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942253.276336
-e431942258.430451
-r1
-xCompileC
-xsolution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Point.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Point.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Point.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Point.cpp172"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Point.o src/Maths/Point.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler45f1466deabeb941^37376e72eabeb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Point.cpp0000000000000000^2769"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Point.o src/Maths/Point.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Point.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Point.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Point.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Point.o36"84E3E70B-5D7E-4ADD-A1BB-D65CF03FDFEF-
-b446145D4-F367-4EF1-9FF5-DCABE46246EF
-
-CCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Quaternion.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942258.430758
-e431942260.109205
-r1
-xCompileC
-xsolution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Quaternion.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.cpp182"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Quaternion.o src/Maths/Quaternion.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler3a75a572eabeb941^7c291c74eabeb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.cpp0000000000000000^2799"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Quaternion.o src/Maths/Quaternion.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Quaternion.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Quaternion.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Quaternion.o36"A063D4B5-3CA1-4312-BAAD-013BDB43597D-
-b446145D4-F367-4EF1-9FF5-DCABE46246EF
-
-CCompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Vector.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942259.695511
-e431942260.833375
-r1
-xCompileC
-xsolution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Vector.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vector.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vector.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vector.cpp174"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Vector.o src/Maths/Vector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc023b273eabeb941^c0943d75eabeb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vector.cpp0000000000000000^2775"CompileC solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Vector.o src/Maths/Vector.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Vector.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Vector.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vector.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Vector.o36"7979AE52-A675-457A-874F-EEFBABA9946F-
-b446145D4-F367-4EF1-9FF5-DCABE46246EF
-
-CLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/libMaths.a normal x86_64
-s431942260.899215
-e431942261.359276
-r1
-xLibtool
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/libMaths.a
-xnormal
-xx86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Libtool solution/src/Maths/Debug/libMaths.a normal x86_6457"Libtool solution/src/Maths/Debug/libMaths.a normal x86_644144e674eabeb941^5dfa5b75eabeb941^---0#0#1#--823"Libtool solution/src/Maths/Debug/libMaths.a normal x86_64    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/SFMLTest.build/Debug/Maths.build/Objects-normal/x86_64/Maths.LinkFileList -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/Maths/Debug/libMaths.a36"426AE9C9-37BD-4964-94D6-25A38354BAC2-
-b446145D4-F367-4EF1-9FF5-DCABE46246EF
-

@@ -168,12 +168,20 @@ void parseOBJ(ElysiumEngine::Mesh *output, FILE *input)
         
         if(buffer[0] == '#')
             continue;
-        
+
         customTokenize(buffer, tokens);
         
         if(tokens.empty())
             continue;
         
+
+		if (tokens[0] == "mtllib")
+		{
+			//TODO: load the .mtl file that was specified
+			//TODO: Additionally apply the current material to vertices as specifed
+			continue;
+		}
+
         if(tokens[0] == "v")
         {
             if(tokens.size() < 4)

@@ -1,585 +1,0 @@
-TPhysics
-v6
-r1
-cCheck dependencies
-cCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collider.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collision.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Constraints.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Forces.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/HalfEdgePhysics.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/PhysicsSystem.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/RigidBody.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/libPhysics.a normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
-c0000000053477F0400000000000000AA
-t1397194500
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c0000000052696DA3000000000000044C
-t1382641059
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000531E57B400000000000001DE
-t1394497460
-s478
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/libPhysics.a
-t1410815978
-s3098744
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collider.o
-t1410815973
-s398800
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collision.o
-t1410249467
-s503312
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Constraints.o
-t1410249468
-s183548
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Forces.o
-t1410249469
-s74780
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/HalfEdgePhysics.o
-t1410813916
-s769492
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Physics.LinkFileList
-c00000000540EB2F900000000000004CA
-t1410249465
-s1226
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/PhysicsSystem.o
-t1410249471
-s743204
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/RigidBody.o
-t1410815973
-s379060
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
-c0000000053D0620B0000000000000938
-t1406165515
-s2360
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h
-c0000000053D0620B000000000000059F
-t1406165515
-s1439
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
-c0000000053D0620B0000000000001D65
-t1406165515
-s7525
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
-c0000000053D0620B00000000000001C2
-t1406165515
-s450
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
-c0000000053D0620B000000000000190C
-t1406165515
-s6412
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
-c0000000053D0620B00000000000000AF
-t1406165515
-s175
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
-c0000000053D0620B0000000000000392
-t1406165515
-s914
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h
-c00000000541757890000000000000796
-t1410815881
-s1942
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/HalfEdgeMesh.h
-c0000000054174FD600000000000005BF
-t1410813910
-s1471
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ICamera.h
-c0000000053D0620B0000000000000375
-t1406165515
-s885
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h
-c0000000053D0620B000000000000012B
-t1406165515
-s299
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IShader.h
-c0000000053D0620B0000000000000494
-t1406165515
-s1172
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Light.h
-c0000000053D0620B0000000000000290
-t1406165515
-s656
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Mesh.h
-c0000000053D0620B00000000000001E9
-t1406165515
-s489
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/MeshRenderable.h
-c0000000053D0620B000000000000058E
-t1406165515
-s1422
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ModelLibrary.h
-c0000000053D0620B00000000000001C6
-t1406165515
-s454
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/RenderMatrixStack.h
-c0000000053D0620B000000000000045D
-t1406165515
-s1117
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h
-c0000000053D0620B0000000000000580
-t1406165515
-s1408
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-c0000000053D0620B00000000000000F8
-t1406165515
-s248
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-c0000000053D0620B00000000000003D5
-t1406165515
-s981
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-c0000000053D0620B0000000000000137
-t1406165515
-s311
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-c0000000053D0620B0000000000000EB3
-t1406165515
-s3763
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-c0000000053D0620B0000000000000254
-t1406165515
-s596
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-c0000000053D0620B00000000000008BD
-t1406165515
-s2237
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp
-c0000000053D0620B000000000000170F
-t1406165515
-s5903
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h
-c0000000053D0620B0000000000000D1D
-t1406165515
-s3357
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp
-c0000000053D0620B0000000000006104
-t1406165515
-s24836
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.h
-c0000000053D0620B00000000000000D6
-t1406165515
-s214
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraint.h
-c0000000053D0620B000000000000076C
-t1406165515
-s1900
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp
-c0000000053D0620B00000000000009AF
-t1406165515
-s2479
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.cpp
-c0000000053D0620B000000000000037A
-t1406165515
-s890
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.h
-c0000000053D0620B00000000000002C3
-t1406165515
-s707
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp
-c0000000053D0620B0000000000005834
-t1406165515
-s22580
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.h
-c0000000053D0620B00000000000001F3
-t1406165515
-s499
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp
-c0000000053D0620B00000000000026C3
-t1406165515
-s9923
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h
-c0000000053D0620B00000000000006E0
-t1406165515
-s1760
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp
-c0000000053D0620B000000000000222C
-t1406165515
-s8748
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h
-c0000000053D0620B00000000000005C0
-t1406165515
-s1472
-
-N/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h
-c0000000053D0620B000000000000060B
-t1406165515
-s1547
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp
-r0
-
-CBuild AST from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese4db43c6f8c8b941^124d50c6f8c8b941^---0#1#1#--18"Check dependencies36"125B90B7-93DA-4C56-9B74-19AB0F76D04B-
-
-CCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collider.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s432508765.641835
-e432508773.996849
-r1
-xCompileC
-xsolution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collider.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraint.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Mesh.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/MeshRenderable.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IShader.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ICamera.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/HalfEdgeMesh.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ModelLibrary.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Light.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/RenderMatrixStack.h
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp:2:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h:2:
-o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
-o#pragma message("Using std")
-o        ^
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp:9:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:
-o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:16:9: warning: typedef std::unordered_map<std::string, IShader *> ShaderMap; [-W#pragma-messages]
-o#pragma message("typedef std::unordered_map<std::string, IShader *> ShaderMap;")
-o        ^
-o2 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp196"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collider.o src/PhysicsSystem/Collider.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5d6aa45d8fc7b941^2237ff658fc7b941^-1050"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h:2:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp:9:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:16:9: warning: typedef std::unordered_map<std::string, IShader *> ShaderMap; [-W#pragma-messages]#pragma message("typedef std::unordered_map<std::string, IShader *> ShaderMap;")        ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-432508773#18446744073709551615#0#2(2@133"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp:2:-432508773#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@115"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp0000000000000000^1#9#1#9#11#0#21"Apple LLVM 5.0 Notice--2@131"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h:2:-432508773#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@113"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h0000000000000000^1#9#1#9#24#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--2@61"Typedef std::unordered_map<std::string, IShader *> ShaderMap;-432508773#18446744073709551615#0#2(2@133"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp:9:-432508773#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@115"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp0000000000000000^8#9#8#9#212#0#21"Apple LLVM 5.0 Notice--2@138"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:-432508773#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h0000000000000000^4#9#4#9#120#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h0000000000000000^15#8#15#8#381#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@115"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp0000000000000000^2879"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collider.o src/PhysicsSystem/Collider.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collider.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collider.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collider.o36"B1FAA241-0341-4B96-A39A-9587680D38DB-
-bB588CB01-FC09-4A09-8863-CCC4E5D338B3
-
-CCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collision.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942266.636704
-e431942267.800792
-r1
-xCompileC
-xsolution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collision.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraint.h
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp:1:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.h:2:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h:2:
-o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
-o#pragma message("Using std")
-o        ^
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp198"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collision.o src/PhysicsSystem/Collision.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compileraa10a37aeabeb941^a01ad77beabeb941^-608"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp:1:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.h:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h:2:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-431942267#18446744073709551615#0#3(2@134"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp:1:-431942267#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@116"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp0000000000000000^0#9#0#9#9#0#21"Apple LLVM 5.0 Notice--2@132"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.h:2:-431942267#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--2@131"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h:2:-431942267#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@113"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h0000000000000000^1#9#1#9#24#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@116"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp0000000000000000^2885"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collision.o src/PhysicsSystem/Collision.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collision.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collision.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Collision.o36"DE15649E-2E7F-4E2D-B6EB-E81D3F08D5D1-
-bB52B8FEA-D35A-4768-AEAF-CA5678E146B3
-
-CCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Constraints.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942267.800998
-e431942268.644924
-r1
-xCompileC
-xsolution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Constraints.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraint.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.h
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp:2:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h:2:
-o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
-o#pragma message("Using std")
-o        ^
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp202"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Constraints.o src/PhysicsSystem/Constraints.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler861ecd7beabeb941^9417a57ceabeb941^-478"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp:2:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h:2:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-431942268#18446744073709551615#0#2(2@136"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp:2:-431942268#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@118"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp0000000000000000^1#9#1#9#34#0#21"Apple LLVM 5.0 Notice--2@132"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h:2:-431942268#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@118"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp0000000000000000^2897"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Constraints.o src/PhysicsSystem/Constraints.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Constraints.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Constraints.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraints.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Constraints.o36"95C1F8BC-CE7F-4240-A899-D1D83D908197-
-bB52B8FEA-D35A-4768-AEAF-CA5678E146B3
-
-CCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Forces.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942268.709712
-e431942269.227237
-r1
-xCompileC
-xsolution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Forces.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.cpp192"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Forces.o src/PhysicsSystem/Forces.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler66c0b57ceabeb941^dc2c3a7deabeb941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.cpp0000000000000000^2867"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Forces.o src/PhysicsSystem/Forces.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Forces.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Forces.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Forces.o36"2C202A89-D122-4D2E-A2A0-C563868B6070-
-bB52B8FEA-D35A-4768-AEAF-CA5678E146B3
-
-CCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/HalfEdgePhysics.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s432506713.330858
-e432506716.333844
-r1
-xCompileC
-xsolution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/HalfEdgePhysics.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/HalfEdgeMesh.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObjectFactory.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/MeshRenderable.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IShader.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ICamera.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Mesh.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp:1:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.h:4:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h:2:
-o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
-o#pragma message("Using std")
-o        ^
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp210"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/HalfEdgePhysics.o src/PhysicsSystem/HalfEdgePhysics.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler19cb545987c7b941^9b57655c87c7b941^-614"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp:1:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.h:4:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h:2:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-432506716#18446744073709551615#0#3(2@140"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp:1:-432506716#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@122"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp0000000000000000^0#9#0#9#9#0#21"Apple LLVM 5.0 Notice--2@138"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.h:4:-432506716#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.h0000000000000000^3#9#3#9#90#0#21"Apple LLVM 5.0 Notice--2@125"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h:2:-432506716#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@122"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp0000000000000000^2921"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/HalfEdgePhysics.o src/PhysicsSystem/HalfEdgePhysics.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/HalfEdgePhysics.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/HalfEdgePhysics.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/HalfEdgePhysics.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/HalfEdgePhysics.o36"3F8E3732-351D-4A1C-AFC9-29E453F748D8-
-bC0ED2318-379C-4ED3-8392-122F94ABFE7A
-
-CCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/PhysicsSystem.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s431942270.980587
-e431942271.977381
-r1
-xCompileC
-xsolution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/PhysicsSystem.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraint.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collision.h
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp:1:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h:4:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h:2:
-o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
-o#pragma message("Using std")
-o        ^
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp206"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/PhysicsSystem.o src/PhysicsSystem/PhysicsSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerce17fb7eeabeb941^6135fa7feabeb941^-616"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp:1:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h:4:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h:2:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-431942271#18446744073709551615#0#3(2@138"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp:1:-431942271#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@120"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp0000000000000000^0#9#0#9#9#0#21"Apple LLVM 5.0 Notice--2@136"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h:4:-431942271#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@118"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h0000000000000000^3#9#3#9#67#0#21"Apple LLVM 5.0 Notice--2@131"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h:2:-431942271#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@113"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h0000000000000000^1#9#1#9#24#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@120"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp0000000000000000^2909"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/PhysicsSystem.o src/PhysicsSystem/PhysicsSystem.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/PhysicsSystem.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/PhysicsSystem.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/PhysicsSystem.o36"5BC7B0CF-3C17-4A60-A820-35A6202D4E06-
-bB52B8FEA-D35A-4768-AEAF-CA5678E146B3
-
-CCompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/RigidBody.o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s432508765.642901
-e432508773.996837
-r1
-xCompileC
-xsolution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/RigidBody.o
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Messaging.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/TemplateConstraints.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/MathLib.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Definitions.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Vectors.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Matrix.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Quaternion.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Maths/Geometry.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/IReader.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/Transform.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Forces.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/PhysicsSystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/ISystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Constraint.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/Collider.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/MeshRenderable.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IRenderable.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/IShader.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ICamera.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Mesh.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/HalfEdgeMesh.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/WindowingSystem/WindowingSystem.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ModelLibrary.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/Light.h
-d/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/RenderMatrixStack.h
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp:1:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h:2:
-o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]
-o#pragma message("Using std")
-o        ^
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp:6:
-oIn file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:
-o/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:16:9: warning: typedef std::unordered_map<std::string, IShader *> ShaderMap; [-W#pragma-messages]
-o#pragma message("typedef std::unordered_map<std::string, IShader *> ShaderMap;")
-o        ^
-o2 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp198"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/RigidBody.o src/PhysicsSystem/RigidBody.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler72a7a45d8fc7b941^4034ff658fc7b941^-1053"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp:1:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h:2:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h:15:9: warning: Using std [-W#pragma-messages]#pragma message("Using std")        ^In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp:6:In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h:16:9: warning: typedef std::unordered_map<std::string, IShader *> ShaderMap; [-W#pragma-messages]#pragma message("typedef std::unordered_map<std::string, IShader *> ShaderMap;")        ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@9"Using std-432508773#18446744073709551615#0#2(2@134"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp:1:-432508773#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@116"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp0000000000000000^0#9#0#9#9#0#21"Apple LLVM 5.0 Notice--2@132"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h:2:-432508773#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.h0000000000000000^1#9#1#9#22#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine/GameObject.h0000000000000000^14#8#14#8#292#0#25"#pragma message Directive--2@61"Typedef std::unordered_map<std::string, IShader *> ShaderMap;-432508773#18446744073709551615#0#2(2@134"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp:6:-432508773#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@116"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp0000000000000000^5#9#5#9#142#0#21"Apple LLVM 5.0 Notice--2@138"In file included from /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h:5:-432508773#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/GraphicsSystem.h0000000000000000^4#9#4#9#120#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@119"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/GraphicsSystem/ShaderFactory.h0000000000000000^15#8#15#8#381#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@116"file:///Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp0000000000000000^2885"CompileC solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/RigidBody.o src/PhysicsSystem/RigidBody.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -DC11_UNIX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/include -I/usr/local/include -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/Engine -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources/x86_64 -I/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug -MMD -MT dependencies -MF /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/RigidBody.d --serialize-diagnostics /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/RigidBody.dia -c /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/src/PhysicsSystem/RigidBody.cpp -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/RigidBody.o36"4C1797A1-C870-434E-9126-F4400682F82F-
-bB588CB01-FC09-4A09-8863-CCC4E5D338B3
-
-CLibtool /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/libPhysics.a normal x86_64
-s432508778.259444
-e432508778.531312
-r1
-xLibtool
-x/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/libPhysics.a
-xnormal
-xx86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Libtool solution/src/PhysicsSystem/Debug/libPhysics.a normal x86_6467"Libtool solution/src/PhysicsSystem/Debug/libPhysics.a normal x86_648e78426a8fc7b941^b804886a8fc7b941^---0#0#1#--863"Libtool solution/src/PhysicsSystem/Debug/libPhysics.a normal x86_64    cd /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug -filelist /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/SFMLTest.build/Debug/Physics.build/Objects-normal/x86_64/Physics.LinkFileList -o /Users/lukepowell/Documents/clean_crossplatformengine/git/CrossPlatformEngine/solution/src/PhysicsSystem/Debug/libPhysics.a36"47819EBB-84CE-4CF5-83C0-2FBF50B833AF-
-bB588CB01-FC09-4A09-8863-CCC4E5D338B3
-

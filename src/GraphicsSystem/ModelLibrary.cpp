@@ -95,6 +95,13 @@ ElysiumEngine::HalfEdgeMesh *ElysiumEngine::ModelLibrary::loadHalfEdgeMesh(std::
     std::map<std::string,HalfEdge *> halfedges;
     std::list<HalfEdge *> boundaries;//TODO: Setup a means to render these as a different color
     std::vector<HalfEdgeFace *> faces(mesh->indexCount);
+	std::vector<HalfEdgeVertex *> vertices(mesh->vertexCount);
+	
+	for (int i = 0; i < mesh->vertexCount; ++i)
+	{
+		vertices[i] = (new HalfEdgeVertex(0, 0, 0));
+	}
+
 //#define VERBOSE
     
     std::cout << mesh->indexCount << " faces.\n";
@@ -107,7 +114,7 @@ ElysiumEngine::HalfEdgeMesh *ElysiumEngine::ModelLibrary::loadHalfEdgeMesh(std::
         }
         
         std::stringstream str;
-        HalfEdge *previous;
+		HalfEdge *previous = nullptr;
         for(int j = 0; j < 3; ++j)
         {
             int indexOne = faces[i/3]->indices[j];
@@ -139,6 +146,12 @@ ElysiumEngine::HalfEdgeMesh *ElysiumEngine::ModelLibrary::loadHalfEdgeMesh(std::
                     faces[i/3]->edge = one;
                 }
                 
+				if (vertices[indexOne]->edge == nullptr)
+				{
+					vertices[indexOne]->edge = one;
+					vertices[indexOne]->index = indexOne;
+				}
+
                 //Opposite
                 str.str(std::string());
                 str << indexTwo << "-" << indexOne;
@@ -146,12 +159,25 @@ ElysiumEngine::HalfEdgeMesh *ElysiumEngine::ModelLibrary::loadHalfEdgeMesh(std::
                 if(opp == halfedges.end())
                 {
                     HalfEdge *opposite = new HalfEdge();
+
+					one->opposite = opposite;
+					opposite->opposite = one;
+
                     halfedges[str.str()] = opposite;
+
                     boundaries.push_back(opposite);
                     opposite->endPt = new HalfEdgeVertex(opposite,indexTwo,0);
+					if (vertices[indexTwo]->edge == nullptr)
+					{
+						vertices[indexTwo]->edge = opposite;
+						vertices[indexTwo]->index = indexTwo;
+					}
                 }
                 else
                 {
+					one->opposite = opp->second;
+					opp->second->opposite = one;
+
                     opp->second->face = faces[i/3];
                     boundaries.remove(opp->second);//Remove it if it exists
                     if(j > 0)//Update next pointers
@@ -178,12 +204,13 @@ ElysiumEngine::HalfEdgeMesh *ElysiumEngine::ModelLibrary::loadHalfEdgeMesh(std::
                 
                 boundaries.remove(halfEdge->second);
                 
-                
                 if(j > 0)//Update next pointers
                 {
                     previous->next = halfEdge->second;
                     halfEdge->second->previous = previous;
                 }
+
+				previous = halfEdge->second;
             }
             str.str(std::string());
         }
@@ -193,88 +220,21 @@ ElysiumEngine::HalfEdgeMesh *ElysiumEngine::ModelLibrary::loadHalfEdgeMesh(std::
     
     for(auto edge : boundaries)
     {
-        //mesh->vertices[edge->endPt->index].color = new Vec4(1.0f,0.0f,0.0f);
+       mesh->vertices[edge->endPt->index].color = Vec4(1.0f,0.0f,0.0f);
     }
-    
-/* Old Code
-    for(int i = 0; i < mesh->indexCount * 3; i +=3)
-    {
-        HalfEdge *one = new HalfEdge(), *two = new HalfEdge(), *three = new HalfEdge();
-        
-        
-        HalfEdgeFace *face = new HalfEdgeFace();
-        face->edge = one;
-        
-        one->face = face;
-        two->face = face;
-        one->face = face;
-        
-        one->endPt = new HalfEdgeVertex(one,mesh->indices[i+1],0);
-        two->endPt = new HalfEdgeVertex(two,mesh->indices[i+2],0);
-        three->endPt = new HalfEdgeVertex(three,mesh->indices[i],0);
-        
-        one->endPt->vertex = mesh->vertices[one->endPt->index].position;
-        two->endPt->vertex = mesh->vertices[two->endPt->index].position;
-        three->endPt->vertex = mesh->vertices[three->endPt->index].position;
-        
-        one->endPt->vertex.w = 1.0f;
-        two->endPt->vertex.w = 1.0f;
-        three->endPt->vertex.w = 1.0f;
-        
-        one->previous = three;
-        two->previous = one;
-        three->previous = two;
-        
-        one->next = two;
-        two->next = three;
-        three->next = one;
-        
-        halfEdge->halfEdges.push_back(one);
-        halfEdge->halfEdges.push_back(two);
-        halfEdge->halfEdges.push_back(three);
-        
-        halfEdge->faces.push_back(face);
-    }
-    
-    
-    //N^2 algorithm, very slow for large meshes running offline would
-    //be ideal need to save output so this can be done.
-    for(int i = 0; i < halfEdge->halfEdges.size(); ++i)
-    {
-        Vec4 startPt = halfEdge->halfEdges[i]->getSelf()->vertex;
-        
-        for(int j = i+1; j < halfEdge->halfEdges.size(); ++j)
-        {
-            if(halfEdge->halfEdges[j]->endPt->vertex == startPt)
-            {
-                Vec4 otherStartPt = halfEdge->halfEdges[j]->getSelf()->vertex;
-                
-                if(otherStartPt == halfEdge->halfEdges[i]->endPt->vertex)
-                {
-                    
-                    halfEdge->halfEdges[j]->opposite = halfEdge->halfEdges[i];
-                    halfEdge->halfEdges[i]->opposite = halfEdge->halfEdges[j];
-                }
-            }
-        }
-    }
-    
-    for(int i = 0; i< halfEdge->faces.size(); ++i)
-    {
-        HalfEdge *one = halfEdge->faces[i]->edge->opposite;
-        HalfEdge *two = halfEdge->faces[i]->edge->next->opposite;
-        HalfEdge *three = halfEdge->faces[i]->edge->next->next->opposite;
-        
-        halfEdge->faces[i]->edge->opposite = two;
-        halfEdge->faces[i]->edge->next->opposite = three;
-        halfEdge->faces[i]->edge->next->next->opposite = one;
-    }
- */
-    
+     
     if(saveBinary)//Save out name.half
     {
         //TODO: Save out a binary representation of the half-edge mesh allowing O(1) loading
     }
+
+	for (auto pair : halfedges)
+	{
+		halfEdge->halfEdges.push_back(pair.second);
+	}
+	halfEdge->halfEdgeVertices = vertices;
+	halfEdge->faces = faces;
+
     return halfEdge;
 }
 
@@ -387,4 +347,159 @@ void CalculateNormals(ElysiumEngine::Mesh *mesh)
 			mesh->vertices[j].normal.z = NormalArray[i].z;
 		}
 	}
+}
+
+typedef std::vector<ElysiumEngine::HalfEdgeFace *> FaceList;
+
+FaceList findNeighbors(ElysiumEngine::HalfEdgeFace *face, ElysiumEngine::Mesh *mesh, ElysiumEngine::HalfEdgeMesh *halfEdge,const FaceList &faces)
+{
+	std::vector<ElysiumEngine::HalfEdgeFace *> neighbors;
+
+	for (auto start : face->indices)
+	{
+		ElysiumEngine::HalfEdge *h = halfEdge->halfEdgeVertices[start]->edge;
+		ElysiumEngine::HalfEdge *stop = h;
+		do
+		{
+			if (h->isBoundary())
+				continue;
+
+			if (std::find(neighbors.begin(), neighbors.end(), h->face) == neighbors.end() && std::find(faces.begin(),faces.end(),h->face) != faces.end())
+			{
+				neighbors.push_back(h->face);
+			}
+
+			h = h->opposite->next;
+		} while (h != stop && h != nullptr);
+	}
+
+	return neighbors;
+}
+
+
+int countNeighbors(const FaceList &faces, ElysiumEngine::HalfEdgeFace *face, ElysiumEngine::Mesh * mesh, ElysiumEngine::HalfEdgeMesh *halfEdge)
+{
+	return findNeighbors(face, mesh, halfEdge,faces).size();
+}
+
+struct Face
+{
+	ElysiumEngine::HalfEdgeFace *halfEdgeFace;
+	FaceList neighbors;
+
+	bool operator==(const Face &f)
+	{
+		return (halfEdgeFace == f.halfEdgeFace);
+	}
+
+	bool operator==(const ElysiumEngine::HalfEdgeFace *&rhs)
+	{
+		return (halfEdgeFace == rhs);
+	}
+};
+
+Face leastNeighbors(ElysiumEngine::Mesh *mesh, ElysiumEngine::HalfEdgeMesh *halfEdge, std::list<Face> &faces)
+{
+	int minNeighbors = INT_MAX;
+	Face least;
+
+	for (auto face : faces)
+	{
+		int neighbors = face.neighbors.size();
+		if (neighbors < minNeighbors)
+		{
+			minNeighbors = neighbors;
+			least = face;
+		}
+	}
+
+	return least;
+}
+
+
+std::vector<ElysiumEngine::Strip> ElysiumEngine::ModelLibrary::stripeMesh(Mesh *mesh, HalfEdgeMesh *halfEdge)
+{
+	std::vector<std::vector<unsigned int>> stripes;
+
+	//Set up a means to track which faces we were adjacent to
+	std::list<Face> faces;
+	for (auto face : halfEdge->faces)
+	{
+		Face f = { face };
+		f.neighbors = findNeighbors(face, mesh, halfEdge, halfEdge->faces);
+		faces.push_back(f);
+	}
+
+	while (!faces.empty())
+	{
+		Face face = leastNeighbors(mesh, halfEdge,faces);
+
+		std::vector<unsigned int> strip;
+		do
+		{
+			strip.insert(strip.end(), std::begin(face.halfEdgeFace->indices), std::end(face.halfEdgeFace->indices));
+
+			//Remove the triangle we just used up from the list of neighbors
+			for (Face f : faces)
+			{
+				auto del = std::find(f.neighbors.begin(), f.neighbors.end(), face.halfEdgeFace);
+				if (del != f.neighbors.end())
+				{
+					f.neighbors.erase(del);
+				}
+			}
+
+			//Remove face from the list of faces that we can use
+			faces.remove(face);
+
+			//Chose a new tirangle
+			HalfEdgeFace *tri;
+			if (!face.neighbors.empty())
+			{
+				do
+				{
+					tri = face.neighbors[rand() % face.neighbors.size()];
+					Face temp = { tri };
+					auto next = std::find(faces.begin(), faces.end(), temp);
+					if (next == faces.end())
+					{
+						face.neighbors.erase(std::find(face.neighbors.begin(), face.neighbors.end(), tri));
+						tri = nullptr;
+					}
+				} while (tri == nullptr && !face.neighbors.empty());
+			}
+
+			if (face.neighbors.empty())
+				break;
+
+			Face temp = { tri };
+			auto next = std::find(faces.begin(), faces.end(), temp);
+			face = *next;
+		 
+		} while (!face.neighbors.empty());
+
+ 		stripes.push_back(strip);
+	}	
+
+	std::vector<Strip > stripesArrays;
+	for (auto stripe : stripes)
+	{
+		float r = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+		float g = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+		float b = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
+		Vec4 color(r, g, b, 1.0f);
+		
+		Strip s;
+		s.indices = new unsigned int[stripe.size()];
+		s.count = stripe.size();
+
+		for (int i = 0; i < stripe.size(); ++i)
+		{
+			s.indices[i] = stripe[i];
+			mesh->vertices[s.indices[i]].color = color;
+		}
+		stripesArrays.push_back(s);
+	}
+
+	return stripesArrays;
 }

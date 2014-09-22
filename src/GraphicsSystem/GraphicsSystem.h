@@ -26,8 +26,15 @@ namespace ElysiumEngine
         Vec4 position;
         Vec4 normal;
         float texture[2];
-        Vec4 color;
+		Vec4 color = Vec4(1.0f, 1.0f, 1.0f, 1.0f);
     };
+
+	class Strip
+	{
+	public:
+		unsigned int *indices;
+		unsigned int count;
+	};
 
 	class GraphicsSystem : public ISystem
 	{

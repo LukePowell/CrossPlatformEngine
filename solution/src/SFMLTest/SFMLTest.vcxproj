@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{F7990A69-8D71-426A-AFF1-2827366A5636}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>SFMLTest</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SFMLTest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SFMLTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SFMLTest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SFMLTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SFMLTest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SFMLTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SFMLTest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SFMLTest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glew32.lib;SDL2.lib;SDL2main.lib;glu32.lib;opengl32.lib;..\WindowingSystem\Debug\WindowingSystem.lib;..\SDLWindow\Debug\SDLWindow.lib;..\Engine\Debug\CoreEngine.lib;..\GraphicsSystem\Debug\Graphics.lib;..\PhysicsSystem\Debug\Physics.lib;..\InputSystem\Debug\Input.lib;glew32.lib;..\Maths\Debug\Maths.lib;..\Engine\Debug\CoreEngine.lib;..\TinyXML2\Debug\XML.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/lib/win/lib;C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/lib/win/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SFMLTest/Debug/SFMLTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/assets/SFMLTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glew32.lib;SDL2.lib;SDL2main.lib;glu32.lib;opengl32.lib;..\WindowingSystem\Release\WindowingSystem.lib;..\SDLWindow\Release\SDLWindow.lib;..\Engine\Release\CoreEngine.lib;..\GraphicsSystem\Release\Graphics.lib;..\PhysicsSystem\Release\Physics.lib;..\InputSystem\Release\Input.lib;glew32.lib;..\Maths\Release\Maths.lib;..\Engine\Release\CoreEngine.lib;..\TinyXML2\Release\XML.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/lib/win/lib;C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/lib/win/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SFMLTest/Release/SFMLTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/assets/SFMLTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glew32.lib;SDL2.lib;SDL2main.lib;glu32.lib;opengl32.lib;..\WindowingSystem\MinSizeRel\WindowingSystem.lib;..\SDLWindow\MinSizeRel\SDLWindow.lib;..\Engine\MinSizeRel\CoreEngine.lib;..\GraphicsSystem\MinSizeRel\Graphics.lib;..\PhysicsSystem\MinSizeRel\Physics.lib;..\InputSystem\MinSizeRel\Input.lib;glew32.lib;..\Maths\MinSizeRel\Maths.lib;..\Engine\MinSizeRel\CoreEngine.lib;..\TinyXML2\MinSizeRel\XML.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/lib/win/lib;C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/lib/win/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SFMLTest/MinSizeRel/SFMLTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/assets/SFMLTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glew32.lib;SDL2.lib;SDL2main.lib;glu32.lib;opengl32.lib;..\WindowingSystem\RelWithDebInfo\WindowingSystem.lib;..\SDLWindow\RelWithDebInfo\SDLWindow.lib;..\Engine\RelWithDebInfo\CoreEngine.lib;..\GraphicsSystem\RelWithDebInfo\Graphics.lib;..\PhysicsSystem\RelWithDebInfo\Physics.lib;..\InputSystem\RelWithDebInfo\Input.lib;glew32.lib;..\Maths\RelWithDebInfo\Maths.lib;..\Engine\RelWithDebInfo\CoreEngine.lib;..\TinyXML2\RelWithDebInfo\XML.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/lib/win/lib;C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/lib/win/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SFMLTest/RelWithDebInfo/SFMLTest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/assets/SFMLTest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\src\SFMLTest\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/src/SFMLTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Victus/Documents/GitHub/CrossPlatformEngine -BC:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution --check-stamp-file C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\src\SFMLTest\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/src/SFMLTest/CMakeLists.txt;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\SFMLTest\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\SFMLTest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\src\SFMLTest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/src/SFMLTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Victus/Documents/GitHub/CrossPlatformEngine -BC:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution --check-stamp-file C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\src\SFMLTest\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/src/SFMLTest/CMakeLists.txt;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\SFMLTest\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\SFMLTest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\src\SFMLTest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/src/SFMLTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Victus/Documents/GitHub/CrossPlatformEngine -BC:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution --check-stamp-file C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\src\SFMLTest\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/src/SFMLTest/CMakeLists.txt;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\SFMLTest\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\SFMLTest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\src\SFMLTest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/src/SFMLTest/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Victus/Documents/GitHub/CrossPlatformEngine -BC:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution --check-stamp-file C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\src\SFMLTest\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/src/SFMLTest/CMakeLists.txt;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\SFMLTest\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindOpenGL.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeParseArguments.cmake;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\SFMLTest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\src\SFMLTest\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\SFMLTest\CameraController.h" />
+    <ClInclude Include="..\..\..\src\SFMLTest\Console.h" />
+    <ClInclude Include="..\..\..\src\SFMLTest\CS350BoundingVolume.h" />
+    <ClInclude Include="..\..\..\src\SFMLTest\LevelSystem.h" />
+    <ClCompile Include="..\..\..\src\SFMLTest\CameraController.cpp" />
+    <ClCompile Include="..\..\..\src\SFMLTest\CS350BoundingVolume.cpp" />
+    <ClCompile Include="..\..\..\src\SFMLTest\LevelSystem.cpp" />
+    <ClCompile Include="..\..\..\src\SFMLTest\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/Engine/CoreEngine.vcxproj">
+      <Project>4798AA02-5855-4502-A51C-4A95A7916F87</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/GraphicsSystem/Graphics.vcxproj">
+      <Project>20E03DA0-BEFF-434A-B87D-85C0912B9B85</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/InputSystem/Input.vcxproj">
+      <Project>E288C96B-371A-416A-A609-5FF8B196CB42</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/Maths/Maths.vcxproj">
+      <Project>EEAEDB72-15AB-4A71-BBC9-159FD9B309B1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/PhysicsSystem/Physics.vcxproj">
+      <Project>9745F52C-8A7B-4988-81D2-CAFE2669D6FA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SDLWindow/SDLWindow.vcxproj">
+      <Project>AF66D579-509C-4BD5-B199-C9B3823542FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/WindowingSystem/WindowingSystem.vcxproj">
+      <Project>079B0A1E-6589-4B80-99B3-2FE5554E439B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/TinyXML2/XML.vcxproj">
+      <Project>F56499EA-A475-45C6-A633-182F116360D3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/ZERO_CHECK.vcxproj">
+      <Project>252A9BD2-0107-4E72-ACB1-4A7128697ACC</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
