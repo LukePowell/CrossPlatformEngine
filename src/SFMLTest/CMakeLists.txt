@@ -10,6 +10,6 @@ ENDIF(MSVC)
 
 IF(UNIX)
 	IF(APPLE)	
-		target_link_libraries(SFMLTest  ${sdl} ${OPENGL_LIBRARIES} WindowingSystem Window SDLWindow CoreEngine Graphics Physics Input)
+		target_link_libraries(SFMLTest  ${sdl} ${OPENGL_LIBRARIES} WindowingSystem  SDLWindow CoreEngine Graphics Physics Input)
 	ENDIF(APPLE)
 ENDIF(UNIX)

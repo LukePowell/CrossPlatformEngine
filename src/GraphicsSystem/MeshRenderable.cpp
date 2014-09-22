@@ -104,9 +104,12 @@ void ElysiumEngine::MeshRenderable::render()
 		}
 		else
 		{
+            int i = 0;
 			for (auto strip : strips)
 			{
-				GLCall(glDrawElements(GL_TRIANGLE_STRIP, strip.count, GL_UNSIGNED_INT,(GLvoid *)strip.indices));
+                GLCall(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, stripIndices[i]));
+                GLCall(glDrawElements(GL_TRIANGLE_STRIP, strip.count, GL_UNSIGNED_INT,0));
+                ++i;
 			}
 		}
 		GLCall(glBindVertexArray(0));
@@ -242,9 +245,19 @@ void ElysiumEngine::MeshRenderable::initialize()
 		GLCall(glGenBuffers(1, &indexBuffer));
 		GLCall(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, indexBuffer));
 		GLCall(glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(unsigned int)* 3 * mesh->indexCount, mesh->indices, GL_STATIC_DRAW));
-		GLCall(glBindVertexArray(0));
 	}
-
+    else
+    {
+        for(Strip s : strips)
+        {
+            GLCall(glGenBuffers(1, &indexBuffer));
+            GLCall(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, indexBuffer));
+            GLCall(glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(unsigned int) * s.count, s.indices, GL_STATIC_DRAW));
+            stripIndices.push_back(indexBuffer);
+        }
+    }
+    
+    GLCall(glBindVertexArray(0));
 	GLCall(glBindBuffer(GL_ARRAY_BUFFER, 0));
 
 }
