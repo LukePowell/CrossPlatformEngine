@@ -45,9 +45,9 @@ namespace ElysiumEngine
     
     struct HalfEdgeFace
     {
-        HalfEdge *edge;
+		HalfEdge *edge = nullptr;
         int indices[3];
-        unsigned int marker;
+		unsigned int marker = 0;
 		Vec4 normal;
     };
     

@@ -197,6 +197,11 @@ ElysiumEngine::HalfEdgeMesh *ElysiumEngine::ModelLibrary::loadHalfEdgeMesh(std::
             }
             else//The Edge already exists
             {
+				if (j == 0)
+				{
+					faces[i / 3]->edge = halfEdge->second;
+				}
+
                 if(halfEdge->second->face == nullptr)
                 {
                     halfEdge->second->face = faces[i/3];
@@ -351,11 +356,21 @@ void CalculateNormals(ElysiumEngine::Mesh *mesh)
 
 typedef std::vector<ElysiumEngine::HalfEdgeFace *> FaceList;
 
-FaceList findNeighbors(ElysiumEngine::HalfEdgeFace *face, ElysiumEngine::Mesh *mesh, ElysiumEngine::HalfEdgeMesh *halfEdge,const FaceList &faces)
+FaceList findNeighbors(ElysiumEngine::HalfEdgeFace *face, ElysiumEngine::Mesh *mesh, ElysiumEngine::HalfEdgeMesh *halfEdge)
 {
 	std::vector<ElysiumEngine::HalfEdgeFace *> neighbors;
 
-	for (auto start : face->indices)
+	ElysiumEngine::HalfEdge *start = face->edge;
+	ElysiumEngine::HalfEdge *stop = face->edge;
+	do
+	{
+		if (start->opposite->face)
+		{
+			neighbors.push_back(start->opposite->face);
+		}
+		start = start->next;
+	} while (start != stop && start != nullptr);
+	/*for (auto start : face->indices)
 	{
 		ElysiumEngine::HalfEdge *h = halfEdge->halfEdgeVertices[start]->edge;
 		ElysiumEngine::HalfEdge *stop = h;
@@ -371,7 +386,7 @@ FaceList findNeighbors(ElysiumEngine::HalfEdgeFace *face, ElysiumEngine::Mesh *m
 
 			h = h->opposite->next;
 		} while (h != stop && h != nullptr);
-	}
+	}*/
 
 	return neighbors;
 }
@@ -379,7 +394,7 @@ FaceList findNeighbors(ElysiumEngine::HalfEdgeFace *face, ElysiumEngine::Mesh *m
 
 int countNeighbors(const FaceList &faces, ElysiumEngine::HalfEdgeFace *face, ElysiumEngine::Mesh * mesh, ElysiumEngine::HalfEdgeMesh *halfEdge)
 {
-	return findNeighbors(face, mesh, halfEdge,faces).size();
+	return findNeighbors(face, mesh, halfEdge).size();
 }
 
 struct Face
@@ -397,6 +412,27 @@ struct Face
 		return (halfEdgeFace == rhs);
 	}
 };
+int count(std::list<Face> &faces)
+{
+	int count = 0;
+	for (Face f : faces)
+	{
+		if (f.halfEdgeFace->marker != -1)
+			++count;
+	}
+	return count;
+}
+
+int count(FaceList &faces)
+{
+	int count = 0;
+	for (ElysiumEngine::HalfEdgeFace *face : faces)
+	{
+		if (face->marker != -1)
+			++count;
+	}
+	return count;
+}
 
 Face leastNeighbors(ElysiumEngine::Mesh *mesh, ElysiumEngine::HalfEdgeMesh *halfEdge, std::list<Face> &faces)
 {
@@ -405,7 +441,10 @@ Face leastNeighbors(ElysiumEngine::Mesh *mesh, ElysiumEngine::HalfEdgeMesh *half
 
 	for (auto face : faces)
 	{
-		int neighbors = face.neighbors.size();
+		if (face.halfEdgeFace->marker == -1)
+			continue;
+
+		int neighbors = count(face.neighbors);
 		if (neighbors < minNeighbors)
 		{
 			minNeighbors = neighbors;
@@ -417,20 +456,25 @@ Face leastNeighbors(ElysiumEngine::Mesh *mesh, ElysiumEngine::HalfEdgeMesh *half
 }
 
 
+
 std::vector<ElysiumEngine::Strip> ElysiumEngine::ModelLibrary::stripeMesh(Mesh *mesh, HalfEdgeMesh *halfEdge)
 {
 	std::vector<std::vector<unsigned int>> stripes;
-
+	std::clock_t start = std::clock();
 	//Set up a means to track which faces we were adjacent to
 	std::list<Face> faces;
+	std::map<HalfEdgeFace *, Face> faceMap;
+
 	for (auto face : halfEdge->faces)
 	{
 		Face f = { face };
-		f.neighbors = findNeighbors(face, mesh, halfEdge, halfEdge->faces);
+		f.neighbors = findNeighbors(face, mesh, halfEdge);
 		faces.push_back(f);
+		faceMap[face] = faces.back();
 	}
+	std::cout << "Built neighbors in " << (float)(std::clock() - start) / CLOCKS_PER_SEC << " seconds.\n";
 
-	while (!faces.empty())
+	while (count(faces))
 	{
 		Face face = leastNeighbors(mesh, halfEdge,faces);
 
@@ -439,7 +483,9 @@ std::vector<ElysiumEngine::Strip> ElysiumEngine::ModelLibrary::stripeMesh(Mesh *
 		{
 			strip.insert(strip.end(), std::begin(face.halfEdgeFace->indices), std::end(face.halfEdgeFace->indices));
 
-			//Remove the triangle we just used up from the list of neighbors
+			face.halfEdgeFace->marker = -1;
+
+		/*	//Remove the triangle we just used up from the list of neighbors
 			for (Face f : faces)
 			{
 				auto del = std::find(f.neighbors.begin(), f.neighbors.end(), face.halfEdgeFace);
@@ -450,38 +496,35 @@ std::vector<ElysiumEngine::Strip> ElysiumEngine::ModelLibrary::stripeMesh(Mesh *
 			}
 
 			//Remove face from the list of faces that we can use
-			faces.remove(face);
+			faces.remove(face); */
 
 			//Chose a new tirangle
-			HalfEdgeFace *tri;
-			if (!face.neighbors.empty())
+			HalfEdgeFace *tri = nullptr;
+			if (count(face.neighbors))
 			{
-				do
+				FaceList l = findNeighbors(face.halfEdgeFace, mesh, halfEdge);// face.neighbors[rand() % face.neighbors.size()];
+				while (count(l) && !tri)
 				{
-					tri = face.neighbors[rand() % face.neighbors.size()];
-					Face temp = { tri };
-					auto next = std::find(faces.begin(), faces.end(), temp);
-					if (next == faces.end())
+					tri = l[rand() % face.neighbors.size()];
+					if (tri->marker == -1)
 					{
-						face.neighbors.erase(std::find(face.neighbors.begin(), face.neighbors.end(), tri));
+						//face.neighbors.erase(std::find(face.neighbors.begin(), face.neighbors.end(), tri));
 						tri = nullptr;
 					}
-				} while (tri == nullptr && !face.neighbors.empty());
+				}
 			}
 
-			if (face.neighbors.empty())
+			if (!count(face.neighbors))
 				break;
-
-			Face temp = { tri };
-			auto next = std::find(faces.begin(), faces.end(), temp);
-			face = *next;
-		 
-		} while (!face.neighbors.empty());
+			//std::cout << count(faces) << std::endl;
+			face = faceMap[tri];
+		} while (count(face.neighbors));
 
  		stripes.push_back(strip);
+		//std::cout << faces.size() << std::endl;
 	}	
-
-	std::vector<Strip > stripesArrays;
+	std::cout << "Completed mesh striping in " << (float)(std::clock() - start) / CLOCKS_PER_SEC << " seconds.\n";
+	std::vector<ElysiumEngine::Strip> stripesArrays;
 	for (auto stripe : stripes)
 	{
 		float r = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
