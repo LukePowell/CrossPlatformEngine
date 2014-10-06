@@ -485,18 +485,8 @@ std::vector<ElysiumEngine::Strip> ElysiumEngine::ModelLibrary::stripeMesh(Mesh *
 
 			face.halfEdgeFace->marker = -1;
 
-		/*	//Remove the triangle we just used up from the list of neighbors
-			for (Face f : faces)
-			{
-				auto del = std::find(f.neighbors.begin(), f.neighbors.end(), face.halfEdgeFace);
-				if (del != f.neighbors.end())
-				{
-					f.neighbors.erase(del);
-				}
-			}
-
 			//Remove face from the list of faces that we can use
-			faces.remove(face); */
+			faces.remove(face);
 
 			//Chose a new tirangle
 			HalfEdgeFace *tri = nullptr;
@@ -511,19 +501,24 @@ std::vector<ElysiumEngine::Strip> ElysiumEngine::ModelLibrary::stripeMesh(Mesh *
 						//face.neighbors.erase(std::find(face.neighbors.begin(), face.neighbors.end(), tri));
 						tri = nullptr;
 					}
+                    else{
+                        face.halfEdgeFace = tri;
+                        face.neighbors = findNeighbors(tri, mesh, halfEdge);
+                    }
 				}
 			}
 
 			if (!count(face.neighbors))
 				break;
 			//std::cout << count(faces) << std::endl;
-			face = faceMap[tri];
+			//face = faceMap[tri];
 		} while (count(face.neighbors));
 
  		stripes.push_back(strip);
 		//std::cout << faces.size() << std::endl;
 	}	
 	std::cout << "Completed mesh striping in " << (float)(std::clock() - start) / CLOCKS_PER_SEC << " seconds.\n";
+    
 	std::vector<ElysiumEngine::Strip> stripesArrays;
 	for (auto stripe : stripes)
 	{

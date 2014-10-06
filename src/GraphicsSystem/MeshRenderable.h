@@ -46,6 +46,7 @@ namespace ElysiumEngine
         Mesh *mesh;
         HalfEdgeMesh *halfEdge;
 		std::vector<Strip> strips;
+        std::vector<unsigned int> stripIndices;
 
         unsigned int vao;
         unsigned int buffer;
