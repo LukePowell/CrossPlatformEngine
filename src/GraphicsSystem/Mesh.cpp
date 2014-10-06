@@ -132,6 +132,7 @@ int countInstanceOf(const std::string &string, char letter)
     return count;
 }
 
+
 void parseOBJ(ElysiumEngine::Mesh *output, FILE *input)
 {
     rewind(input);
@@ -157,6 +158,7 @@ void parseOBJ(ElysiumEngine::Mesh *output, FILE *input)
 
     char buffer[1000];
     
+	ElysiumEngine::Material *current = nullptr;
     while(!feof(input))
     {
         tokens.clear();
@@ -177,7 +179,7 @@ void parseOBJ(ElysiumEngine::Mesh *output, FILE *input)
 
 		if (tokens[0] == "mtllib")
 		{
-			//TODO: load the .mtl file that was specified
+			ElysiumEngine::GraphicsSystem::g_GraphicsSystem->getMaterialLibrary().loadMaterialsFromFile(tokens[1]);
 			//TODO: Additionally apply the current material to vertices as specifed
 			continue;
 		}
@@ -271,9 +273,34 @@ void parseOBJ(ElysiumEngine::Mesh *output, FILE *input)
             output->indices[faceIndex+1] = std::atof(tokens[2].c_str())-1;
             output->indices[faceIndex+2] = std::atof(tokens[3].c_str())-1;
             
+			if (current)
+			{
+				int one = output->indices[faceIndex];
+				int two = output->indices[faceIndex + 1];
+				int three = output->indices[faceIndex + 2];
+				
+				output->vertices[one].Ka = current->Ka;
+				output->vertices[one].Ks = current->Ks;
+				output->vertices[one].Ns = current->Ns;
+				output->vertices[one].color = current->Kd;
+
+				output->vertices[two].Ka = current->Ka;
+				output->vertices[two].Ks = current->Ks;
+				output->vertices[two].Ns = current->Ns;
+				output->vertices[two].color = current->Kd;
+
+				output->vertices[three].Ka = current->Ka;
+				output->vertices[three].Ks = current->Ks;
+				output->vertices[three].Ns = current->Ns;
+				output->vertices[three].color = current->Kd;
+			}
             
             faceIndex += 3;
         }
+		else if (tokens[0] == "usemtl")
+		{
+			current = ElysiumEngine::GraphicsSystem::g_GraphicsSystem->getMaterialLibrary().getMaterial(tokens[1]);
+		}
     }
     CalculateNormals(output);
 }

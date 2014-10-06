@@ -167,6 +167,8 @@ namespace ElysiumEngine
         bool getKeyTriggered(std::string action);
         bool getKeyReleased(std::string action);
         
+		//TODO: switch to a binding method
+		//void bindKeyPressed(std::string action, (void)(function *)());
 	private:
         KeyboardInterpreter keyboardInterpreter;
         MouseIntepreter mouseInterpreter;

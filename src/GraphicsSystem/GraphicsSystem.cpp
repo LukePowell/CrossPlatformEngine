@@ -136,6 +136,11 @@ ElysiumEngine::ModelLibrary &ElysiumEngine::GraphicsSystem::getModelLibrary()
     return modelLibrary;
 }
 
+ElysiumEngine::MaterialLibrary &ElysiumEngine::GraphicsSystem::getMaterialLibrary()
+{
+	return materialLibrary;
+}
+
 void ElysiumEngine::GraphicsSystem::setWireframe(bool wireframe)
 {
     if(wireframe)

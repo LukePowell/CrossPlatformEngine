@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{4798AA02-5855-4502-A51C-4A95A7916F87}</ProjectGUID>
+    <ProjectGUID>{38DBA732-DF41-4DCC-B4E4-60A8089526CF}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>CoreEngine</ProjectName>
@@ -274,10 +274,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/TinyXML2/XML.vcxproj">
-      <Project>F56499EA-A475-45C6-A633-182F116360D3</Project>
+      <Project>CDFCC73E-0C4E-4B95-BAB2-B58541FE1450</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/ZERO_CHECK.vcxproj">
-      <Project>252A9BD2-0107-4E72-ACB1-4A7128697ACC</Project>
+      <Project>9EE8BC5C-C4BF-40F5-9619-5ABBE392582C</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

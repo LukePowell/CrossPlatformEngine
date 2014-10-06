@@ -65,6 +65,18 @@ struct   Matrix
 	};
 
 	Vec4 GetRow(int row);
+
+	template<typename T>
+	void DoForEachElement3(T function)
+	{
+		for (int y = 0; y < 3; ++y)
+		{
+			for (int x = 0; x < 3; ++x)
+			{
+				function(m[y][x], x, y);
+			}
+		}
+	}
 private:
 	template<typename T>
 	T MultByPtOrVec(const T &rhs) const

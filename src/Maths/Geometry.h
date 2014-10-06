@@ -2,13 +2,14 @@
 //File to handle geometric things
 #include "Vectors.h"
 #include "Quaternion.h"
+#include <vector>
 
 namespace Maths
 {
 	Vec4 MinimumNorm(Vec4 Q1, Vec4 Q2, Vec4 Q3, Vec4 Q4);
 	//SuportMapping functions
 	Vec4 SupportMappingSphere(Vec4 dir, Vec4 origin, float radius);
-
+	void ExtremePointsAlongDirection(Vec4 dir, const std::vector<Vec4> &points, int &minIndex, int &maxIndex);
 	//Closest Point Calculation
 	Vec4 ClosestPointToSegment(Vec4 segmentPt1, Vec4 segmentPt2, Vec4 point);
 

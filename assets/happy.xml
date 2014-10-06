@@ -4,9 +4,9 @@
 		<position x="0.0" y="0.5" z="0.0"/>
 		<scale x="10" y="10" z="10"/>
 	</transform>
-	<mesh>
+	<meshrenderable>
 		<shader>BasicPhong</shader>
 		<file>happy_lowres_cleaned</file>
 		<dynamic value="true"/>
-	</mesh>
+	</meshrenderable>
 </archetype>

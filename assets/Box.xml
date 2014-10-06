@@ -12,9 +12,9 @@
 	</rigidbody> -->
 	<!-- <spherecollider/> -->
 	<!--<boxcollider/>-->
-	<mesh>
+	<meshrenderable>
 		<shader>BasicPhong</shader>
 		<file>cube</file>
 		<dynamic value="true"/>
-	</mesh>
+	</meshrenderable>
 </archetype>

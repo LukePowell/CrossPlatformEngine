@@ -1,5 +1,7 @@
 FILE(GLOB files *.cpp *.h)
+
 add_executable(SFMLTest ${files})
+
 
 FIND_PACKAGE(OpenGL REQUIRED)
 FIND_LIBRARY(sdl SDL2)

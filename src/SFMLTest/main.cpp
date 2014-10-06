@@ -44,19 +44,8 @@
 
 static bool consoleEnabled = false;
 
-void registerComponents()
-{
-    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("transform", new ElysiumEngine::TComponentAllocator<ElysiumEngine::Transform>());
-    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("rigidbody", new ElysiumEngine::TComponentAllocator<ElysiumEngine::RigidBody>());
-    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("mesh", new ElysiumEngine::TComponentAllocator<ElysiumEngine::MeshRenderable>());
-    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("boxcollider",new ElysiumEngine::TComponentAllocator<ElysiumEngine::OBBCollider>());
-    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("spherecollider", new ElysiumEngine::TComponentAllocator<ElysiumEngine::SphereCollider>());
-    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("meshcollider",  new ElysiumEngine::TComponentAllocator<ElysiumEngine::MeshCollider>());
-    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("planecollider",new ElysiumEngine::TComponentAllocator<ElysiumEngine::PlaneCollider>());
-    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("cameracontroller", new ElysiumEngine::TComponentAllocator<ElysiumEngine::CameraController>());
-    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("freecamera", new ElysiumEngine::TComponentAllocator<ElysiumEngine::FreeCamera>());
-    ElysiumEngine::GameObjectFactory::g_GameObjectFactory->registerComponentAllocator("light", new ElysiumEngine::TComponentAllocator<ElysiumEngine::Light>());
-}
+#include "ComponentGen.h"
+
 
 void parseXMLOnThread()
 {
@@ -83,7 +72,7 @@ enum BVH
     E_COUNT_BVH_TYPES
 };
 
-std::string boundingVolumeNames[] = {"None","Axis Alligned Bounding Box", "Bounding Sphere Centeroid", "Bounding Sphere Ritter","Bounding Sphere Larsson's Method Not Implemented","Bounding Sphere PCA Based Method Not Implemented","Bounding Ellipsoid PCA Based Method Not Implemented","Bounding Box PCA Based Method Not Implemented"};
+std::string boundingVolumeNames[] = {"None","Axis Alligned Bounding Box", "Bounding Sphere Centeroid", "Bounding Sphere Ritter","Bounding Sphere Larsson's Method Not Implemented","Bounding Sphere PCA","Bounding Ellipsoid PCA Based Method Not Implemented","Bounding Box PCA Based Method Not Implemented"};
 
 BoundVolumes current = E_NONE;
 BVH bvh = E_NO_BVH;
@@ -148,15 +137,15 @@ void simulationControls()
             
                 ElysiumEngine::MeshRenderable *renderable = obj->getComponent<ElysiumEngine::MeshRenderable>("MeshRenderable");
 
-            ElysiumEngine::Mesh *mesh = renderable->getMesh();
-            
-            CS350::CS350BoundingVolume * vol = nullptr;
+				ElysiumEngine::Mesh *mesh = renderable->getMesh();
+	            
+		        CS350::CS350BoundingVolume * vol = nullptr;
                 switch(current)
                 {
                     case E_NONE:
                         break;
                     case E_BOUNDING_BOX_PCA:
-                        //vol = CS350::createOBBPCAMethod(mesh);
+                       // vol = CS350::createOBBPCAMethod(mesh);
                         break;
                     case E_AABB:
                         vol = CS350::createAABB(mesh);

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="Windows-1252"?>
+﻿<?xml version="1.0" encoding="Windows-1252"?>
 <Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="..\..\..\src\SFMLTest\CameraController.cpp">
@@ -18,6 +18,12 @@
     <ClInclude Include="..\..\..\src\SFMLTest\CameraController.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\src\SFMLTest\ComponentGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\SFMLTest\Components.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\..\src\SFMLTest\Console.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -33,10 +39,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{DF18DDC5-6925-4FCC-A995-7CC6EB142608}</UniqueIdentifier>
+      <UniqueIdentifier>{5AC0E95C-239E-4586-B083-DAD278C3A088}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{B49464AD-2AEE-4770-978B-E2D6C761B248}</UniqueIdentifier>
+      <UniqueIdentifier>{D3ADA495-064E-4AEF-ACB3-0C851D2BB10E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

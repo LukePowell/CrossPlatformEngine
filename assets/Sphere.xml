@@ -10,11 +10,11 @@
 		<tensor type="E_SPHERE"/>
 	</rigidbody>
 	<spherecollider/>
-	<!-- <boxcollider/> -->
-	<mesh>
+	<!-- <obbcollider/> -->
+	<meshrenderable>
 		<shader>BasicPhong</shader>
 		<file>unitsphere</file>
 		<material>unitsphere.xml</material>
 		<dynamic value="true"/>
-	</mesh>
+	</meshrenderable>
 </archetype>

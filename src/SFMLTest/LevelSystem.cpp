@@ -1,6 +1,7 @@
 #include "LevelSystem.h"
 #include "GameObjectFactory.h"
 #include "Transform.h"
+#include <algorithm>
 
 ElysiumEngine::LevelSystem *ElysiumEngine::LevelSystem::g_LevelSystem = nullptr;
 
@@ -146,31 +147,34 @@ bool ElysiumEngine::LevelSystem::loadLevels(std::string filename)
     bool fail = false;
     
     auto thread = [&reader,&fail] () {
-    while(reader.ReadNextChild())
-    {
-       if(reader.GetTag() == "level")
-       {
-           Level *temp = new Level();
-           FileIO::XMLReader levelReader;
-           std::string file = reader.GetText();
-           std::cout << "Loading level details for: " << file << std::endl;
-           if(!levelReader.Open(reader.GetText().c_str()))
-           {
-               fail = true;
-               continue;
-           }
+		while(reader.ReadNextChild())
+		{
+		   if(reader.GetTag() == "level")
+		   {
+			   Level *temp = new Level();
+			   FileIO::XMLReader levelReader;
+			   std::string file = reader.GetText();
+			   std::cout << "Loading level details for: " << file << std::endl;
+			   reader.GetIntValueAtr("index", &temp->index);
+			   if(!levelReader.Open(reader.GetText().c_str()))
+			   {
+				   fail = true;
+				   continue;
+			   }
            
-           temp->deserialize(levelReader);
+			   temp->deserialize(levelReader);
            
-           g_LevelSystem->levelFiles.push_back(temp);
-       }
-    }
-    reader.GetParent();
+			   g_LevelSystem->levelFiles.push_back(temp);
+			}
+		}
+		reader.GetParent();
     };
     
     thread();
+
+	auto sortFunc = [](ElysiumEngine::Level *lhs, ElysiumEngine::Level *rhs)->bool{return lhs->index < rhs->index; };
     
-    //std::sort(levelFiles.begin(),levelFiles.end());
+	std::sort(levelFiles.begin(), levelFiles.end(), sortFunc);
     
     return fail;
 }

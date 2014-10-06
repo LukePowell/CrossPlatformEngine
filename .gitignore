@@ -213,3 +213,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+Editor/QTCreator/build-ElysiumEditor-Desktop_Qt_5_3_MSVC2012_OpenGL_32bit-Debug/Makefile
+
+*.bin
+Editor/

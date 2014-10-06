@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{20E03DA0-BEFF-434A-B87D-85C0912B9B85}</ProjectGUID>
+    <ProjectGUID>{E622E519-A57A-4256-883E-71E10BAAA48E}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>Graphics</ProjectName>
@@ -258,6 +258,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="..\..\..\src\GraphicsSystem\IRenderable.h" />
     <ClInclude Include="..\..\..\src\GraphicsSystem\IShader.h" />
     <ClInclude Include="..\..\..\src\GraphicsSystem\Light.h" />
+    <ClInclude Include="..\..\..\src\GraphicsSystem\MaterialLibrary.h" />
     <ClInclude Include="..\..\..\src\GraphicsSystem\Mesh.h" />
     <ClInclude Include="..\..\..\src\GraphicsSystem\MeshRenderable.h" />
     <ClInclude Include="..\..\..\src\GraphicsSystem\Model.h" />
@@ -274,6 +275,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\..\..\src\GraphicsSystem\ICamera.cpp"  />
     <ClCompile Include="..\..\..\src\GraphicsSystem\IRenderable.cpp"  />
     <ClCompile Include="..\..\..\src\GraphicsSystem\Light.cpp"  />
+    <ClCompile Include="..\..\..\src\GraphicsSystem\MaterialLibrary.cpp"  />
     <ClCompile Include="..\..\..\src\GraphicsSystem\Mesh.cpp"  />
     <ClCompile Include="..\..\..\src\GraphicsSystem\MeshRenderable.cpp"  />
     <ClCompile Include="..\..\..\src\GraphicsSystem\ModelLibrary.cpp"  />
@@ -282,13 +284,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/Engine/CoreEngine.vcxproj">
-      <Project>4798AA02-5855-4502-A51C-4A95A7916F87</Project>
+      <Project>38DBA732-DF41-4DCC-B4E4-60A8089526CF</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/TinyXML2/XML.vcxproj">
-      <Project>F56499EA-A475-45C6-A633-182F116360D3</Project>
+      <Project>CDFCC73E-0C4E-4B95-BAB2-B58541FE1450</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/ZERO_CHECK.vcxproj">
-      <Project>252A9BD2-0107-4E72-ACB1-4A7128697ACC</Project>
+      <Project>9EE8BC5C-C4BF-40F5-9619-5ABBE392582C</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

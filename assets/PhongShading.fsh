@@ -9,6 +9,10 @@ in vec3 vPosition;
 in vec3 vNormal;
 in vec3 vCamPosW;
 in vec4 vKd;
+in vec4 vKs;
+in vec4 vKa;
+in float vNs;
+in vec2 texCoord;
 
 //Light and camera attributes
 uniform vec3 uLightPosition;
@@ -54,7 +58,7 @@ void main()
 	vec4 MatEmmisive = vec4(0.0,0.0,0.0,1.0);
 	vec4 MatAmbient;
 	
-	/*if(uTextureMapping)
+	/*if(vTextureMapping)
 	{
 		MatDiffuse = texture2D(uDiffuseMap,gl_TexCoord[0].st);
 		MatSpecular = texture2D(uSpecularMap,gl_TexCoord[0].st);
@@ -62,7 +66,7 @@ void main()
 	/*else 
 	{*/
 		MatDiffuse = vKd;//uDiffuse;
-		MatSpecular = vec4(1.0,1.0,1.0,1.0);
+		MatSpecular = vKs;
 	//}
 	
 	//We are in eye position thus cam  pos is 0 0 - vPostion = -vPosition
@@ -92,7 +96,7 @@ void main()
 		Diffuse = CalcDiffuse(MatDiffuse,uLightsDiffuse[i],Normal,LightVec);
 		Diffuse = clamp(Diffuse,0.0,1.0);
 	
-		vec4 Specular = CalcSpecular(uLightsSpecular[i],MatSpecular,Reflection,View,MatSpecular.r*255.0);
+		vec4 Specular = CalcSpecular(uLightsSpecular[i],MatSpecular,Reflection,View,vNs*255.0);
 		Specular = clamp(Specular,0.0,1.0);
 		
 		if(uLightType[i] == 2)

@@ -34,6 +34,7 @@ namespace ElysiumEngine
         bool deserialize(FileIO::XMLReader &reader);
         
         std::string getType();
+		int index = 0;
     private:
         std::vector<Instance> instances;
 	};

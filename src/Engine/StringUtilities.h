@@ -23,4 +23,5 @@ namespace StringUtilities
 	void ConvertString(const std::string &stringVal, std::string *charVal);
 
 	void LowerString(std::string & lowerMe);
+	std::string LowerString(const char *str);
 }

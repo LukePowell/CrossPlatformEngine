@@ -11,10 +11,10 @@
 		<tensor type="E_BOX"/>
 	</rigidbody>
 	<!--><spherecollider/>-->
-	<boxcollider/>
-	<mesh>
+	<obbcollider/>
+	<meshrenderable>
 		<shader>BasicPhong</shader>
 		<file>cube</file>
 		<material>unitsphere.xml</material>
-	</mesh>
+	</meshrenderable>
 </archetype>

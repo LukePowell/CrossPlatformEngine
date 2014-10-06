@@ -245,3 +245,24 @@ float Maths::ClosestPtSegementSegment(Vec4 p1, Vec4 q1, Vec4 p2, Vec4 q2, float 
     c2 = p2 + d2 * t;
 	return (c1 - c2).Dot(c1 - c2);
 }
+
+void Maths::ExtremePointsAlongDirection(Vec4 dir, const std::vector<Vec4> &points, int &minIndex, int &maxIndex)
+{
+	float min = FLT_MAX, max = -FLT_MAX;
+
+	int i = 0;
+	for (Vec4 point : points)
+	{
+		if (point.Dot(dir) < min)
+		{
+			min = point.Dot(dir);
+			minIndex = i;
+		}
+		if (point.Dot(dir) > max)
+		{
+			max = point.Dot(dir);
+			maxIndex = i;
+		}
+		++i;
+	}
+}

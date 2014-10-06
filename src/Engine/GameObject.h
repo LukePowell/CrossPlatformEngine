@@ -4,6 +4,8 @@
 #include <unordered_map>
 #include <iostream>
 
+#define MAKE_COMPONENT_NAME(x) #x
+
 namespace ElysiumEngine
 {
     class IComponent;

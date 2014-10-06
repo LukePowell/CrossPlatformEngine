@@ -112,3 +112,10 @@ void StringUtilities::LowerString( std::string &lowerMe )
 {
 	std::transform(lowerMe.begin(),lowerMe.end(),lowerMe.begin(),std::tolower);
 }
+
+std::string StringUtilities::LowerString(const char *str)
+{
+	std::string out(str);
+	LowerString(out);
+	return out;
+}

@@ -13,7 +13,7 @@
 void CalculateNormals(ElysiumEngine::Mesh *mesh);
 extern glm::mat4x4 proj;
 extern glm::mat4x4 mv;
-ElysiumEngine::MeshRenderable::MeshRenderable() : IRenderable("MeshRenderable")
+ElysiumEngine::MeshRenderable::MeshRenderable() : IRenderable(MAKE_COMPONENT_NAME(MeshRenderable))
 {
 	transform = nullptr;
 	shader = nullptr;
@@ -202,7 +202,7 @@ void ElysiumEngine::MeshRenderable::initialize()
 	GLCall(glGenVertexArrays(1, &vao));
 	GLCall(glBindVertexArray(vao));
 
-	int stride = 12; 
+	int stride = 21; 
 	GLCall(glGenBuffers(1, &buffer));
 	GLCall(glBindBuffer(GL_ARRAY_BUFFER, buffer));
 	GLCall(glBufferData(GL_ARRAY_BUFFER, mesh->vertexCount * stride * sizeof(float), nullptr, GL_STATIC_DRAW));
@@ -219,10 +219,24 @@ void ElysiumEngine::MeshRenderable::initialize()
 	GLCall(glEnableVertexAttribArray(3));//Color
 	GLCall(glVertexAttribPointer(3, 4, GL_FLOAT, false, stride * sizeof(float), (float *)(8 * sizeof(float))));
 
+	GLCall(glEnableVertexAttribArray(4));//Ambient
+	GLCall(glVertexAttribPointer(4, 4, GL_FLOAT, false, stride * sizeof(float), (float *)(12 * sizeof(float))));
+
+	GLCall(glEnableVertexAttribArray(5));//Specular
+	GLCall(glVertexAttribPointer(5, 4, GL_FLOAT, false, stride * sizeof(float), (float *)(16 * sizeof(float))));
+
+	GLCall(glEnableVertexAttribArray(6));//Specular Exponent
+	GLCall(glVertexAttribPointer(6, 1, GL_FLOAT, false, stride * sizeof(float), (float *)(20 * sizeof(float))));
+
+	//GLCall(glEnableVertexAttribArray(7));//Material data
 	int indexVert = 0;
 	int indexNorm = 3;
 	int indexTexture = 6;
 	int indexColor = 8;
+	int indexKa = 12;
+	int indexKs = 16;
+	int indexNs = 20;
+	int indexMatIndex = 21;
 
 	for (int i = 0; i < mesh->vertexCount; ++i)
 	{
@@ -230,11 +244,17 @@ void ElysiumEngine::MeshRenderable::initialize()
 		GLCall(glBufferSubData(GL_ARRAY_BUFFER, indexNorm * sizeof(float), 3 * sizeof(float), mesh->vertices[i].normal.v));
 		GLCall(glBufferSubData(GL_ARRAY_BUFFER, indexTexture * sizeof(float), 2 * sizeof(float), mesh->vertices[i].texture));
 		GLCall(glBufferSubData(GL_ARRAY_BUFFER, indexColor * sizeof(float), 4 * sizeof(float), mesh->vertices[i].color.v));
+		GLCall(glBufferSubData(GL_ARRAY_BUFFER, indexKa * sizeof(float), 4 * sizeof(float), mesh->vertices[i].Ka.v));
+		GLCall(glBufferSubData(GL_ARRAY_BUFFER, indexKs * sizeof(float), 4 * sizeof(float), mesh->vertices[i].Ks.v));
+		GLCall(glBufferSubData(GL_ARRAY_BUFFER, indexNs * sizeof(float), sizeof(float), &mesh->vertices[i].Ns));
 
 		indexVert += stride;
 		indexNorm += stride;
 		indexTexture += stride;
 		indexColor += stride;
+		indexKa += stride;
+		indexKs += stride;
+		indexNs += stride;
 	}
 
 	if (!strip)

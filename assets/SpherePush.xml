@@ -2,10 +2,9 @@
 <level type="list">
 	<object name="bunny.xml">
 		<instance>
-			<position x="0.0" y="2	.0" z="-5.0f"/>
-			<scale x="5" y="5" z="5"/>
+			<position x="5.0" y="2.0" z="-5.0f"/>
 		</instance>
-		<!--<instance>
+		<instance>
 			<position x="-5.0" y="2.0" z="-5.0f"/>
 		</instance>
 		<instance>
@@ -13,7 +12,7 @@
 		</instance>
 		<instance>
 			<position x="5.0" y="2.0" z="5.0f"/>
-		</instance>-->
+		</instance>
 	</object>
 	<object name="ground.xml">
 		<instance>

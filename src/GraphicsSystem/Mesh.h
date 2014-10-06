@@ -1,6 +1,6 @@
 #pragma once
 #include "IRenderable.h"
-
+#include <vector>
 
 namespace ElysiumEngine
 {
@@ -20,3 +20,5 @@ namespace ElysiumEngine
         unsigned int *indices;
     };
 }
+
+void customTokenize(char *string, std::vector<std::string> &output);

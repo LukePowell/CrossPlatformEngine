@@ -4,6 +4,8 @@
 
 ElysiumEngine::GameObjectFactory *ElysiumEngine::GameObjectFactory::g_GameObjectFactory = nullptr;
 
+std::map<std::string, void *> components = { { "hello", nullptr } };
+
 ElysiumEngine::GameObject *ElysiumEngine::GameObjectFactory::createGameObjectFromFile(const char *filename)
 {
     FileIO::XMLReader reader;

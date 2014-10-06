@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+﻿<?xml version="1.0" encoding="Windows-1252"?>
 <Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{F7990A69-8D71-426A-AFF1-2827366A5636}</ProjectGUID>
+    <ProjectGUID>{2B19E6E4-29E6-4BF4-9A57-77F6E91B63EC}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>SFMLTest</ProjectName>
@@ -53,36 +53,35 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup>
-    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SFMLTest.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SFMLTest</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SFMLTest.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SFMLTest</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SFMLTest.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SFMLTest</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SFMLTest.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SFMLTest</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
-  </PropertyGroup>
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SFMLTest.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SFMLTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SFMLTest.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SFMLTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SFMLTest.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SFMLTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\assets\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SFMLTest.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SFMLTest</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalIncludeDirectories>C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\lib\win\include;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.;C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\src\.\Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -120,8 +119,7 @@
       <ImportLibrary>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SFMLTest/Debug/SFMLTest.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/assets/SFMLTest.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
+      <Version></Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -139,8 +137,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
@@ -164,8 +161,7 @@
       <ImportLibrary>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SFMLTest/Release/SFMLTest.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/assets/SFMLTest.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
+      <Version></Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -183,8 +179,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
@@ -208,8 +203,7 @@
       <ImportLibrary>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SFMLTest/MinSizeRel/SFMLTest.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/assets/SFMLTest.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
+      <Version></Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -251,8 +245,7 @@
       <ImportLibrary>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SFMLTest/RelWithDebInfo/SFMLTest.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/assets/SFMLTest.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version>
-      </Version>
+      <Version></Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -316,41 +309,43 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\src\SFMLTest\CameraController.h" />
+    <ClInclude Include="..\..\..\src\SFMLTest\ComponentGen.h" />
+    <ClInclude Include="..\..\..\src\SFMLTest\Components.h" />
     <ClInclude Include="..\..\..\src\SFMLTest\Console.h" />
     <ClInclude Include="..\..\..\src\SFMLTest\CS350BoundingVolume.h" />
     <ClInclude Include="..\..\..\src\SFMLTest\LevelSystem.h" />
-    <ClCompile Include="..\..\..\src\SFMLTest\CameraController.cpp" />
-    <ClCompile Include="..\..\..\src\SFMLTest\CS350BoundingVolume.cpp" />
-    <ClCompile Include="..\..\..\src\SFMLTest\LevelSystem.cpp" />
-    <ClCompile Include="..\..\..\src\SFMLTest\main.cpp" />
+    <ClCompile Include="..\..\..\src\SFMLTest\CameraController.cpp"  />
+    <ClCompile Include="..\..\..\src\SFMLTest\CS350BoundingVolume.cpp"  />
+    <ClCompile Include="..\..\..\src\SFMLTest\LevelSystem.cpp"  />
+    <ClCompile Include="..\..\..\src\SFMLTest\main.cpp"  />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/Engine/CoreEngine.vcxproj">
-      <Project>4798AA02-5855-4502-A51C-4A95A7916F87</Project>
+      <Project>38DBA732-DF41-4DCC-B4E4-60A8089526CF</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/GraphicsSystem/Graphics.vcxproj">
-      <Project>20E03DA0-BEFF-434A-B87D-85C0912B9B85</Project>
+      <Project>E622E519-A57A-4256-883E-71E10BAAA48E</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/InputSystem/Input.vcxproj">
-      <Project>E288C96B-371A-416A-A609-5FF8B196CB42</Project>
+      <Project>52E5463B-CFF6-43BC-A2F9-60CF7F39F8E2</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/Maths/Maths.vcxproj">
-      <Project>EEAEDB72-15AB-4A71-BBC9-159FD9B309B1</Project>
+      <Project>7D21F9F4-9FC0-49E1-A47C-493219588E58</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/PhysicsSystem/Physics.vcxproj">
-      <Project>9745F52C-8A7B-4988-81D2-CAFE2669D6FA</Project>
+      <Project>BD95F3F2-AA49-42F2-B17F-C5D8EB6D6E77</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/SDLWindow/SDLWindow.vcxproj">
-      <Project>AF66D579-509C-4BD5-B199-C9B3823542FC</Project>
+      <Project>6794BC52-C8F1-4ADE-ABAF-D2701B75AA7E</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/WindowingSystem/WindowingSystem.vcxproj">
-      <Project>079B0A1E-6589-4B80-99B3-2FE5554E439B</Project>
+      <Project>2527E427-8B9F-49AC-9187-F54AA8E01280</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/src/TinyXML2/XML.vcxproj">
-      <Project>F56499EA-A475-45C6-A633-182F116360D3</Project>
+      <Project>CDFCC73E-0C4E-4B95-BAB2-B58541FE1450</Project>
     </ProjectReference>
     <ProjectReference Include="C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/ZERO_CHECK.vcxproj">
-      <Project>252A9BD2-0107-4E72-ACB1-4A7128697ACC</Project>
+      <Project>9EE8BC5C-C4BF-40F5-9619-5ABBE392582C</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

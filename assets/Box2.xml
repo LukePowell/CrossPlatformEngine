@@ -12,10 +12,10 @@
 		<velocity x="-1.0f"/>
 	</rigidbody> 
 	<!-- <spherecollider/> -->
-	<boxcollider/>
-	<mesh>
+	<obbcollider/>
+	<meshrenderable>
 		<shader>BasicPhong</shader>
 		<file>cube</file>
 		<dynamic value="true"/>
-	</mesh>
+	</meshrenderable>
 </archetype>

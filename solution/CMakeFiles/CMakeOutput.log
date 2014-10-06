@@ -1,7 +1,7 @@
 The system is: Windows - 6.1 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler:  
-Build flags: 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3
 Id flags: 
 
 The output was:
@@ -10,7 +10,7 @@ Microsoft (R) Build Engine version 12.0.21005.1
 [Microsoft .NET Framework, version 4.0.30319.18444]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/21/2014 11:34:28 PM.
+Build started 10/1/2014 8:48:47 AM.
 Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\3.0.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -36,7 +36,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.93
+Time Elapsed 00:00:00.44
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -47,7 +47,7 @@ The C compiler identification is MSVC, found in "C:/Users/Victus/Documents/GitHu
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
-Build flags: 
+Build flags: ;/DWIN32;/D_WINDOWS;/W3;/GR;/EHsc
 Id flags: 
 
 The output was:
@@ -56,7 +56,7 @@ Microsoft (R) Build Engine version 12.0.21005.1
 [Microsoft .NET Framework, version 4.0.30319.18444]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/21/2014 11:34:29 PM.
+Build started 10/1/2014 8:48:47 AM.
 Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\3.0.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -82,7 +82,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.41
+Time Elapsed 00:00:00.43
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -94,156 +94,156 @@ The CXX compiler identification is MSVC, found in "C:/Users/Victus/Documents/Git
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1211489524.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2878057900.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
 Microsoft (R) Build Engine version 12.0.21005.1
 [Microsoft .NET Framework, version 4.0.30319.18444]
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 9/21/2014 11:34:30 PM.
-Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec1211489524.vcxproj" on node 1 (default targets).
+Build started 10/1/2014 8:48:48 AM.
+Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec2878057900.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTryCompileExec1211489524.dir\Debug\".
+  Creating directory "cmTryCompileExec2878057900.dir\Debug\".
   Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTryCompileExec1211489524.dir\Debug\cmTryCom.EEE8BF93.tlog\".
+  Creating directory "cmTryCompileExec2878057900.dir\Debug\cmTryCom.53C9E8F3.tlog\".
 InitializeBuildStatus:
-  Creating "cmTryCompileExec1211489524.dir\Debug\cmTryCom.EEE8BF93.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTryCompileExec2878057900.dir\Debug\cmTryCom.53C9E8F3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1211489524.dir\Debug\\" /Fd"cmTryCompileExec1211489524.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2878057900.dir\Debug\\" /Fd"cmTryCompileExec2878057900.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
   Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1211489524.dir\Debug\\" /Fd"cmTryCompileExec1211489524.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2878057900.dir\Debug\\" /Fd"cmTryCompileExec2878057900.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue testCCompiler.c
+  
   testCCompiler.c
-  
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1211489524.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1211489524.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1211489524.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1211489524.dir\Debug\testCCompiler.obj
-  cmTryCompileExec1211489524.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1211489524.exe
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2878057900.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2878057900.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2878057900.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2878057900.dir\Debug\testCCompiler.obj
+  cmTryCompileExec2878057900.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2878057900.exe
 FinalizeBuildStatus:
-  Deleting file "cmTryCompileExec1211489524.dir\Debug\cmTryCom.EEE8BF93.tlog\unsuccessfulbuild".
-  Touching "cmTryCompileExec1211489524.dir\Debug\cmTryCom.EEE8BF93.tlog\cmTryCompileExec1211489524.lastbuildstate".
-Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec1211489524.vcxproj" (default targets).
-
-Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-
-Time Elapsed 00:00:00.50
-
-
-Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1279456597.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
-Microsoft (R) Build Engine version 12.0.21005.1
-[Microsoft .NET Framework, version 4.0.30319.18444]
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-Build started 9/21/2014 11:34:31 PM.
-Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec1279456597.vcxproj" on node 1 (default targets).
-PrepareForBuild:
-  Creating directory "cmTryCompileExec1279456597.dir\Debug\".
-  Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTryCompileExec1279456597.dir\Debug\cmTryCom.20AE3D17.tlog\".
-InitializeBuildStatus:
-  Creating "cmTryCompileExec1279456597.dir\Debug\cmTryCom.20AE3D17.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1279456597.dir\Debug\\" /Fd"cmTryCompileExec1279456597.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
-  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1279456597.dir\Debug\\" /Fd"cmTryCompileExec1279456597.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
-  
-  CMakeCCompilerABI.c
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1279456597.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1279456597.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1279456597.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1279456597.dir\Debug\CMakeCCompilerABI.obj
-  cmTryCompileExec1279456597.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1279456597.exe
-FinalizeBuildStatus:
-  Deleting file "cmTryCompileExec1279456597.dir\Debug\cmTryCom.20AE3D17.tlog\unsuccessfulbuild".
-  Touching "cmTryCompileExec1279456597.dir\Debug\cmTryCom.20AE3D17.tlog\cmTryCompileExec1279456597.lastbuildstate".
-Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec1279456597.vcxproj" (default targets).
-
-Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-
-Time Elapsed 00:00:00.49
-
-
-Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec204389706.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
-Microsoft (R) Build Engine version 12.0.21005.1
-[Microsoft .NET Framework, version 4.0.30319.18444]
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-Build started 9/21/2014 11:34:31 PM.
-Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec204389706.vcxproj" on node 1 (default targets).
-PrepareForBuild:
-  Creating directory "cmTryCompileExec204389706.dir\Debug\".
-  Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTryCompileExec204389706.dir\Debug\cmTryCom.7456D234.tlog\".
-InitializeBuildStatus:
-  Creating "cmTryCompileExec204389706.dir\Debug\cmTryCom.7456D234.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec204389706.dir\Debug\\" /Fd"cmTryCompileExec204389706.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
-  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec204389706.dir\Debug\\" /Fd"cmTryCompileExec204389706.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
-  
-  testCXXCompiler.cxx
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec204389706.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec204389706.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec204389706.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec204389706.dir\Debug\testCXXCompiler.obj
-  cmTryCompileExec204389706.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec204389706.exe
-FinalizeBuildStatus:
-  Deleting file "cmTryCompileExec204389706.dir\Debug\cmTryCom.7456D234.tlog\unsuccessfulbuild".
-  Touching "cmTryCompileExec204389706.dir\Debug\cmTryCom.7456D234.tlog\cmTryCompileExec204389706.lastbuildstate".
-Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec204389706.vcxproj" (default targets).
-
-Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-
-Time Elapsed 00:00:00.51
-
-
-Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
-
-Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2428790999.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
-Microsoft (R) Build Engine version 12.0.21005.1
-[Microsoft .NET Framework, version 4.0.30319.18444]
-Copyright (C) Microsoft Corporation. All rights reserved.
-
-Build started 9/21/2014 11:34:32 PM.
-Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec2428790999.vcxproj" on node 1 (default targets).
-PrepareForBuild:
-  Creating directory "cmTryCompileExec2428790999.dir\Debug\".
-  Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTryCompileExec2428790999.dir\Debug\cmTryCom.71A27419.tlog\".
-InitializeBuildStatus:
-  Creating "cmTryCompileExec2428790999.dir\Debug\cmTryCom.71A27419.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2428790999.dir\Debug\\" /Fd"cmTryCompileExec2428790999.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
-  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2428790999.dir\Debug\\" /Fd"cmTryCompileExec2428790999.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
-  
-  CMakeCXXCompilerABI.cpp
-Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2428790999.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2428790999.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2428790999.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2428790999.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTryCompileExec2428790999.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2428790999.exe
-FinalizeBuildStatus:
-  Deleting file "cmTryCompileExec2428790999.dir\Debug\cmTryCom.71A27419.tlog\unsuccessfulbuild".
-  Touching "cmTryCompileExec2428790999.dir\Debug\cmTryCom.71A27419.tlog\cmTryCompileExec2428790999.lastbuildstate".
-Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec2428790999.vcxproj" (default targets).
+  Deleting file "cmTryCompileExec2878057900.dir\Debug\cmTryCom.53C9E8F3.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2878057900.dir\Debug\cmTryCom.53C9E8F3.tlog\cmTryCompileExec2878057900.lastbuildstate".
+Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec2878057900.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
 Time Elapsed 00:00:00.44
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2540514330.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/1/2014 8:48:48 AM.
+Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec2540514330.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2540514330.dir\Debug\".
+  Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2540514330.dir\Debug\cmTryCom.08E431E4.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2540514330.dir\Debug\cmTryCom.08E431E4.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2540514330.dir\Debug\\" /Fd"cmTryCompileExec2540514330.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2540514330.dir\Debug\\" /Fd"cmTryCompileExec2540514330.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2540514330.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2540514330.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2540514330.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2540514330.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec2540514330.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2540514330.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2540514330.dir\Debug\cmTryCom.08E431E4.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2540514330.dir\Debug\cmTryCom.08E431E4.tlog\cmTryCompileExec2540514330.lastbuildstate".
+Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec2540514330.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.42
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec991633644.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/1/2014 8:48:49 AM.
+Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec991633644.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec991633644.dir\Debug\".
+  Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec991633644.dir\Debug\cmTryCom.498170CB.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec991633644.dir\Debug\cmTryCom.498170CB.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec991633644.dir\Debug\\" /Fd"cmTryCompileExec991633644.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec991633644.dir\Debug\\" /Fd"cmTryCompileExec991633644.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec991633644.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec991633644.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec991633644.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec991633644.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec991633644.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec991633644.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec991633644.dir\Debug\cmTryCom.498170CB.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec991633644.dir\Debug\cmTryCom.498170CB.tlog\cmTryCompileExec991633644.lastbuildstate".
+Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec991633644.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1253247925.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/1/2014 8:48:50 AM.
+Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec1253247925.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1253247925.dir\Debug\".
+  Creating directory "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1253247925.dir\Debug\cmTryCom.AF358B52.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1253247925.dir\Debug\cmTryCom.AF358B52.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1253247925.dir\Debug\\" /Fd"cmTryCompileExec1253247925.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.21005.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1253247925.dir\Debug\\" /Fd"cmTryCompileExec1253247925.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.0\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1253247925.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1253247925.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Victus/Documents/GitHub/CrossPlatformEngine/solution/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1253247925.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1253247925.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec1253247925.vcxproj -> C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1253247925.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1253247925.dir\Debug\cmTryCom.AF358B52.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1253247925.dir\Debug\cmTryCom.AF358B52.tlog\cmTryCompileExec1253247925.lastbuildstate".
+Done Building Project "C:\Users\Victus\Documents\GitHub\CrossPlatformEngine\solution\CMakeFiles\CMakeTmp\cmTryCompileExec1253247925.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.48
 
 

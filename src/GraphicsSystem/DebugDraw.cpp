@@ -10,7 +10,8 @@
 #include <glm/gtc/matrix_transform.hpp> // glm::translate, glm::rotate, glm::scale, glm::perspective
 #include <glm/gtc/type_ptr.hpp> // glm::value_ptr
 
-static float boxVerts[] = {0.5f,0.5f,0.5f,
+static float boxVerts[] = {
+	0.5f,0.5f,0.5f,
     0.5f,0.5f,-0.5f,
     
     0.5f,-0.5f,0.5f,
@@ -41,7 +42,7 @@ static float boxVerts[] = {0.5f,0.5f,0.5f,
     0.5f,-0.5f,-0.5f,
     
     -0.5f,0.5f,0.5f,
-    -0.5f,-0.5f,0.0f,
+    -0.5f,-0.5f,0.5f,
     
     -0.5f,0.5f,-0.5f,
     -0.5f,-0.5f,-0.5f};
@@ -64,7 +65,7 @@ void ElysiumEngine::DebugDrawRenderable::lateInitialize()
     
     GLCall(glBindBuffer(GL_ARRAY_BUFFER, boxBuffer));
     
-    GLCall(glBufferData(GL_ARRAY_BUFFER, sizeof(boxVerts) * sizeof(float),boxVerts, GL_STATIC_DRAW));
+    GLCall(glBufferData(GL_ARRAY_BUFFER, 72 * sizeof(float),boxVerts, GL_STATIC_DRAW));
     
     GLCall(glEnableVertexAttribArray(0));
     GLCall(glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0));
@@ -120,10 +121,10 @@ void ElysiumEngine::DebugDrawRenderable::render()
         shader->setUniformMat4("uScale", scale.v, true);
         shader->setUniformMat4("uRot", rot.v, true);
         shader->setUniformVert4Data("uColor", box.color.v);
-        shader->setUniformMat4("uProject", glm::value_ptr(proj), false);
+        shader->setUniformMat4("uProjection", glm::value_ptr(proj), false);
         shader->setUniformMat4("uView", glm::value_ptr(mv), false);
         
-        GLCall(glDrawArrays(GL_LINES, 0, 12));
+        GLCall(glDrawArrays(GL_LINES, 0, 24));
     }
     GLCall(glBindVertexArray(0));
     shader->endPass();

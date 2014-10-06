@@ -105,7 +105,7 @@ void MostSeperatedPointsOnAABB(int &min, int &max, ElysiumEngine::Mesh *points)
 {
     int minx = 0, maxx = 0, miny = 0, maxy = 0, minz = 0, maxz = 0;
     
-    for(int i = 0; i < points->vertexCount; ++i)
+    for(int i = 1; i < points->vertexCount; ++i)
     {
         if(points->vertices[i].position.x < points->vertices[minx].position.x)
             minx = i;
@@ -177,6 +177,167 @@ CS350::SphereBV *CS350::createSphereRittersMethod(ElysiumEngine::Mesh *mesh)
     return sphere;
 }
 
+float variance(float *x, int n)
+{
+	float u = 0.0f;
+	for (int i = 0; i < n; ++i)
+	{
+		u += x[i];
+	}
+
+	u /= n;
+
+	float s2 = 0.0f;
+	for (int i = 0; i < n; ++i)
+	{
+		s2 += (x[i] - u) * (x[i] - u);
+	}
+
+	return s2 / n;
+}
+
+void CovarianceMatrix(Matrix &covariance,const std::vector<Vec4> &points)
+{
+	float oon = 1.0f / (float)points.size();
+	Vec4 c;
+	float e00 = 0.0f, e11 = 0.0f, e22 = 0.0f, e01 = 0.0f, e02 = 0.0f, e12 = 0.0f;
+
+	for (Vec4 point : points)
+	{
+		c += point;
+	}
+
+	c *= oon;
+
+	
+	for (Vec4 point : points)
+	{
+		e00 += point.x * point.x;
+		e11 += point.y * point.y;
+		e22 += point.z * point.z;
+		e01 += point.x * point.y;
+		e02 += point.x * point.z;
+		e12 += point.y * point.z;
+	}
+
+	covariance[0][0] = e00 * oon;
+	covariance[1][1] = e11 * oon;
+	covariance[2][2] = e22 * oon;
+	covariance[0][1] = covariance[1][0] = e01 * oon;
+	covariance[0][2] = covariance[2][0] = e02 * oon;
+	covariance[1][2] = covariance[2][1] = e12 * oon;
+}
+
+void SymSchur2(Matrix &a, int p, int q, float &c, float &s)
+{
+	const float epsilon = 0.0001f;
+	if (std::abs(a[p][q]) > epsilon)
+	{
+		float r = (a[q][q] - a[p][p]) / (2.0f * a[p][q]);
+		float t;
+		if (r >= 0.0f)
+			t = 1.0f / (r + std::sqrtf(1.0f + r * r));
+		else
+			t = -1.0f / (-r + std::sqrtf(1.0f + r * r));
+		c = 1.0f / std::sqrt(1.0f + t * t);
+		s = t * c;
+	}
+	else
+	{
+		c = 1.0f;
+		s = 0.0f;
+	}
+}
+
+void jacobi(Matrix &a, Matrix &v)
+{
+	
+	v.Identity();//Initialze to indentity
+
+	const int MAX_ITERATIONS = 50;
+	
+	int n = 0, p , q;
+	float prevoff, c, s;
+	Matrix J, b, t;
+
+	for (; n < MAX_ITERATIONS; ++n)
+	{
+		p = 0;
+		q = 1;
+		a.DoForEachElement3([&p, &q,&a](float value, int x, int y){
+			if (x == y)
+				return;
+			if (std::abs(value) > std::abs(a[p][q]))
+			{
+				p = y;
+				q = x;
+			}
+		});
+
+		SymSchur2(a, p, q, c, s);
+		for (int i = 0; i < 3; ++i)
+		{
+			J[i][0] = J[i][1] = J[i][2] = 0.0f;
+			J[i][i] = 1.0f;
+		}
+
+		J[p][p] = c; 
+		J[p][q] = s;
+		J[q][p] = -s;
+		J[q][q] = c;
+			
+		v *= J;
+
+		a = (J.transpose() * a)  * J;
+
+		float off = 0.0f;
+		a.DoForEachElement3([&off](float value, int x, int y){
+			if (x == y)
+				return;
+			off += value;
+		});
+
+		if (n > 2 && off >= prevoff)
+			return;
+
+		prevoff = off;
+	}
+}
+
+void EigenSphere(CS350::SphereBV &eigSphere, std::vector<Vec4> points)
+{
+	Matrix m, v;
+	CovarianceMatrix(m, points);
+	jacobi(m, v);
+
+	Vec4 e;
+	int maxc = 0;
+	float maxf, maxe = std::abs(m[0][0]);
+	if ((maxf = std::abs(m[1][1])) > maxe)
+	{
+		maxc = 1;
+		maxe = maxf;
+	}
+	if ((maxf = std::abs(m[2][2])) > maxe)
+	{
+		maxc = 2;
+		maxe = maxf;
+	}
+
+	e[0] = v[0][maxc];
+	e[1] = v[1][maxc];
+	e[2] = v[2][maxc];
+
+	int imin, imax;
+	Maths::ExtremePointsAlongDirection(e, points, imin, imax);
+	Vec4 minpt = points[imin];
+	Vec4 maxpt = points[imax];
+
+	float dist = (maxpt - minpt).Length();
+	eigSphere.radius = dist * 0.5f;
+	eigSphere.center = (minpt + maxpt) * 0.5f;
+}
+
 
 CS350::SphereBV *CS350::createSphereLarsonsMethod(ElysiumEngine::Mesh *mesh)
 {
@@ -185,7 +346,21 @@ CS350::SphereBV *CS350::createSphereLarsonsMethod(ElysiumEngine::Mesh *mesh)
 
 CS350::SphereBV *CS350::createSpherePCAMethod(ElysiumEngine::Mesh *mesh)
 {
-    return nullptr;
+	CS350::SphereBV *bv = new CS350::SphereBV(Vec4(), 0.0f);
+
+	std::vector<Vec4> points;
+	for (int i = 0; i < mesh->vertexCount; ++i)
+	{
+		points.push_back(mesh->vertices[i].position);
+	}
+	EigenSphere(*bv, points);
+
+	for (Vec4 point : points)
+	{
+		sphereOfSphereAndSpherePoint(*bv, point);
+	}
+
+    return bv;
 }
 
 CS350::EllipsoidBV *CS350::createEllipsoidPCAMethod(ElysiumEngine::Mesh *mesh)
@@ -204,9 +379,8 @@ void CS350::SphereBV::debugDraw()
     {
         ElysiumEngine::Transform *t = getSibling<ElysiumEngine::Transform>("Transform");
         Vec4 pos = t->GetPosition();
-        pos += center;
 
-        ElysiumEngine::DrawDebugSphere sphere(pos,radius * t->GetScale().x,Vec4(1.0f,0.0f,0.0f,1.0f),1.0f/60.0f);
+        ElysiumEngine::DrawDebugSphere sphere(pos + (center * t->GetScale().x),radius * t->GetScale().x,Vec4(1.0f,0.0f,0.0f,1.0f),1.0f/60.0f);
         ElysiumEngine::MessagingSystem::g_MessagingSystem->broadcastMessage(&sphere);
     }
 }
@@ -217,9 +391,8 @@ void CS350::AABB::debugDraw()
     {
         ElysiumEngine::Transform *t = getSibling<ElysiumEngine::Transform>("Transform");
         Vec4 pos = t->GetPosition();
-        pos += center;
         Vec4 scale = t->GetScale();
-        ElysiumEngine::DrawDebugBox box(pos,Vec4(scale.x * halfWidth,scale .y * halfHeight,scale .z * halfDepth),Vec4(1.0f,0.0f,0.0f));
+        ElysiumEngine::DrawDebugBox box(pos + (center * t->GetScale().x),Vec4(scale.x * halfWidth,scale.y * halfHeight,scale.z * halfDepth),Vec4(1.0f,0.0f,0.0f));
         ElysiumEngine::MessagingSystem::g_MessagingSystem->broadcastMessage(&box);
     }
 }
