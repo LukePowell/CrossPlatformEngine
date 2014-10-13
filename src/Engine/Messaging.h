@@ -113,10 +113,12 @@ namespace ElysiumEngine
     {
     public:
         DrawDebugSphere(Vec4 center, float radius, Vec4 color, float lifetime = 1.0f/60.0f) : IMessage("DrawDebugSphere"), center(center),lifetime(lifetime),color(color),radius(radius){}
+		DrawDebugSphere(Vec4 center, Vec4 extents, Vec4 color, float lifetime = 1.0f / 60.0f) : IMessage("DrawDebugSphere"), center(center), lifetime(lifetime), color(color), radius(-1.0f), extents(extents){}
         void dispatch(IEventListener &listener){listener.handleMessage(*this);}
         Vec4 center;
         float lifetime;
         Vec4 color;
+		Vec4 extents;
         float radius;//Scale x,y,z, assuming unit sphere
     };
     

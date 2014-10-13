@@ -39,6 +39,7 @@ namespace ElysiumEngine
         bool getPaused(){return pause;}
         void setPause(bool pause);
         void takeStep();
+		void togglePause();
         
         std::list<GameObject *> checkRay(Vec4 dir, Vec4 origin);
         

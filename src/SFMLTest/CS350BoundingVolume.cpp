@@ -339,9 +339,82 @@ void EigenSphere(CS350::SphereBV &eigSphere, std::vector<Vec4> points)
 }
 
 
+Vec4 normalsForLarson[] = { Vec4(1,0,0), Vec4(0,1,0), Vec4(0,0,1),
+							Vec4(1,1,1), Vec4(1,1,-1), Vec4(1,-1,1), Vec4(1,-1,-1),
+							Vec4(1,1,0), Vec4(1,-1,0), Vec4(1,0,1), Vec4(1,0,-1), Vec4(0,1,1), Vec4(0,1,-1),
+                            Vec4(0,1,2), Vec4(0,2,1), Vec4(1,0,2), Vec4(2,0,1), Vec4(1,2,0), Vec4(2,1,0),
+                            Vec4(0,1,-2), Vec4(0,2,-1), Vec4(1,0,-2), Vec4(2,0,-1), Vec4(1,-2,0), Vec4(2,-1,0),
+                            Vec4(1,1,2), Vec4(2,1,1), Vec4(1,2,1), Vec4(1,-1,2), Vec4(1,1,-2), Vec4(1,-1,-2),
+                            Vec4(2,-1,1), Vec4(2,1,-1), Vec4(2,-1,-1), Vec4(1,-2,1), Vec4(1,2,-1), Vec4(1,-2,-1),
+                            Vec4(2,2,1), Vec4(1,2,2), Vec4(2,1,2), Vec4(2,-2,1), Vec4(2,2,-1), Vec4(2,-2,-1),
+                            Vec4(1,-2,2), Vec4(1,2,-2), Vec4(1,-2,-2), Vec4(2,-1,2), Vec4(2,1,-2), Vec4(2,-1,-2)};
+
+const int s = 49;
+
+std::vector<Vec4> ExtremalPoints(const std::vector<Vec4> &points)
+{
+	std::vector<Vec4> output;
+	for (int i = 0; i < s; ++i)
+	{
+		int min, max;
+		Maths::ExtremePointsAlongDirection(normalsForLarson[i], points, min, max);
+		output.push_back(points[min]);
+		output.push_back(points[max]);
+	}
+
+	return output;
+}
+
+CS350::SphereBV *minimumSphere(std::vector<Vec4> &points)
+{
+	float radius = FLT_MAX;
+	std::vector<Vec4> pointsout;
+	//All sets of 2
+	for (int i = 0; i < points.size(); ++i)
+	{
+		for (int j = i + 1; j < points.size(); ++j)
+		{
+			if ((points[i] - points[j]).Length() < radius)
+			{
+				pointsout.clear();
+				pointsout.push_back(points[i]);
+				pointsout.push_back(points[j]);
+				radius = (points[1] - points[j]).Length() / 2;
+			}
+		}
+	}
+
+	CS350::SphereBV *bv = new CS350::SphereBV(Vec4(), 0.0f);
+	bv->center = (pointsout[0] + pointsout[1]) * (1.0f / (float)pointsout.size());
+	bv->radius = radius;
+	return bv;
+
+	//All sets of 3
+
+	//All sets of 4
+}
 CS350::SphereBV *CS350::createSphereLarsonsMethod(ElysiumEngine::Mesh *mesh)
 {
-    return nullptr;
+	std::vector<Vec4> points;
+	for (int i = 0; i < mesh->vertexCount; ++i)
+	{
+		points.push_back(mesh->vertices[i].position);
+	}
+	CS350::SphereBV *bv = new CS350::SphereBV(Vec4(), 0.0f);
+	if (mesh->vertexCount > (2 * s))
+	{
+		std::vector<Vec4> e = ExtremalPoints(points);
+		bv = minimumSphere(e);
+		for (Vec4 point : points)
+		{
+			sphereOfSphereAndSpherePoint(*bv, point);
+		}
+	}
+	else
+	{
+		bv = minimumSphere(points);
+	}
+	return bv;
 }
 
 CS350::SphereBV *CS350::createSpherePCAMethod(ElysiumEngine::Mesh *mesh)
@@ -365,12 +438,80 @@ CS350::SphereBV *CS350::createSpherePCAMethod(ElysiumEngine::Mesh *mesh)
 
 CS350::EllipsoidBV *CS350::createEllipsoidPCAMethod(ElysiumEngine::Mesh *mesh)
 {
-    return nullptr;
+	std::vector<Vec4> points;
+	for (int i = 0; i < mesh->vertexCount; ++i)
+	{
+		points.push_back(mesh->vertices[i].position);
+	}
+
+	Matrix m, v;
+	CovarianceMatrix(m, points);
+	jacobi(m, v);
+
+	Vec4 one(m[0][0], m[0][1], m[0][2]);
+	Vec4 two(m[1][0], m[1][1], m[1][2]);
+	Vec4 three(m[2][0], m[2][1], m[2][2]);
+
+
+	Vec4 center;
+	int imin, imax;
+	Maths::ExtremePointsAlongDirection(one, points, imin, imax);
+	float x = (points[imin] - points[imax]).Length() / 2.0f;
+	center.x = ((points[imin] + points[imax]) * 0.5f).x;
+
+	Maths::ExtremePointsAlongDirection(two, points, imin, imax);
+	float y = (points[imin] - points[imax]).Length() / 2.0f;
+	center.y = ((points[imin] + points[imax]) * 0.5f).y;
+
+	Maths::ExtremePointsAlongDirection(three, points, imin, imax);
+	float z = (points[imin] - points[imax]).Length() / 2.0f;
+	center.z = ((points[imin] + points[imax]) * 0.5f).z;
+
+	EllipsoidBV*obb = new EllipsoidBV();
+	obb->extents = Vec4(x, y, z);
+	obb->center = center;
+	//Change the 3 axis to a quaternion for reasons. 
+
+	return obb;
 }
 
 CS350::OBB *CS350::createOBBPCAMethod(ElysiumEngine::Mesh *mesh)
 {
-    return nullptr;
+	std::vector<Vec4> points;
+	for (int i = 0; i < mesh->vertexCount; ++i)
+	{
+		points.push_back(mesh->vertices[i].position);
+	}
+
+	Matrix m, v;
+	CovarianceMatrix(m, points);
+	jacobi(m, v);
+
+	Vec4 one(m[0][0], m[0][1], m[0][2]);
+	Vec4 two(m[1][0], m[1][1], m[1][2]);
+	Vec4 three(m[2][0], m[2][1], m[2][2]);
+
+
+	Vec4 center;
+	int imin, imax;
+	Maths::ExtremePointsAlongDirection(one, points, imin, imax);
+	float x = (points[imin] - points[imax]).Length() / 2.0f;
+	center.x = ((points[imin] + points[imax]) * 0.5f).x;
+
+	Maths::ExtremePointsAlongDirection(two, points, imin, imax);
+	float y = (points[imin] - points[imax]).Length() / 2.0f;
+	center.y = ((points[imin] + points[imax]) * 0.5f).y;
+
+	Maths::ExtremePointsAlongDirection(three, points, imin, imax);
+	float z = (points[imin] - points[imax]).Length() / 2.0f;
+	center.z = ((points[imin] + points[imax]) * 0.5f).z;
+
+	OBB *obb = new OBB();
+	obb->extents = Vec4(x, y, z);
+	obb->center = center;
+	//Change the 3 axis to a quaternion for reasons. 
+
+	return obb;
 }
 
 void CS350::SphereBV::debugDraw()
@@ -460,4 +601,28 @@ void CS350::BoundingVolumeHierarchy::render()
     if(!draw)
         return;//We are not drawing any of the hierarchys right now skip all code in this function
     drawHelper(root);
+}
+
+void CS350::OBB::debugDraw()
+{
+	if (hasSibling("Transform"))
+	{
+		ElysiumEngine::Transform *t = getSibling<ElysiumEngine::Transform>("Transform");
+		Vec4 pos = t->GetPosition();
+		Vec4 scale = t->GetScale();
+		ElysiumEngine::DrawDebugBox box(pos + (center * t->GetScale().x), Vec4(scale.x * extents.x, scale.y * extents.y, scale.z * extents.z), Vec4(1.0f, 0.0f, 0.0f));
+		ElysiumEngine::MessagingSystem::g_MessagingSystem->broadcastMessage(&box);
+	}
+}
+
+void CS350::EllipsoidBV::debugDraw()
+{
+	if (hasSibling("Transform"))
+	{
+		ElysiumEngine::Transform *t = getSibling<ElysiumEngine::Transform>("Transform");
+		Vec4 pos = t->GetPosition();
+
+		ElysiumEngine::DrawDebugSphere sphere(pos + (center * t->GetScale().x), extents.Component(t->GetScale()) , Vec4(1.0f, 0.0f, 0.0f, 1.0f), 1.0f / 60.0f);
+		ElysiumEngine::MessagingSystem::g_MessagingSystem->broadcastMessage(&sphere);
+	}
 }

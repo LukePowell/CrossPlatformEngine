@@ -321,3 +321,8 @@ std::list<ElysiumEngine::GameObject *> ElysiumEngine::PhysicsSystem::checkRay(Ve
     
     return objects;
 }
+
+void ElysiumEngine::PhysicsSystem::togglePause()
+{
+	setPause(!pause);
+}

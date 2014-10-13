@@ -49,15 +49,19 @@ namespace CS350
     class EllipsoidBV : public CS350BoundingVolume
     {
     public:
-        void debugDraw(){}
-    private:
+		void debugDraw();
         Vec4 center;
-        float x,y,z;
+        Vec4 extents;
+		//Maths::Quaternion oritentation;
     };
     
-    class OBB
+    class OBB : public CS350BoundingVolume
     {
-        
+	public:
+		void debugDraw();
+		Vec4 center;
+		Vec4 extents;
+		//Maths::Quaternion oritentation;
     };
     
     class CS350BoundingVolumeRenderer : public ElysiumEngine::IRenderable

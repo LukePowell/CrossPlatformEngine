@@ -72,11 +72,19 @@ enum BVH
     E_COUNT_BVH_TYPES
 };
 
-std::string boundingVolumeNames[] = {"None","Axis Alligned Bounding Box", "Bounding Sphere Centeroid", "Bounding Sphere Ritter","Bounding Sphere Larsson's Method Not Implemented","Bounding Sphere PCA","Bounding Ellipsoid PCA Based Method Not Implemented","Bounding Box PCA Based Method Not Implemented"};
+std::string boundingVolumeNames[] = {"None","Axis Alligned Bounding Box", "Bounding Sphere Centeroid", "Bounding Sphere Ritter","Bounding Sphere Larsson's","Bounding Sphere PCA","Bounding Ellipsoid PCA","Bounding Box PCA"};
 
 BoundVolumes current = E_NONE;
 BVH bvh = E_NO_BVH;
 CS350::BoundingVolumeHierarchy *vh = nullptr;
+
+void nextLevel()
+{
+	int index = ElysiumEngine::LevelSystem::g_LevelSystem->getCurrentLevelIndex();
+	index++;
+	index %= ElysiumEngine::LevelSystem::g_LevelSystem->getLevelCount();
+	ElysiumEngine::LevelSystem::g_LevelSystem->loadLevel(index);
+}
 
 void simulationControls()
 {
@@ -89,13 +97,14 @@ void simulationControls()
         if(ElysiumEngine::PhysicsSystem::g_PhysicsSystem->getPaused())
             ElysiumEngine::PhysicsSystem::g_PhysicsSystem->takeStep();
     }
-    if(ElysiumEngine::g_InputSystem->getKeyTriggered("nextLevel"))
+ /*   if(ElysiumEngine::g_InputSystem->getKeyTriggered("nextLevel"))
     {
         int index = ElysiumEngine::LevelSystem::g_LevelSystem->getCurrentLevelIndex();
         index++;
         index %= ElysiumEngine::LevelSystem::g_LevelSystem->getLevelCount();
         ElysiumEngine::LevelSystem::g_LevelSystem->loadLevel(index);
-    }
+    }*/
+
     if(ElysiumEngine::g_InputSystem->getKeyTriggered("previousLevel"))
     {
         int index = ElysiumEngine::LevelSystem::g_LevelSystem->getCurrentLevelIndex();
@@ -145,7 +154,7 @@ void simulationControls()
                     case E_NONE:
                         break;
                     case E_BOUNDING_BOX_PCA:
-                       // vol = CS350::createOBBPCAMethod(mesh);
+                        vol = CS350::createOBBPCAMethod(mesh);
                         break;
                     case E_AABB:
                         vol = CS350::createAABB(mesh);
@@ -244,10 +253,12 @@ void loadObjToPosition(std::string filename, float x, float y, float z)
 
 int main(int argc, char **argv)
 {
-    
     ElysiumEngine::InputSystem *inputSystem = new ElysiumEngine::InputSystem();
     inputSystem->loadInputConfig("inputconfig.xml");
-    
+
+	inputSystem->bindKeyPressed("nextLevel", nextLevel);
+	inputSystem->bindKeyPressed("pause", ElysiumEngine::PhysicsSystem::g_PhysicsSystem, &ElysiumEngine::PhysicsSystem::togglePause);
+
     ElysiumEngine::GameObjectFactory *gameObjFactory = new ElysiumEngine::GameObjectFactory();
     registerComponents();
     
@@ -258,6 +269,7 @@ int main(int argc, char **argv)
     ElysiumEngine::WindowingSystem* windowingSystem = new ElysiumEngine::WindowingSystem(new ElysiumEngine::TWindowAllocator<ElysiumEngine::SDLWindow>);
 	windowingSystem->InitializeSubSystems();
 	SDL_DisplayMode mode;
+	
 	int error = SDL_GetDesktopDisplayMode(0, &mode);
 	if (error)
 	{

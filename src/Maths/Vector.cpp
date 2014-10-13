@@ -191,3 +191,15 @@ void Vec4::Print()
 {
   printf("%5.3f, %5.3f, %5.3f, %5.3f\n",x,y,z,w);
 }
+
+Vec4 Vec4::Component(Vec4 &rhs)
+{
+	Vec4 out(*this);
+
+	out.x *= rhs.x;
+	out.y *= rhs.y;
+	out.z *= rhs.z;
+	out.w *= rhs.w;
+	
+	return out;
+}

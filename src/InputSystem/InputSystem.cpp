@@ -137,6 +137,18 @@ void ElysiumEngine::InputSystem::update( float dt )
     {
         interpreter.second->Update(dt);
     }
+
+	//Do our bound functions
+	for (auto pair : responses)
+	{
+		if (getKeyPressed(pair.first))
+		{
+			for (auto response : pair.second)
+			{
+				response->onAction();
+			}
+		}
+	}
 }
 
 ElysiumEngine::InputSystem::InputSystem() : ISystem("InputSystem")
@@ -348,3 +360,18 @@ float ElysiumEngine::KeyboardInterpreter::getAxis(const std::string &axis)
             return 0.0f;
     }
 }
+
+ElysiumEngine::FunctionResponse::FunctionResponse(void(*function)()) : function(function)
+{
+}
+
+void ElysiumEngine::FunctionResponse::onAction()
+{
+	function();
+}
+
+void ElysiumEngine::InputSystem::bindKeyPressed(std::string action, void(*function)())
+{
+	responses[action].push_back(new FunctionResponse(function));
+}
+

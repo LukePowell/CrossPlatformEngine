@@ -139,6 +139,36 @@ namespace ElysiumEngine
 		MouseState m_Previous;
 	};
 
+	/* Methods to bind things to the input system */
+	class IResponse
+	{
+	public:
+		virtual void onAction() = 0;
+	};
+
+	class FunctionResponse : public IResponse
+	{
+	public:
+		FunctionResponse(void(*function)()); // Take in a function to call when an action is done
+		virtual void onAction();
+	private:
+		void (*function)();
+	};
+
+
+	template<typename T>
+	class MethodResponse : public IResponse
+	{
+	public:
+		MethodResponse(T *instance, void (T::*function)()) : instance(instance), function(function) {}
+		virtual void onAction(){ (instance->*function)(); }
+	private:
+
+		T* instance;
+		void (T::*function)();
+	};
+	
+	
 	class InputSystem : public ISystem
 	{
 	public:
@@ -168,13 +198,19 @@ namespace ElysiumEngine
         bool getKeyReleased(std::string action);
         
 		//TODO: switch to a binding method
-		//void bindKeyPressed(std::string action, (void)(function *)());
+		void bindKeyPressed(std::string action, void(*function)());
+		template<typename T>
+		void bindKeyPressed(std::string action, T *instance, void(T::*function)())
+		{
+			responses[action].push_back(new MethodResponse<T>(instance, function));
+		}
 	private:
         KeyboardInterpreter keyboardInterpreter;
         MouseIntepreter mouseInterpreter;
         
         std::map<std::string, IInterpreter *> m_Interpreters;
 		std::vector<IController *> m_Controllers;
+		std::map<std::string, std::vector<IResponse *>> responses;
 	};
 
 	extern InputSystem *g_InputSystem;

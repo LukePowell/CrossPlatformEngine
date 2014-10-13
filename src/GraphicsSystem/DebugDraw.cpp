@@ -208,7 +208,11 @@ void ElysiumEngine::DebugDrawRenderable::handleMessage(ElysiumEngine::DrawDebugS
     
     Transform *t = new Transform();
     t->SetPosition(msg.center);
-    t->SetScale(2.0f * msg.radius, 2.0f * msg.radius, 2.0f * msg.radius);
+	if (msg.radius >= 0.0f)
+		t->SetScale(2.0f * msg.radius, 2.0f * msg.radius, 2.0f * msg.radius);
+	else
+		t->SetScale(2.0f * msg.extents);
+
     MeshRenderable *renderable = new MeshRenderable();
     renderable->setMeshFile("unitsphere");
     renderable->setDynamic(false);
